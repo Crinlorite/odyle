@@ -12,7 +12,7 @@ import type { Lang } from '../i18n/langs';
 import { LOCALE } from '../i18n/langs';
 import { t } from '../i18n/strings';
 
-interface Props { lang: Lang; title: string; description: string; section?: 'cuaderno' | 'temas' | 'acerca'; jsonLd?: object; noindex?: boolean }
+interface Props { lang: Lang; title: string; description: string; section?: 'cuaderno' | 'temas' | 'apuntes' | 'acerca'; jsonLd?: object; noindex?: boolean }
 const { lang, title, description, section, jsonLd, noindex } = Astro.props;
 const s = t(lang);
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
@@ -48,6 +48,7 @@ const fullTitle = title === 'odyle' ? `odyle · ${s.tagline}` : `${title} · ody
         <nav class="nav" aria-label="Secciones">
           <a href={`/${lang}/cuaderno/`} aria-current={section === 'cuaderno' ? 'page' : undefined}>{s.navNotebook}</a>
           <a href={`/${lang}/temas/`} aria-current={section === 'temas' ? 'page' : undefined}>{s.navTopics}</a>
+          <a href={`/${lang}/apuntes/`} aria-current={section === 'apuntes' ? 'page' : undefined}>{s.navNotes}</a>
           <a href={`/${lang}/acerca/`} aria-current={section === 'acerca' ? 'page' : undefined}>{s.navAbout}</a>
         </nav>
         <button class="theme" type="button" id="tema" aria-label={s.theme} title={s.theme}>

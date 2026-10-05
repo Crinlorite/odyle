@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { LANGS, type Lang } from '../../../i18n/langs';
+import { t } from '../../../i18n/strings';
+import { fmtDate } from '../../../lib/entries';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const notes = (await getCollection('notes', (n) => n.id.startsWith(`${lang}/`))).sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime());
+---
+<Base lang={lang} title={s.notesTitle} description={s.notesLead} section="apuntes">
+  <header class="page-head"><h1>{s.notesTitle}</h1><p class="lead">{s.notesLead}</p></header>
+  <ul class="cards">
+    {notes.map((n) => (
+      <li><article class="card">
+        <div class="row"><span class="seal seal--apunte">{s.noteSeal}</span></div>
+        <h3><a href={`/${lang}/apuntes/${n.id.split('/')[1]}/`}>{n.data.title}</a></h3>
+        <p>{n.data.description}</p>
+        <p class="data">{s.noteUpdated}: {fmtDate(n.data.updated, lang)}</p>
+      </article></li>
+    ))}
+  </ul>
+</Base>
