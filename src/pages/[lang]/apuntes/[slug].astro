@@ -1,4 +1,5 @@
 ---
+import { existsSync } from 'node:fs';
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import { LANGS, type Lang } from '../../../i18n/langs';
@@ -12,9 +13,11 @@ const lang = Astro.params.lang as Lang;
 const { note } = Astro.props;
 const d = note.data;
 const s = t(lang);
+const ogImage = `/og/${lang}/apunte-${note.id.split('/')[1]}.jpg`;
+if (!existsSync(`public${ogImage}`)) throw new Error(`${note.id}: falta ${ogImage}; lanza «npm run og»`);
 const { Content } = await render(note);
 ---
-<Base lang={lang} title={d.title} description={d.description} section="apuntes">
+<Base lang={lang} title={d.title} description={d.description} section="apuntes" ogImage={ogImage}>
   <article>
     <header class="page-head">
       <div class="row"><span class="seal seal--apunte">{s.noteSeal}</span><a class="topic" href={`/${lang}/apuntes/`}>{s.notesTitle}</a></div>

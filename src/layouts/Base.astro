@@ -12,8 +12,9 @@ import type { Lang } from '../i18n/langs';
 import { LOCALE } from '../i18n/langs';
 import { t } from '../i18n/strings';
 
-interface Props { lang: Lang; title: string; description: string; section?: 'cuaderno' | 'temas' | 'apuntes' | 'acerca'; jsonLd?: object; noindex?: boolean }
-const { lang, title, description, section, jsonLd, noindex } = Astro.props;
+interface Props { lang: Lang; title: string; description: string; section?: 'cuaderno' | 'temas' | 'apuntes' | 'acerca'; jsonLd?: object; noindex?: boolean; ogImage?: string }
+const { lang, title, description, section, jsonLd, noindex, ogImage = '/og/default.jpg' } = Astro.props;
+const ogUrl = new URL(ogImage, Astro.site).href;
 const s = t(lang);
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const fullTitle = title === 'odyle' ? `odyle · ${s.tagline}` : `${title} · odyle`;
@@ -36,7 +37,12 @@ const fullTitle = title === 'odyle' ? `odyle · ${s.tagline}` : `${title} · ody
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content={LOCALE[lang].replace('-', '_')} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content={ogUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title === 'odyle' ? fullTitle : title} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogUrl} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}

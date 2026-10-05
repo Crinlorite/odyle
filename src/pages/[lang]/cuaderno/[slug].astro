@@ -1,4 +1,5 @@
 ---
+import { existsSync } from 'node:fs';
 import { render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Seal from '../../../components/Seal.astro';
@@ -22,15 +23,18 @@ const third = d.status === 'duda' ? 'Cómo se va a comprobar' : 'Qué hacer';
 for (const h of ['Lo que se dice', 'Lo que pasa', third]) {
   if (!new RegExp(`^## ${h}\\s*$`, 'm').test(entry.body ?? '')) throw new Error(`${entry.id}: falta el apartado «${h}»`);
 }
+// Cada entrada lleva su imagen para compartir (npm run og). Si falta, la web no compila.
+const ogImage = `/og/${lang}/${slugOf(entry)}.jpg`;
+if (!existsSync(`public${ogImage}`)) throw new Error(`${entry.id}: falta ${ogImage}; lanza «npm run og»`);
 const { Content } = await render(entry);
 const url = new URL(Astro.url.pathname, Astro.site).href;
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, inLanguage: 'es',
-  datePublished: isoDate(d.verifiedAt ?? d.updated), dateModified: isoDate(d.updated), mainEntityOfPage: url,
+  datePublished: isoDate(d.verifiedAt ?? d.updated), dateModified: isoDate(d.updated), mainEntityOfPage: url, image: new URL(ogImage, Astro.site).href,
   author: { '@type': 'Person', name: 'Gerlari' }, publisher: { '@type': 'Organization', name: 'odyle', url: 'https://odyle.net/' },
 };
 ---
-<Base lang={lang} title={d.title} description={d.description} section="cuaderno" jsonLd={jsonLd}>
+<Base lang={lang} title={d.title} description={d.description} section="cuaderno" jsonLd={jsonLd} ogImage={ogImage}>
   <article>
     <header class="page-head">
       <div class="row"><Seal status={d.status} lang={lang} /><a class="topic" href={`/${lang}/temas/${d.topic}/`}>{TOPICS[d.topic].name}</a></div>
