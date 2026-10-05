@@ -36,4 +36,17 @@ const entries = defineCollection({
     }),
 });
 
-export const collections = { entries };
+// Apuntes: notas de trabajo del autor, NO comprobadas en el cliente. Viven aparte de las entradas.
+const notes = defineCollection({
+  loader: glob({ pattern: '*/*.md', base: './src/content/notes' }),
+  schema: z.object({
+    title: z.string().max(110),
+    description: z.string().max(170),
+    basis: z.string(),
+    updated: z.coerce.date(),
+    sources: z.array(z.object({ title: z.string(), url: z.url(), lang: z.enum(['es', 'en', 'ko', 'zh']) })).min(1),
+    translationKey: z.string(),
+  }),
+});
+
+export const collections = { entries, notes };

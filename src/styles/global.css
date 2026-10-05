@@ -83,6 +83,7 @@ img { max-width: 100%; height: auto; }
 .seal--comprobado { color: var(--ok); }
 .seal--duda { color: var(--q); }
 .seal--cambio { color: var(--chg); }
+.seal--apunte { color: var(--chg); }
 .row { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }
 .topic { font-family: var(--f-data); font-size: .82rem; color: var(--ink-soft); }
 h1, h2, h3 { font-family: var(--f-head); font-weight: 700; line-height: 1.12; text-wrap: balance; margin: 0; }
@@ -133,13 +134,15 @@ h1, h2, h3 { font-family: var(--f-head); font-weight: 700; line-height: 1.12; te
 .prose ul, .prose ol { padding-left: 1.2rem; }
 .prose li { margin-bottom: .3rem; }
 .prose strong { font-weight: 600; }
-.prose table { border-collapse: collapse; font-size: .95rem; }
+.prose h3 { font-size: 1.1rem; margin: 1.3rem 0 .4rem; }
+.warn { max-width: 46rem; margin: 0 0 1.2rem; padding: .8rem 1rem; border: 1.5px dashed var(--chg); background: var(--card); font-size: .96rem; }
+.prose table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; font-size: .93rem; margin: 0 0 1rem; }
 .prose .table-wrap { overflow-x: auto; margin: 0 0 .9rem; }
 .prose th, .prose td { border: 1px solid var(--card-line); padding: .35rem .6rem; text-align: left; }
 .prose th { font-family: var(--f-data); font-size: .8rem; letter-spacing: .05em; text-transform: uppercase; }
-.prose h2:last-of-type { color: var(--ink); }
-.prose h2:last-of-type ~ :is(p, ul, ol) { background: var(--hl); padding: .7rem .9rem; margin: 0; }
-.prose h2:last-of-type ~ :is(ul, ol) { padding-left: 2rem; }
+.prose--entry h2:last-of-type { color: var(--ink); }
+.prose--entry h2:last-of-type ~ :is(p, ul, ol) { background: var(--hl); padding: .7rem .9rem; margin: 0; }
+.prose--entry h2:last-of-type ~ :is(ul, ol) { padding-left: 2rem; }
 .aside { max-width: 46rem; margin-top: 1.6rem; font-size: .95rem; }
 .aside h2 { font-family: var(--f-data); font-size: .86rem; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: .5rem; }
 .aside ul { margin: 0 0 1.2rem; padding-left: 1.2rem; }
