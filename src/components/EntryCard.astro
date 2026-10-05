@@ -1,0 +1,18 @@
+---
+import type { Lang } from '../i18n/langs';
+import { t } from '../i18n/strings';
+import { TOPICS } from '../lib/topics';
+import { fmtDate, slugOf, type Entry } from '../lib/entries';
+import Seal from './Seal.astro';
+interface Props { entry: Entry; lang: Lang }
+const { entry, lang } = Astro.props;
+const d = entry.data;
+const s = t(lang);
+const foot = d.status === 'duda' ? s.unverified : [fmtDate(d.verifiedAt!, lang), d.where ? `nivel ${d.where.level}` : null, d.where?.zone].filter(Boolean).join(' · ');
+---
+<article class="card" data-status={d.status}>
+  <div class="row"><Seal status={d.status} lang={lang} /><span class="topic">{TOPICS[d.topic].name}</span></div>
+  <h3><a href={`/${lang}/cuaderno/${slugOf(entry)}/`}>{d.title}</a></h3>
+  <p>{d.description}</p>
+  <p class="data">{foot}</p>
+</article>

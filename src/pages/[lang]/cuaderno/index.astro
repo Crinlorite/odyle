@@ -1,0 +1,35 @@
+---
+import Base from '../../../layouts/Base.astro';
+import EntryCard from '../../../components/EntryCard.astro';
+import { LANGS, type Lang } from '../../../i18n/langs';
+import { t } from '../../../i18n/strings';
+import { entriesFor } from '../../../lib/entries';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const list = await entriesFor(lang);
+const present = (['comprobado', 'duda', 'cambio'] as const).filter((st) => list.some((e) => e.data.status === st));
+---
+<Base lang={lang} title={s.notebookTitle} description={s.notebookLead} section="cuaderno">
+  <header class="page-head">
+    <p class="kicker">{s.entriesCount(list.length)}</p>
+    <h1>{s.notebookTitle}</h1>
+    <p class="lead">{s.notebookLead}</p>
+  </header>
+  <div class="filters" role="group" aria-label="Estado">
+    <button type="button" data-f="" aria-pressed="true">{s.filterAll}</button>
+    {present.map((st) => <button type="button" data-f={st} aria-pressed="false">{s.status[st]}</button>)}
+  </div>
+  <ul class="cards" id="lista">{list.map((e) => <li data-status={e.data.status}><EntryCard entry={e} lang={lang} /></li>)}</ul>
+  <script is:inline>
+    (function () {
+      var btns = document.querySelectorAll('.filters button');
+      btns.forEach(function (b) {
+        b.addEventListener('click', function () {
+          btns.forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+          document.querySelectorAll('#lista > li').forEach(function (li) { li.hidden = !!b.dataset.f && li.dataset.status !== b.dataset.f; });
+        });
+      });
+    })();
+  </script>
+</Base>

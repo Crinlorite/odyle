@@ -1,0 +1,21 @@
+---
+// El orbe con alas. El ala se dibuja con tres plumas a cada lado, en el color de la tinta.
+---
+<svg viewBox="0 0 80 64" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="orbe" cx="36%" cy="30%" r="78%">
+      <stop offset="0" stop-color="#ffffff"></stop>
+      <stop offset=".22" stop-color="var(--orb-a)"></stop>
+      <stop offset=".6" stop-color="var(--orb-b)"></stop>
+      <stop offset="1" stop-color="var(--orb-c)"></stop>
+    </radialGradient>
+    <g id="ala" fill="currentColor">
+      <path d="M49 30C56 15 70 8 78 6C77 20 68 31 53 36Z"></path>
+      <path d="M52 38C61 30 71 27 77 27C73 37 64 43 53 43Z" opacity=".8"></path>
+      <path d="M51 45C58 42 65 42 70 43C65 49 58 51 51 50Z" opacity=".6"></path>
+    </g>
+  </defs>
+  <use href="#ala"></use>
+  <use href="#ala" transform="translate(80 0) scale(-1 1)"></use>
+  <circle cx="40" cy="40" r="13" fill="url(#orbe)"></circle>
+</svg>
