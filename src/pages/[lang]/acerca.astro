@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LANGS, type Lang } from '../../i18n/langs';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+---
+<Base lang={lang} title="Acerca" description="Quién firma odyle, cómo se comprueba cada entrada y con qué equipo se juega." section="acerca">
+  <header class="page-head"><p class="kicker">Acerca</p><h1>Un cuaderno de campo, no una base de datos</h1></header>
+  <div class="plain"><div class="prose">
+    <h2>Qué es</h2>
+    <p>odyle es un cuaderno de AION 2 en español. Cada entrada apunta un hecho concreto del juego y lo enfrenta con lo que dicen las guías. Casi todo lo que se sabe de AION 2 viene de Corea y Taiwán, que llevan un año de ventaja, y no todo vale para el cliente global.</p>
+    <h2>Quién firma</h2>
+    <p>Gerlari, Gladiator elyos, en los servidores globales desde el día del estreno, el 5 de octubre de 2026.</p>
+    <h2>Cómo se comprueba</h2>
+    <ul>
+      <li><strong>Comprobado</strong> significa que lo he visto en el juego. La ficha dice cuándo, en qué zona y con qué nivel.</li>
+      <li><strong>Duda abierta</strong> significa que las guías se contradicen y todavía no lo he visto. Pasa a comprobado cuando lo vea.</li>
+      <li><strong>Cambió</strong> significa que un parche dejó la entrada obsoleta. No se borra: queda escrito qué era cierto y hasta cuándo.</li>
+    </ul>
+    <p>Lo que solo he leído y nadie discute no se publica: para eso ya hay otras webs.</p>
+    <h2>Con qué juego</h2>
+    <p>Una Steam Machine con Windows 11, gráfica de 8 GB y un monitor 4K. Las entradas del tema «Equipo» cuentan cómo va el juego en esa máquina.</p>
+    <h2>Qué no es</h2>
+    <p>Web de aficionado, hecha por gusto. Sin anuncios y sin cookies. No se enlaza a vendedores de Kina ni a servicios de subida de nivel. AION es una marca de NCSOFT; odyle.net no tiene relación con NCSOFT.</p>
+  </div></div>
+</Base>

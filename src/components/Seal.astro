@@ -1,0 +1,7 @@
+---
+import type { Lang } from '../i18n/langs';
+import { t } from '../i18n/strings';
+interface Props { status: 'comprobado' | 'duda' | 'cambio'; lang: Lang }
+const { status, lang } = Astro.props;
+---
+<span class={`seal seal--${status}`}>{t(lang).status[status]}</span>

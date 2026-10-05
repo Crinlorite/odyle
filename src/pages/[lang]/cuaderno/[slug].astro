@@ -1,0 +1,59 @@
+---
+import { render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Seal from '../../../components/Seal.astro';
+import { LANGS, type Lang } from '../../../i18n/langs';
+import { t } from '../../../i18n/strings';
+import { TOPICS } from '../../../lib/topics';
+import { entriesFor, fmtDate, isoDate, slugOf, type Entry } from '../../../lib/entries';
+
+export async function getStaticPaths() {
+  const out = [];
+  for (const lang of LANGS) for (const entry of await entriesFor(lang)) out.push({ params: { lang, slug: slugOf(entry) }, props: { entry } });
+  return out;
+}
+const lang = Astro.params.lang as Lang;
+const { entry } = Astro.props as { entry: Entry };
+const d = entry.data;
+const s = t(lang);
+
+// Los tres apartados son parte del formato: si falta uno, la web no compila.
+const third = d.status === 'duda' ? 'Cómo se va a comprobar' : 'Qué hacer';
+for (const h of ['Lo que se dice', 'Lo que pasa', third]) {
+  if (!new RegExp(`^## ${h}\\s*$`, 'm').test(entry.body ?? '')) throw new Error(`${entry.id}: falta el apartado «${h}»`);
+}
+const { Content } = await render(entry);
+const url = new URL(Astro.url.pathname, Astro.site).href;
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, inLanguage: 'es',
+  datePublished: isoDate(d.verifiedAt ?? d.updated), dateModified: isoDate(d.updated), mainEntityOfPage: url,
+  author: { '@type': 'Person', name: 'Gerlari' }, publisher: { '@type': 'Organization', name: 'odyle', url: 'https://odyle.net/' },
+};
+---
+<Base lang={lang} title={d.title} description={d.description} section="cuaderno" jsonLd={jsonLd}>
+  <article>
+    <header class="page-head">
+      <div class="row"><Seal status={d.status} lang={lang} /><a class="topic" href={`/${lang}/temas/${d.topic}/`}>{TOPICS[d.topic].name}</a></div>
+      <h1>{d.title}</h1>
+      <dl class="ficha">
+        <div><dt>{s.fVerified}</dt><dd>{d.verifiedAt ? fmtDate(d.verifiedAt, lang) : s.unverified}</dd></div>
+        {d.where && <div><dt>{s.fWhere}</dt><dd>{d.where.zone}</dd></div>}
+        {d.where && <div><dt>{s.fLevel}</dt><dd>{d.where.level}</dd></div>}
+        <div><dt>{s.fClient}</dt><dd>{s.clientGlobal}</dd></div>
+        {d.changedAt && <div><dt>{s.fChanged}</dt><dd>{fmtDate(d.changedAt, lang)}</dd></div>}
+        {d.rig && <div><dt>{s.fRig}</dt><dd>{d.rig.machine}, {d.rig.os}</dd></div>}
+      </dl>
+    </header>
+    <div class="plain"><div class="prose"><Content /></div></div>
+    <div class="aside">
+      <h2>{s.sources}</h2>
+      <ul>
+        {d.firstHand && <li>{s.firstHand}</li>}
+        {d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a> <span class="lang">[{src.lang}]</span></li>)}
+      </ul>
+      {d.history.length > 0 && <><h2>{s.history}</h2><ul>{d.history.map((h) => <li><span class="data">{fmtDate(h.date, lang)}</span> · {h.note}</li>)}</ul></>}
+      <p class="signed">— {s.signed}</p>
+      <a class="back" href={`/${lang}/cuaderno/`}>← {s.back}</a>
+    </div>
+  </article>
+</Base>

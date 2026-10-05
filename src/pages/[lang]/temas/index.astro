@@ -1,0 +1,19 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, type Lang } from '../../../i18n/langs';
+import { t } from '../../../i18n/strings';
+import { TOPIC_KEYS, TOPICS } from '../../../lib/topics';
+import { entriesFor, byTopic } from '../../../lib/entries';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const list = await entriesFor(lang);
+---
+<Base lang={lang} title={s.topicsTitle} description={s.topicsLead} section="temas">
+  <header class="page-head"><h1>{s.topicsTitle}</h1><p class="lead">{s.topicsLead}</p></header>
+  <ul class="topics">
+    {TOPIC_KEYS.map((k) => (
+      <li><a href={`/${lang}/temas/${k}/`}><strong>{TOPICS[k].name}</strong><span>{TOPICS[k].blurb}</span><span class="data">{s.entriesCount(byTopic(list, k).length)}</span></a></li>
+    ))}
+  </ul>
+</Base>

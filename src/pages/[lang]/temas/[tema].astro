@@ -1,0 +1,21 @@
+---
+import Base from '../../../layouts/Base.astro';
+import EntryCard from '../../../components/EntryCard.astro';
+import { LANGS, type Lang } from '../../../i18n/langs';
+import { t } from '../../../i18n/strings';
+import { TOPIC_KEYS, TOPICS, type Topic } from '../../../lib/topics';
+import { entriesFor, byTopic } from '../../../lib/entries';
+export const getStaticPaths = () => LANGS.flatMap((lang) => TOPIC_KEYS.map((tema) => ({ params: { lang, tema } })));
+const lang = Astro.params.lang as Lang;
+const tema = Astro.params.tema as Topic;
+const s = t(lang);
+const list = byTopic(await entriesFor(lang), tema);
+---
+<Base lang={lang} title={TOPICS[tema].name} description={TOPICS[tema].blurb} section="temas" noindex={list.length === 0}>
+  <header class="page-head">
+    <p class="kicker"><a href={`/${lang}/temas/`}>{s.topicsTitle}</a> · {s.entriesCount(list.length)}</p>
+    <h1>{TOPICS[tema].name}</h1>
+    <p class="lead">{TOPICS[tema].blurb}</p>
+  </header>
+  {list.length === 0 ? <p>{s.noEntries}</p> : <ul class="cards">{list.map((e) => <li><EntryCard entry={e} lang={lang} /></li>)}</ul>}
+</Base>

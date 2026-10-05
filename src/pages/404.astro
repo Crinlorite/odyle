@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import { t } from '../i18n/strings';
+const s = t('es');
+---
+<Base lang="es" title={s.notFoundTitle} description={s.notFoundLead} noindex>
+  <header class="page-head"><p class="kicker">404</p><h1>{s.notFoundTitle}</h1><p class="lead">{s.notFoundLead}</p><p><a href="/es/cuaderno/">{s.back}</a></p></header>
+</Base>
