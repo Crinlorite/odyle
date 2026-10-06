@@ -6,7 +6,8 @@ topic: progresion
 sources:
   - { title: 'AION 2 Stigma Guide: Slots, Shards and Best Stigmas — metabot', url: 'https://metabot.gg/en/aion-2/guides/stigma-guide', lang: en }
   - { title: 'AION 2 Stigma: How to Build Your Skills — Gamers Together', url: 'https://gamerstogether.cz/en/aion-2-stigma-system/', lang: en }
-updated: 2026-10-05
+  - { title: 'AION 2 Global Client Datamine, What the Launch Build Contains — MetaRoad', url: 'https://metaroad.gg/aion2/news/aion-2-global-client-datamine-what-the-launch-build-contains', lang: en }
+updated: 2026-10-06
 translationKey: huecos-de-estigma-cuatro-o-seis
 ---
 
@@ -20,6 +21,8 @@ Hay dos versiones:
 ## Lo que pasa
 
 Todavía no lo he visto: los estigmas se abren a nivel 22.
+
+Lo que ha salido después apunta a cuatro. Quien ha abierto el cliente de lanzamiento cuenta cuatro huecos, y una guía hecha con esos datos dice que la temporada 1 trae 13 estigmas por clase en vez de 18.
 
 ## Cómo se va a comprobar
 
