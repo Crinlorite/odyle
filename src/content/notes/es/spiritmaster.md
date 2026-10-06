@@ -1,13 +1,16 @@
 ---
 title: Spiritmaster, qué subir, espíritus y estigmas
 description: Chuleta del Spiritmaster para empezar, los cinco espíritus, el orden de skills mientras se sube, los estigmas que lleva casi todo el mundo y la rotación.
-basis: Datos de jugadores coreanos y guías con las tablas del cliente global
+basis: Datos de jugadores coreanos, foros coreanos y taiwaneses, y tablas del cliente global
 updated: 2026-10-06
 sources:
   - { title: 'Spiritmaster, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-spiritmaster', lang: es }
   - { title: 'Aion 2 Spiritmaster Build Guide (3.587 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/spiritmaster/', lang: en }
   - { title: 'Aion 2 Spiritmaster Build, Skill Order by Level and Stigmas — mmo-codex', url: 'https://mmo-codex.com/articles/aion-2-spiritmaster-guide/', lang: en }
   - { title: 'Spiritmaster Build Planner — metabot', url: 'https://metabot.gg/en/aion-2/classes/spiritmaster/build', lang: en }
+  - { title: 'Guía de Spiritmaster para novatos — DC Inside', url: 'https://gall.dcinside.com/mgallery/board/view/?id=aion2&no=2653504', lang: ko }
+  - { title: 'Skills recomendadas al empezar con Spiritmaster — Inven', url: 'https://www.inven.co.kr/board/aion2/6454/43', lang: ko }
+  - { title: 'Guía grande de Spiritmaster — foro de AION2 en Bahamut', url: 'https://forum.gamer.com.tw/C.php?bsn=82913&snA=3587', lang: zh }
 translationKey: spiritmaster
 ---
 
@@ -17,16 +20,29 @@ Una invocadora: pelea con un espíritu al lado y desgasta al enemigo con daño e
 
 Es la clase menos jugada entre los mejores coreanos. En su meta está arriba del todo para subir y farmear, y a media tabla en mazmorras.
 
+## Si estás empezando, lo justo
+
+1. **Ten siempre un espíritu invocado.** Mientras subes, el de agua: es el más estable, se adapta a todo y te devuelve maná. Si muere, vuelve a invocarlo; tarda 15 segundos.
+2. **Clic izquierdo (Cold Shock) contra un enemigo; clic derecho (Combustion) contra varios.** Son los dos botones que más vas a pulsar.
+3. **Cuando se encienda Elemental Fusion, púlsala.** Es tu golpe fuerte y no se guarda.
+4. **Puntos de skill:** los dos clics siempre al máximo que deje el juego, y después la pasiva Spirit Strike. Los coreanos dicen que no subirla es el error típico del que empieza.
+5. **A nivel 22, tu primer estigma: Summon: Ancient Spirit.**
+6. **Dimensional Control se lanza sola.** No hay que pulsarla.
+
+Con eso se llega a nivel 45 sin problema. Lo demás de esta página es para afinar.
+
+Los nombres son los del juego en inglés. Si lo tienes en otro idioma, se llaman distinto.
+
 ## Los cinco espíritus
 
 Cada uno hace un trabajo distinto. No es cosmético.
 
 | Espíritu | Qué hace | Para qué |
 |---|---|---|
-| **Fire Spirit** | Pega en área y es el que más veces usa su skill | El de PvE: lo lleva casi el 70 % |
+| **Fire Spirit** | Pega en área y es el que más veces usa su skill | El de mazmorras: lo lleva casi el 70 %. Se mueve peor que los demás |
 | **Water Spirit** | Daño a un objetivo y te devuelve maná con cada golpe | Cuando el problema es el maná; cómodo subiendo de nivel |
 | **Earth Spirit** | Es un tanque: provoca y aguanta | Contenido en solitario y PvP |
-| **Wind Spirit** | Daño en área y te devuelve algo de vida | Poco usado |
+| **Wind Spirit** | Daño en área y te devuelve algo de vida | En Corea ya casi no se usa |
 | **Ancient Spirit** | Es un estigma: dura 30 segundos y pega muy fuerte | El número uno de la clase |
 
 Invoca al espíritu **antes** de entrar en combate. Empezar un jefe sin él es empezar a media potencia.
@@ -65,6 +81,8 @@ Lo que la élite coreana lleva más alto en PvE:
 | Jointstrike: Curse | 23,2 % |
 | Dimensional Control | 14,2 % |
 
+El orden que dan los foros coreanos para llevar skills a 20 coincide: Combustion, Elemental Fusion, Jointstrike: Curse y después Dimensional Control.
+
 ## Especializaciones
 
 Se abre un hueco con la skill a nivel 8, dos desde el 12 y tres desde el 20. Hay que equiparlas a mano.
@@ -93,6 +111,7 @@ Se abren a nivel 22. En el global hay cuatro huecos, a nivel 22, 27, 32 y 37.
 | Después | Siphon | Daño, y te devuelve vida y maná | 81,5 % |
 
 - Subiendo de nivel: Ancient Spirit primero, luego Benediction y luego Flame Blessing, cada uno a nivel 5 (5 fragmentos).
+- Para llevarlos a 20, el orden que dan los foros coreanos es Benediction, Ancient Spirit, Flame Blessing y Corrode.
 - Los potenciadores se lanzan **antes** de invocar al Ancient Spirit, para que salga ya potenciado.
 - Coste: 1 fragmento por nivel hasta el 5, 2 hasta el 10, 4 hasta el 15 y 8 hasta el 20.
 - En PvP cambian casi todos: entran Command: Proxy, Seize Magic y Kaisinel's Power, y el espíritu pasa a ser el de tierra.
@@ -118,6 +137,7 @@ Se abren a nivel 22. En el global hay cuatro huecos, a nivel 22, 27, 32 y 37.
 - En el arma: velocidad de combate y amplificación de daño de arma.
 - **Puntería antes que crítico.** Buena parte del daño son estados que tienen que entrar.
 - Algo de vida: vas de tela y el espíritu no siempre te cubre.
+- Orden que da una guía taiwanesa: amplificación de daño, puntería hasta unos 1.400, ataque y daño crítico.
 - Pasivas que conviene que traiga el equipo: Spirit Strike, Mental Focus y Element Unification.
 
 ## Daevanion
