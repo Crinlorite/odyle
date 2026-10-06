@@ -9,6 +9,7 @@ sources:
   - { title: 'AION 2 Essence Extraction: How to Reach Professional — space4games', url: 'https://space4games.com/en/games-en/aion-2-essence-extraction-guide/', lang: en }
   - { title: 'AION 2 Crafting Guide — metabot', url: 'https://metabot.gg/en/aion-2/guides/crafting-guide', lang: en }
   - { title: 'Guía de Essence Extraction — 겜생의 게임생활', url: 'https://vgamelifev.com/%EC%95%84%EC%9D%B4%EC%98%A82-%EC%A0%95%EA%B8%B0%EC%B6%94%EC%B6%9C-%EC%A0%84%EB%AC%B8-%EC%8A%B9%EA%B8%89-%EC%8A%A4%ED%82%AC-%ED%8A%B8%EB%A6%AC-%ED%9A%A8%EC%9C%A8-%EB%A0%88%EB%B2%A8%EC%97%85/', lang: ko }
+  - { title: 'Essence Extraction Specialty Skill Quest (Elyos) — wikily', url: 'https://wikily.gg/aion-2/quests/upgrade-essence-extraction-specialty-skill-elyos', lang: en }
 translationKey: recoleccion-y-oficios
 ---
 
@@ -62,7 +63,17 @@ Hasta maestría 100 se ganan 14 puntos: 6 de Novato y 8 de Profesional. Dan para
 
 ## El ascenso a Profesional
 
-Al llegar a Novato 50 se acepta sola la misión «[Upgrade] Essence Extraction Specialty Skill». Pide un Splendent Ruby, que sale recolectando rubíes normales. Para los Elyos se entrega a Korius, en Verteron.
+Al llegar a Novato 50 la maestría deja de subir hasta entregar la misión «[Upgrade] Essence Extraction Specialty Skill», que se acepta sola. Tiene dos pasos:
+
+1. Hablar con Korius, el Artisan Essence Extractor, en Verteron.
+2. Recolectar en nodos de **Ruby** hasta que salga el Splendent Ruby (Bound).
+
+- Tiene que ser rubí. Zafiros y diamantes no valen.
+- No es el «Radiant Ruby Gemstone», que es un material de joyería con nombre parecido.
+- Rubíes en Verteron, según los datos de la misión: Kraka Footpath (pegado a Verteron por el este), Ellun River Midstream (por el oeste), Verteron Fortress Ruins y Destroyed Abyss Gate.
+- Al entregarlo se pasa a Profesional en el acto.
+
+Ya de Profesional, en la rama de Odyle subo primero Plentiful Harvest a 3 y después Appraiser: cada nivel del primero es un 10 % más de todo, y el segundo solo vuelve a tirar la calidad.
 
 ## Cosas sueltas
 
@@ -84,4 +95,6 @@ Cinco: herrería de armas, armaduras, accesorios, alquimia y cocina. Cada uno ti
 
 Visto en mi pantalla: los topes de Novato (comunes a 5, cada skill de especialidad a 1), los 45 puntos comunes y los 6 de especialidad a Novato 50, y el botón de reinicio.
 
-Sin comprobar todavía: todo lo de Profesional, el coste del reinicio, la misión de ascenso y los oficios.
+Visto también: la misión de ascenso y el paso a Profesional.
+
+Sin comprobar todavía: los niveles altos de Profesional, el coste del reinicio y los oficios.
