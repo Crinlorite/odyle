@@ -8,6 +8,8 @@ sources:
   - { title: 'Lo que confunde al principio — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311570&site=aion2', lang: ko }
   - { title: 'De dónde sale cada material de crecimiento — Gametoc', url: 'https://www.gametoc.co.kr/news/articleView.html?idxno=104206', lang: ko }
   - { title: 'Currencies — metabot', url: 'https://metabot.gg/en/aion-2/currencies', lang: en }
+  - { title: 'Shugo Festival, nodos de Daevanion y puntos de skill — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311592&site=aion2', lang: ko }
+  - { title: 'AION 2 Shugo Festival Guide, Mini-Games, Keys and Shop — aion2.help', url: 'https://www.aion2.help/guide/treegu-festival', lang: en }
 translationKey: monedas-materiales-y-contenidos
 ---
 
@@ -61,6 +63,20 @@ Las alas y las apariencias dan estadísticas permanentes solo por tenerlas.
 | **Ascension Trials** | Semanal | Progreso del Daevanion |
 
 Las recargas y los topes de cada uno están en [el apunte de la temporada 1](/es/apuntes/temporada-1-del-global/).
+
+## Shugo Festival
+
+Minijuegos de cinco minutos que no dependen de tu equipo: carreras, esconderse, defender a los mercaderes, saltar plataformas. Hay nueve, y salen varios cada hora, a y cuarto y a menos cuarto.
+
+| Qué te llevas | Cómo |
+|---|---|
+| Centuryroot Tokens y piedras de mejora | Solo por terminar |
+| Cartas de premio: materiales, piedras, y de vez en cuando equipo único | Gastando una llave al acabar; cuanto mejor quedes, más cartas eliges |
+
+- **Llaves:** con la membresía, 4 al día y se acumulan hasta 28. Sin ella son menos; las guías no coinciden en cuántas.
+- **Si quedas de los últimos, no gastes la llave.** Se puede cerrar el resultado sin elegir y la llave se conserva para una partida mejor.
+- **Los tokens se gastan en la tienda del festival.** Lo primero, según todas las guías: Wisdom Stones, que son puntos de skill, y cristales de Daevanion. Su precio se dobla cada cuatro compras. Después, libros del alma, con límite semanal. Lo estético, al final.
+- Los premios van por tramos de nivel del personaje, así que rinden algo más cuanto más alto estés. Los tokens cuentan igual desde el principio.
 
 ## Lo que caduca cada semana
 
