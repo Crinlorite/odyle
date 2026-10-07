@@ -105,4 +105,7 @@ export const GLOSARIO: { en: string; es: string }[] = [
   { en: "Ashy Call", es: "Llamado de ceniza" },
   // rótulos de botones sin nombre español comprobado: se dejan enteros en inglés
   { en: "Sync Empyrean Traces", es: "Sync Empyrean Traces" },
+  // mazmorra diaria
+  { en: "Daily Dungeon", es: "Mazmorra diaria" },
+  { en: "Instant Clear Ticket", es: "Tique de completado inmediato" },
 ];
