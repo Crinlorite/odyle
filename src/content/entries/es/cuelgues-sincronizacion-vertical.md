@@ -4,7 +4,7 @@ description: Una veintena de cierres en tres días en una Steam Machine. No era 
 status: comprobado
 topic: equipo
 verifiedAt: 2026-10-07
-where: { zone: Verteron, level: 20 }
+where: { zone: Varias zonas, level: 26 }
 rig: { machine: Steam Machine, os: Windows 11, gpu: AMD RX 7600 de 8 GB, display: Alienware AW2725QF a 3840×2160 y 165 Hz }
 firstHand: true
 sources:
