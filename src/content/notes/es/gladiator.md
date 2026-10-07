@@ -2,7 +2,7 @@
 title: Gladiator en PvE, qué subir y en qué orden
 description: Mi chuleta del Gladiator, puntos de skill, especializaciones, estigmas, Daevanion y rotación, según lo que llevan los mejores jugadores coreanos.
 basis: Datos de jugadores coreanos, tablas del cliente global y una guía taiwanesa
-updated: 2026-10-06
+updated: 2026-10-07
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (8.459 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -145,7 +145,21 @@ Se abre a nivel 20. Lo valioso está lejos del centro:
 | Experienced Counterstrike +1 | 5, 4 y 9, 10 |
 | Murderous Burst +1 | 3, 2 y 7, 8 |
 
-Junto al centro: Attack +3 a la derecha (7, 6) y Defense +30 a la izquierda (5, 6). No tengo apuntado su orden recomendado; está en la guía de aion2-meta, con el número sobre cada nodo.
+Junto al centro: Attack +3 a la derecha (7, 6) y Defense +30 a la izquierda (5, 6).
+
+Lo que he visto en mi pantalla alrededor del centro, pasando el ratón:
+
+| Columna, fila | Qué da | Cristales |
+|---|---|---|
+| 5, 5 | Critical Hit +5 | 1 |
+| 5, 4 | **Experienced Counterstrike +1** | 2 |
+| 7, 5 | MP +50 | 1 |
+| 8, 5 | **Destructive Impulse +1** | 2 |
+| 7, 7 | Critical Hit Resist +5 | 1 |
+| 7, 8 | **Murderous Burst +1** | 2 |
+| 5, 7 | HP +100 | 1 |
+
+Destructive Impulse es la pasiva que algunas guías llaman «Impact Hit». El orden de aion2-meta para los primeros nodos de Zikel es Attack, Defense, Critical Hit, Experienced Counterstrike +1, Attack, HP, Sword Aura Rampage +1, Defense, Impact Hit +1, Attack, Ruinous Blow +1 y Defense.
 
 Entre 150 Gladiators punteros medidos por metabot, los nodos de skill que casi todos cogen son Overhead Slam +1 y Rending Blow +1 en Nezekan (98 % y 97 %), y Rending Blow, Overhead Slam y Ruinous Blow en Zikel (96 %, 95 % y 93 %).
 
