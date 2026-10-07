@@ -100,4 +100,6 @@ Visto en mi pantalla: los topes de Novato (comunes a 5, cada skill de especialid
 
 Visto también: la misión de ascenso y el paso a Profesional. Y ya en Profesional 15, Plentiful Harvest en nivel 3 con su 30 %, y las comunes por encima de 5; está en [esta entrada del cuaderno](/es/cuaderno/plentiful-harvest-nivel-3/).
 
-Sin comprobar todavía: los niveles altos de Profesional, el coste del reinicio y los oficios.
+A Profesional 39 tenía Proficient Handling en 10 y la rama de Odyle completa, y las cuentas de puntos seguían cuadrando con las tablas: 84 comunes y 10 de especialidad ganados.
+
+Sin comprobar todavía: el tope de Profesional, el coste del reinicio y los oficios.
