@@ -66,17 +66,7 @@ Las recargas y los topes de cada uno están en [el apunte de la temporada 1](/es
 
 ## Shugo Festival
 
-Minijuegos de cinco minutos que no dependen de tu equipo: carreras, esconderse, defender a los mercaderes, saltar plataformas. Hay nueve, y salen varios cada hora, a y cuarto y a menos cuarto.
-
-| Qué te llevas | Cómo |
-|---|---|
-| Centuryroot Tokens y piedras de mejora | Solo por terminar |
-| Cartas de premio: materiales, piedras, y de vez en cuando equipo único | Gastando una llave al acabar; cuanto mejor quedes, más cartas eliges |
-
-- **Llaves:** con la membresía, 4 al día y se acumulan hasta 28. Sin ella son menos; las guías no coinciden en cuántas.
-- **Si quedas de los últimos, no gastes la llave.** Se puede cerrar el resultado sin elegir y la llave se conserva para una partida mejor.
-- **Los tokens se gastan en la tienda del festival.** Lo primero, según todas las guías: Wisdom Stones, que son puntos de skill, y cristales de Daevanion. Su precio se dobla cada cuatro compras. Después, libros del alma, con límite semanal. Lo estético, al final.
-- Los premios van por tramos de nivel del personaje, así que rinden algo más cuanto más alto estés. Los tokens cuentan igual desde el principio.
+Minijuegos de cinco minutos que no dependen de tu equipo. Terminar ya da Centuryroot Tokens y piedras de mejora; con las llaves se eligen cartas de premio; y con los tokens se compran Wisdom Stones y cristales de Daevanion. Está contado entero en [el apunte del Shugo Festival](/es/apuntes/shugo-festival/).
 
 ## Lo que caduca cada semana
 

@@ -45,6 +45,8 @@ const notes = defineCollection({
     basis: z.string(),
     updated: z.coerce.date(),
     sources: z.array(z.object({ title: z.string(), url: z.url(), lang: z.enum(['es', 'en', 'ko', 'zh']) })).min(1),
+    // Nombres del juego en inglés y cómo salen con el cliente en español: la página enseña un botón para cambiarlos.
+    glossary: z.array(z.object({ en: z.string(), es: z.string() })).default([]),
     translationKey: z.string(),
   }),
 });
