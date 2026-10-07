@@ -14,6 +14,7 @@ const SEAL = { comprobado: ['Comprobado', '#197a42'], duda: ['Duda abierta', '#c
 const TOPIC = { economia: 'Economía', recoleccion: 'Recolección', fabricacion: 'Fabricación', tienda: 'Tienda', progresion: 'Progresión', equipo: 'Equipo' };
 
 const jobs = [{ out: 'default.jpg', title: 'Lo que dicen las guías y lo que pasa cuando lo pruebas.', seal: null, topic: 'Cuaderno de campo de AION 2 · cliente global' }];
+jobs.push({ out: 'es/blacklights.jpg', title: 'BlackLights: legión elyos en español, en Nezekan', seal: null, topic: 'Legión · AION 2 global · Europa' });
 for (const lang of readdirSync(`${root}src/content/entries`)) {
   for (const f of readdirSync(`${root}src/content/entries/${lang}`)) {
     const src = readFileSync(`${root}src/content/entries/${lang}/${f}`, 'utf8');

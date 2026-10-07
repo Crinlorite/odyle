@@ -2,7 +2,7 @@
 // Uso: node scripts/overflow.mjs [https://odyle.net]   (por defecto, la vista previa local en :4321)
 import { chromium } from 'playwright';
 const base = process.argv[2] ?? 'http://localhost:4321';
-const paths = ['/es/', '/es/cuaderno/', '/es/cuaderno/mercado-nivel-45/', '/es/cuaderno/cuelgues-grafica-steam-machine/', '/es/temas/', '/es/temas/recoleccion/', '/es/temas/fabricacion/', '/es/apuntes/', '/es/apuntes/gladiator/', '/es/apuntes/recoleccion-y-oficios/', '/es/apuntes/sistemas-que-salen-al-subir/', '/es/apuntes/temporada-1-del-global/', '/es/apuntes/spiritmaster/', '/es/cuaderno/anticheat-ncguard/', '/es/acerca/', '/no-existe/'];
+const paths = ['/es/', '/es/cuaderno/', '/es/cuaderno/mercado-nivel-45/', '/es/cuaderno/cuelgues-grafica-steam-machine/', '/es/temas/', '/es/temas/recoleccion/', '/es/temas/fabricacion/', '/es/apuntes/', '/es/apuntes/gladiator/', '/es/apuntes/recoleccion-y-oficios/', '/es/apuntes/sistemas-que-salen-al-subir/', '/es/apuntes/temporada-1-del-global/', '/es/apuntes/spiritmaster/', '/es/cuaderno/anticheat-ncguard/', '/es/acerca/', '/es/blacklights/', '/no-existe/'];
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
 let failed = 0;
