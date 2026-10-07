@@ -1,6 +1,6 @@
 ---
-title: Los cuelgues de la gráfica pararon al quitar la sincronización vertical
-description: Una veintena de cierres en tres días en una Steam Machine. No era el controlador ni la memoria de la gráfica; pararon al apagar la sincronización vertical.
+title: Quitar la sincronización vertical no arregló los cuelgues de la gráfica
+description: Publiqué que apagarla los había parado, y no era verdad. Volvieron, y el propio juego guarda que el primer día ya estaba apagada. Lo probado y descartado.
 status: comprobado
 topic: equipo
 verifiedAt: 2026-10-07
@@ -10,34 +10,41 @@ firstHand: true
 sources:
   - { title: 'GPU Crash dump Triggered DXGI_ERROR — foro de AION 2 en Steam', url: 'https://steamcommunity.com/app/3393110/discussions/6/583936001036071306/', lang: en }
   - { title: 'Crashes all day — foro de AION 2 en Steam', url: 'https://steamcommunity.com/app/3393110/discussions/6/583935635494121453/', lang: en }
+history:
+  - { date: 2026-10-07, note: 'Publicada por la tarde diciendo que apagar la sincronización vertical había parado los cierres.' }
+  - { date: 2026-10-07, note: 'Corregida esa misma tarde: volvió a colgarse dos veces con ella apagada, y los informes del juego lo desmienten.' }
 updated: 2026-10-07
 translationKey: cuelgues-sincronizacion-vertical
 ---
 
 ## Lo que se dice
 
-El aviso es siempre el mismo, `GPU Crash dump Triggered DXGI_ERROR_DEVICE_REMOVED`, y en los foros se achaca a casi todo: controlador antiguo, temperatura, superposiciones, archivos dañados. En el foro de Steam hay quien lo evita cerrando los menús con Esc en lugar de con la X, y quien dice que se le fue al cambiar de escalador. No he encontrado a nadie que nombre la sincronización vertical.
+El aviso es siempre el mismo, `GPU Crash dump Triggered DXGI_ERROR_DEVICE_REMOVED`, y en los foros se achaca a casi todo: controlador antiguo, temperatura, superposiciones, archivos dañados. En el foro de Steam hay quien lo evita cerrando los menús con Esc en lugar de con la X, y quien dice que se le fue al cambiar de escalador.
 
 ## Lo que pasa
 
-Los cierres [del día del estreno](/es/cuaderno/cuelgues-grafica-steam-machine/) volvieron los dos días siguientes. En tres días fueron una veintena, casi siempre al salir de un menú, y el 7 de octubre llegaron a ser uno cada 2 a 12 minutos. Cada cierre coincide al segundo con un volcado de Windows que señala al controlador de AMD: la gráfica deja de responder y el juego la pierde.
+Esta entrada decía otra cosa hace unas horas: que los cierres habían parado al apagar la sincronización vertical. Aguantó casi dos horas y volvió a colgarse dos veces. Me precipité.
 
-Lo que fui cambiando ese día, por orden:
+Además había una forma de saberlo sin esperar. El juego guarda un informe de cada cierre, y en él apunta si la sincronización estaba puesta. De los 22 cierres en tres días, 10 fueron con ella apagada, incluidos los ocho [del día del estreno](/es/cuaderno/cuelgues-grafica-steam-machine/).
+
+Lo que he cambiado y no lo arregla:
 
 | Cambio | Qué pasó |
 |---|---|
-| Controlador de AMD, de Adrenalin 26.8.1 a 26.9.2 | Se colgó a los tres minutos de entrar |
-| Pantalla completa en lugar de sin bordes | Mejoró: un cierre en algo más de una hora |
-| Sincronización vertical apagada | Ninguno desde entonces, con el juego a 4K |
+| Límite de fotogramas | Los cierres volvieron al día siguiente |
+| Calidad gráfica, del mínimo a alta | Se cuelga con todas |
+| Controlador de AMD, de Adrenalin 26.8.1 a 26.9.2 | Se colgó a los tres minutos |
+| Ventana, sin bordes y pantalla completa, a 1080p y a 4K | Se cuelga en todos los modos |
+| Sincronización vertical | Se cuelga con ella y sin ella |
 
-Tampoco era que la gráfica se quedase sin memoria. Con la sincronización puesta se colgaba con entre 7,2 y 7,4 GB ocupados de los 8 que tiene la tarjeta. Con ella apagada llegó a 8,06 GB, llena del todo, y aguantó.
+Tampoco depende de lo llena que esté la memoria de la gráfica: se ha colgado con 7,0 GB ocupados de 8 y ha aguantado un buen rato con 8,06.
 
-Encaja con dos pistas que ya había. Pasaba al salir de los menús, que es cuando los fotogramas cambian de golpe. Y el primer día se calmó al limitar los fotogramas. Las dos cosas tienen que ver con cómo se presentan las imágenes en pantalla, no con cuánto trabaja la gráfica.
+Lo único que no cambia nunca es el momento: pasa al cerrar un menú de pantalla completa y volver al mundo. Habilidades, logros, ajustes, da igual cuál.
 
-Hasta dónde llega esto: es una tarde de juego, no una semana. El controlador nuevo, por sí solo, no bastó: con él y la sincronización puesta se colgó tres veces. Y es este equipo, con un monitor con FreeSync de 48 a 165 Hz y la opción de FreeSync en «AMD Optimized» en el programa de AMD. En otro puede no ser así.
+Lo que dice el volcado de Windows de cada cierre es poco, pero claro: la gráfica deja de avanzar con una orden de dibujo y Windows la reinicia. En el foro de Steam hay jugadores con gráficas de otra marca y el mismo aviso al cerrar menús. Por eso sospecho de algo que hace el juego al volver del menú más que de este equipo. No lo puedo demostrar.
 
 ## Qué hacer
 
-Si se te cierra con ese aviso al salir de los menús, apaga la sincronización vertical en los ajustes gráficos del juego antes de tocar nada más. Es un cambio de diez segundos y se deshace igual.
+No tengo arreglo. Lo que sí puedo decir es qué no merece la tarde: cambiar de controlador, bajar la calidad o tocar la sincronización vertical no sirvió aquí.
 
-Sin ella la imagen puede partirse en los movimientos rápidos; con un monitor de refresco variable no debería. Pon además un límite de fotogramas por debajo del refresco de tu monitor, para que la gráfica no trabaje al máximo dentro de los menús.
+Si te pasa lo mismo, evita abrir menús de pantalla completa cuando un cierre te haría perder algo, como en mitad de una mazmorra. Y si quieres comprobar algo antes de darlo por bueno, mira el informe que el juego deja de cada cierre en lugar de fiarte de un rato sin fallos, que es justo el error que cometí yo.
