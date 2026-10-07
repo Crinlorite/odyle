@@ -2,7 +2,7 @@
 title: Recolección y oficios, dónde van los puntos
 description: Mi chuleta de Essence Extraction, los puntos comunes y de especialidad, el plan Odyle más gemas, el ascenso a Profesional y los cinco oficios.
 basis: Tablas del cliente global de metabot y lo visto en mi pantalla
-updated: 2026-10-06
+updated: 2026-10-07
 sources:
   - { title: 'Gathering Guide (tablas del cliente global) — metabot', url: 'https://metabot.gg/en/aion-2/gathering', lang: en }
   - { title: 'Gathering Nodes, Proficiency and Extraction Skills — wikily', url: 'https://wikily.gg/aion-2/gathering', lang: en }
@@ -79,7 +79,8 @@ Ya de Profesional, en la rama de Odyle subo primero Plentiful Harvest a 3 y desp
 
 - El Odyle flota: son orbes verdes en el aire y hay que volar hasta ellos.
 - Cancelar una extracción a medias gasta el nodo sin dar nada.
-- El panel tiene un botón «Skill Reset». Cuesta Kina.
+- El panel tiene un botón «Skill Reset». Cuesta Kina; una guía en inglés habla de 50.000 por reinicio, y el coste exacto sale en la confirmación.
+- Los materiales tienen tres calidades: común, fina y pura. Las dos últimas son las que se pagan.
 - El pescado y el marisco son ingredientes de cocina.
 
 ## Oficios
@@ -89,12 +90,14 @@ Cinco: herrería de armas, armaduras, accesorios, alquimia y cocina. Cada uno ti
 - Ninguna receta cuesta Kina, solo materiales.
 - Para empezar, cocina: es barata y sube rápido.
 - Para el Gladiator, herrería de armas, por el mandoble.
+- Hay «gran éxito»: según las guías, un 25 % en casi todo el equipo y un 30 % en cocina.
 - El equipo fabricado iguala al de mazmorra en nivel, pero amplifica menos.
+- Los cinco oficios se pueden subir en el mismo personaje. Lo que frena son los materiales.
 
 ## Lo que he visto yo y lo que no
 
 Visto en mi pantalla: los topes de Novato (comunes a 5, cada skill de especialidad a 1), los 45 puntos comunes y los 6 de especialidad a Novato 50, y el botón de reinicio.
 
-Visto también: la misión de ascenso y el paso a Profesional.
+Visto también: la misión de ascenso y el paso a Profesional. Y ya en Profesional 15, Plentiful Harvest en nivel 3 con su 30 %, y las comunes por encima de 5; está en [esta entrada del cuaderno](/es/cuaderno/plentiful-harvest-nivel-3/).
 
 Sin comprobar todavía: los niveles altos de Profesional, el coste del reinicio y los oficios.
