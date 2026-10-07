@@ -2,7 +2,7 @@
 title: Spiritmaster, qué subir, espíritus y estigmas
 description: Chuleta del Spiritmaster para empezar, los cinco espíritus, el orden de skills mientras se sube, los estigmas que lleva casi todo el mundo y la rotación.
 basis: Datos de jugadores coreanos, foros coreanos y taiwaneses, y tablas del cliente global
-updated: 2026-10-06
+updated: 2026-10-07
 sources:
   - { title: 'Spiritmaster, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-spiritmaster', lang: es }
   - { title: 'Aion 2 Spiritmaster Build Guide (3.587 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/spiritmaster/', lang: en }
@@ -11,6 +11,49 @@ sources:
   - { title: 'Guía de Spiritmaster para novatos — DC Inside', url: 'https://gall.dcinside.com/mgallery/board/view/?id=aion2&no=2653504', lang: ko }
   - { title: 'Skills recomendadas al empezar con Spiritmaster — Inven', url: 'https://www.inven.co.kr/board/aion2/6454/43', lang: ko }
   - { title: 'Guía grande de Spiritmaster — foro de AION2 en Bahamut', url: 'https://forum.gamer.com.tw/C.php?bsn=82913&snA=3587', lang: zh }
+  - { title: 'Espiritualista, nombres de las skills con el cliente en español — metabot', url: 'https://metabot.gg/es/aion-2/classes/spiritmaster', lang: es }
+glossary:
+  - { en: "Spiritmaster", es: "Espiritualista" }
+  - { en: "Cold Shock", es: "Impacto helado" }
+  - { en: "Combustion", es: "Combustión" }
+  - { en: "Summon: Fire Spirit", es: "Invocación: Espíritu de fuego" }
+  - { en: "Summon: Water Spirit", es: "Invocación: Espíritu de agua" }
+  - { en: "Jointstrike: Curse", es: "Golpe conjunto: Maldición" }
+  - { en: "Rapid Scattershot", es: "Ráfaga continua" }
+  - { en: "Summon: Earth Spirit", es: "Invocación: Espíritu de tierra" }
+  - { en: "Dimensional Control", es: "Dominio espacial" }
+  - { en: "Summon: Wind Spirit", es: "Invocación: Espíritu de viento" }
+  - { en: "Soul's Cry", es: "Grito de alma" }
+  - { en: "Elemental Fusion", es: "Fusión elemental" }
+  - { en: "Defiance", es: "Eliminación de impacto" }
+  - { en: "Spirit Strike", es: "Golpe de Espíritu" }
+  - { en: "Spirit Protection", es: "Protección de Espíritu" }
+  - { en: "Spirit's Descent", es: "Descenso de Espíritu" }
+  - { en: "Corrode", es: "Erosión" }
+  - { en: "Spirit Revitalization", es: "Revitalización de Espíritu" }
+  - { en: "Mental Focus", es: "Concentración mental" }
+  - { en: "Consecutive Countercurrent", es: "Retroceso continuo" }
+  - { en: "Spirit Communion", es: "Comunión de Espíritu" }
+  - { en: "Revitalization Contract", es: "Pacto de resurrección" }
+  - { en: "Element Unification", es: "Unificación elemental" }
+  - { en: "Kaisinel's Power", es: "Poder de Kaisinel" }
+  - { en: "Magic Block", es: "Bloqueo mágico" }
+  - { en: "Jointstrike: Destructive Attack", es: "Golpe conjunto: Ofensiva de perdición" }
+  - { en: "Enhance: Spirit's Benediction", es: "Mejora: Favor de Espíritu" }
+  - { en: "Assault Terror", es: "Terror de agresión" }
+  - { en: "Siphon", es: "Drenaje" }
+  - { en: "Command: Proxy", es: "Orden: Sustituto" }
+  - { en: "Flame Blessing", es: "Bendición ardiente" }
+  - { en: "Cry of Terror", es: "Grito de terror" }
+  - { en: "Cursed Cloud", es: "Nube de maldición" }
+  - { en: "Summon: Ancient Spirit", es: "Invocación: Espíritu ancestral" }
+  - { en: "Seize Magic", es: "Usurpación mágica" }
+  - { en: "Jointstrike: Corrode", es: "Golpe conjunto: Corrosión" }
+  - { en: "Fire Spirit", es: "Espíritu de fuego" }
+  - { en: "Water Spirit", es: "Espíritu de agua" }
+  - { en: "Earth Spirit", es: "Espíritu de tierra" }
+  - { en: "Wind Spirit", es: "Espíritu de viento" }
+  - { en: "Ancient Spirit", es: "Espíritu ancestral" }
 translationKey: spiritmaster
 ---
 
@@ -31,7 +74,7 @@ Es la clase menos jugada entre los mejores coreanos. En su meta está arriba del
 
 Con eso se llega a nivel 45 sin problema. Lo demás de esta página es para afinar.
 
-Los nombres son los del juego en inglés. Si lo tienes en otro idioma, se llaman distinto.
+Los nombres salen como en el juego en inglés. Si lo tienes en español, usa el botón de arriba: cambia cada skill a su nombre en español.
 
 ## Los cinco espíritus
 
@@ -62,7 +105,7 @@ Los dos clics son Cold Shock (izquierdo, devuelve maná) y Combustion (derecho, 
 |---|---|
 | 1 a 8 | **Cold Shock** y **Combustion** al máximo que deje el juego; después la pasiva Spirit Strike |
 | 9 a 18 | Los dos clics siempre al máximo. Añadir Summon: Water Spirit, Jointstrike: Curse, Rapid Scattershot y Dimensional Control. De pasivas, Spirit's Descent. Los otros tres espíritus, a nivel 1 |
-| 19 a 25 | Primeras especializaciones a nivel 19. Water Spirit, Curse y Rapid Scattershot a 8. Combustion y Spirit Strike a 10. Primer estigma a nivel 22 |
+| 19 a 25 | Primeras especializaciones a nivel 19. Summon: Water Spirit, Jointstrike: Curse y Rapid Scattershot a 8. Combustion y Spirit Strike a 10. Primer estigma a nivel 22 |
 | 26 a 37 | Dimensional Control y Elemental Fusion a 8. Spirit's Descent a 10 |
 | 38 a 45 | Elemental Fusion y los cuatro espíritus a 10 |
 
@@ -110,8 +153,8 @@ Se abren a nivel 22. En el global hay cuatro huecos, a nivel 22, 27, 32 y 37.
 | 4 | **Jointstrike: Corrode** | 20 segundos de daño en el tiempo y el enemigo recibe más daño del espíritu | 92,2 % |
 | Después | Siphon | Daño, y te devuelve vida y maná | 81,5 % |
 
-- Subiendo de nivel: Ancient Spirit primero, luego Benediction y luego Flame Blessing, cada uno a nivel 5 (5 fragmentos).
-- Para llevarlos a 20, el orden que dan los foros coreanos es Benediction, Ancient Spirit, Flame Blessing y Corrode.
+- Subiendo de nivel: Summon: Ancient Spirit primero, luego Enhance: Spirit's Benediction y luego Flame Blessing, cada uno a nivel 5 (5 fragmentos).
+- Para llevarlos a 20, el orden que dan los foros coreanos es Enhance: Spirit's Benediction, Summon: Ancient Spirit, Flame Blessing y Jointstrike: Corrode.
 - Los potenciadores se lanzan **antes** de invocar al Ancient Spirit, para que salga ya potenciado.
 - Coste: 1 fragmento por nivel hasta el 5, 2 hasta el 10, 4 hasta el 15 y 8 hasta el 20.
 - En PvP cambian casi todos: entran Command: Proxy, Seize Magic y Kaisinel's Power, y el espíritu pasa a ser el de tierra.
@@ -128,7 +171,7 @@ Se abren a nivel 22. En el global hay cuatro huecos, a nivel 22, 27, 32 y 37.
 **El resto del combate:**
 
 - Elemental Fusion siempre que haya cuatro elementos.
-- Corrode y Curse renovados para no perder el daño en el tiempo.
+- Jointstrike: Corrode y Jointstrike: Curse renovados para no perder el daño en el tiempo.
 - De relleno, Combustion con dos o más enemigos y Cold Shock con uno solo.
 - Dimensional Control se lanza sola; no hay que pulsar nada.
 
@@ -150,7 +193,7 @@ La guía de IMPERIUM dice que se empiece por el tablero Ariel. Ese tablero no ex
 
 - Empezar el combate sin espíritu.
 - Guardar Elemental Fusion en vez de lanzarla.
-- Dejar caer Corrode y Curse.
+- Dejar caer Jointstrike: Corrode y Jointstrike: Curse.
 - Llevar el espíritu de fuego al PvP.
 
 ## Lo que no he comprobado
