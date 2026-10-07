@@ -1,0 +1,52 @@
+---
+// Botón que cambia los nombres del juego de inglés a como salen con el cliente en español.
+// Junta el glosario propio de la página con los términos del glosario común que aparecen en su texto.
+import { GLOSARIO } from '../data/glosario';
+interface Props { own?: { en: string; es: string }[]; text: string }
+const { own = [], text } = Astro.props;
+const letter = 'A-Za-z\\u00C0-\\u00FF';
+const has = (term: string) => new RegExp(`(^|[^${letter}])${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![${letter}])`).test(text);
+const seen = new Set(own.map((p) => p.en));
+const pairs = [...own, ...GLOSARIO.filter((p) => !seen.has(p.en) && has(p.en))];
+---
+{pairs.length > 0 && (
+  <>
+    <p class="glos" id="glos" hidden>
+      <button type="button" id="glos-btn" aria-pressed="false">Ver los nombres en español</button>
+      <span>Los nombres del juego salen en inglés. El botón los cambia a como aparecen con el juego en español.</span>
+    </p>
+    <script is:inline define:vars={{ pairs }}>
+      (function () {
+        function run() {
+          var box = document.getElementById('glos'), btn = document.getElementById('glos-btn');
+          if (!box || !btn) return;
+          var art = box.closest('article');
+          var esc = function (s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/['\u2019]/g, "['\u2019]"); };
+          var key = function (s) { return s.replace(/\u2019/g, "'").toLowerCase(); };
+          var sorted = pairs.slice().sort(function (a, b) { return b.en.length - a.en.length; });
+          var map = {}; sorted.forEach(function (p) { map[key(p.en)] = p.es; });
+          var src = '(^|[^A-Za-z\u00C0-\u00FF])(' + sorted.map(function (p) { return esc(p.en); }).join('|') + ')(?![A-Za-z\u00C0-\u00FF])';
+          var re = new RegExp(src, 'g'), probe = new RegExp(src);
+          var nodes = [], w = document.createTreeWalker(art, NodeFilter.SHOW_TEXT);
+          while (w.nextNode()) {
+            var n = w.currentNode, pa = n.parentElement;
+            if (!pa || pa.closest('.aside, script, style, #glos, code')) continue;
+            if (probe.test(n.nodeValue)) nodes.push({ n: n, en: n.nodeValue, es: n.nodeValue.replace(re, function (m, pre, term) { return pre + (map[key(term)] || term); }) });
+          }
+          function set(es, save) {
+            nodes.forEach(function (o) { o.n.nodeValue = es ? o.es : o.en; });
+            btn.setAttribute('aria-pressed', es ? 'true' : 'false');
+            btn.textContent = es ? 'Ver los nombres en inglés' : 'Ver los nombres en español';
+            if (save) { try { localStorage.setItem('odyle-nombres', es ? 'es' : 'en'); } catch (e) {} }
+          }
+          var q = new URLSearchParams(location.search).get('nombres'), saved = null;
+          try { saved = localStorage.getItem('odyle-nombres'); } catch (e) {}
+          box.hidden = false;
+          set(q ? q === 'es' : saved === 'es', false);
+          btn.addEventListener('click', function () { set(btn.getAttribute('aria-pressed') !== 'true', true); });
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
+      })();
+    </script>
+  </>
+)}

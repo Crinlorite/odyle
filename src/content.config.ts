@@ -22,6 +22,7 @@ const entries = defineCollection({
       firstHand: z.boolean().default(false),
       history: z.array(z.object({ date: z.coerce.date(), note: z.string() })).default([]),
       cover: z.string().startsWith('/capturas/').optional(),
+      glossary: z.array(z.object({ en: z.string(), es: z.string() })).default([]),
       updated: z.coerce.date(),
       translationKey: z.string(),
     })

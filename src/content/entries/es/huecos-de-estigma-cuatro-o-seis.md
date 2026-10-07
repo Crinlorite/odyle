@@ -14,6 +14,8 @@ history:
   - { date: 2026-10-06, note: 'Publicada como duda: una guía decía cuatro huecos y otras seis.' }
   - { date: 2026-10-07, note: 'Visto en mi pantalla a nivel 26: cuatro casillas y 13 estigmas. Pasa a comprobado.' }
 updated: 2026-10-07
+glossary:
+  - { en: "Wrath Wave", es: "Onda de ira" }
 translationKey: huecos-de-estigma-cuatro-o-seis
 ---
 

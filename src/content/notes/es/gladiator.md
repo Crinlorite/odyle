@@ -11,6 +11,43 @@ sources:
   - { title: 'Guía de cría del Gladiator, de cero al final — foro de AION2 en Bahamut', url: 'https://forum.gamer.com.tw/C.php?bsn=82913&snA=3380', lang: zh }
   - { title: 'Cómo llegar a nivel 16–20 de skill — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/457', lang: ko }
   - { title: 'How to Respec Skills and Daevanion Board — game8', url: 'https://game8.co/games/Aion-2/archives/629160', lang: en }
+  - { title: 'Gladiador, nombres de las skills con el cliente en español — metabot', url: 'https://metabot.gg/es/aion-2/classes/gladiator', lang: es }
+glossary:
+  - { en: "Keen Strike", es: "Estacazo punzante" }
+  - { en: "Ruinous Blow", es: "Embestida de perdición" }
+  - { en: "Rending Blow", es: "Embestida desgarradora" }
+  - { en: "Leaping Slam", es: "Perforación con salto" }
+  - { en: "Rush Strike", es: "Estacazo de acometida" }
+  - { en: "Lunge Stance", es: "Postura de asalto" }
+  - { en: "Zikel's Blessing", es: "Bendición de Zikel" }
+  - { en: "Rage Burst", es: "Explosión de furia" }
+  - { en: "Focused Block", es: "Bloqueo concentrado" }
+  - { en: "Tenaciousness", es: "Perseverancia" }
+  - { en: "Wrath Wave", es: "Onda de ira" }
+  - { en: "Mocking Blade", es: "Espada devastadora" }
+  - { en: "Overhead Slam", es: "Punzada descendente" }
+  - { en: "Sword Aura Rampage", es: "Desenfreno de aura de espada" }
+  - { en: "Ankle Slice", es: "Corte de tobillo" }
+  - { en: "Crushing Wave", es: "Onda pulverizadora" }
+  - { en: "Aerial Snare", es: "Amarre aéreo" }
+  - { en: "Defiance", es: "Eliminación de impacto" }
+  - { en: "Survival Stance", es: "Postura de supervivencia" }
+  - { en: "Protection Armor", es: "Armadura de protección" }
+  - { en: "Blood Absorption", es: "Absorción de sangre" }
+  - { en: "Identify Weakness", es: "Identificación de debilidades" }
+  - { en: "Attack Preparation", es: "Preparación de ataque" }
+  - { en: "Impact Hit", es: "Acierto de impacto" }
+  - { en: "Destructive Impulse", es: "Impulso de destrucción" }
+  - { en: "Experienced Counterstrike", es: "Contraataque experimentado" }
+  - { en: "Survival Willpower", es: "Voluntad de supervivencia" }
+  - { en: "Murderous Burst", es: "Estallido de sed de sangre" }
+  - { en: "Blade Toss", es: "Vuelo de cuchillas" }
+  - { en: "Forced Restraint", es: "Amarre forzado" }
+  - { en: "Assault Strike", es: "Estacazo agresivo" }
+  - { en: "Fracturing Rush", es: "Acometida pulverizadora" }
+  - { en: "Lifestealing Blade", es: "Espada de drenaje de sangre" }
+  - { en: "Wave Armor", es: "Blindaje de onda" }
+  - { en: "Armor of Balance", es: "Armadura de equilibrio" }
 translationKey: gladiator
 ---
 

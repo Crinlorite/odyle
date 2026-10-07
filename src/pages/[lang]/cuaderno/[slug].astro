@@ -2,6 +2,7 @@
 import { existsSync } from 'node:fs';
 import { render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
+import Glosario from '../../../components/Glosario.astro';
 import Seal from '../../../components/Seal.astro';
 import { LANGS, type Lang } from '../../../i18n/langs';
 import { t } from '../../../i18n/strings';
@@ -48,6 +49,7 @@ const jsonLd = {
         {d.rig && <div><dt>{s.fRig}</dt><dd>{d.rig.machine}, {d.rig.os}</dd></div>}
       </dl>
     </header>
+    <Glosario own={d.glossary} text={`${d.title}\n${entry.body ?? ''}`} />
     <div class="plain"><div class="prose prose--entry"><Content /></div></div>
     <div class="aside">
       <h2>{s.sources}</h2>
