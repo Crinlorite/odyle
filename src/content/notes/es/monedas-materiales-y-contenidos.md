@@ -1,7 +1,7 @@
 ---
 title: Monedas, materiales y contenidos, para qué sirve cada cosa
 description: Mi chuleta de las monedas del juego, qué material alimenta cada sistema, qué da cada contenido, lo que caduca cada semana y los errores que repiten las guías.
-basis: Guías coreanas de Inven y Gametoc y tablas del cliente global de metabot
+basis: Guías coreanas de Inven y Gametoc, tablas del cliente global de metabot y algunas pantallas vistas en mi cliente
 updated: 2026-10-07
 sources:
   - { title: 'Las 11 monedas de AION 2 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311584&site=aion2', lang: ko }
@@ -12,6 +12,7 @@ sources:
   - { title: 'AION 2 Shugo Festival Guide, Mini-Games, Keys and Shop — aion2.help', url: 'https://www.aion2.help/guide/treegu-festival', lang: en }
   - { title: 'Abyss Supply Request Guide — game8', url: 'https://game8.co/games/Aion-2/archives/629071', lang: en }
   - { title: 'Cómo reconocer los objetos de los encargos de suministros — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/439', lang: ko }
+  - { title: 'Daeva Bio-Research Base Daily Dungeon Guide — game8', url: 'https://game8.co/games/Aion-2/archives/614849', lang: en }
 translationKey: monedas-materiales-y-contenidos
 ---
 
@@ -82,6 +83,27 @@ Se entra desde el menú principal, con Esc. Hay cuatro tipos:
 - Lo que entregas se consume. Antes de dar una pieza, mira que no la necesites para otra cosa.
 - Los de urgencia y los semanales se cubren con equipo repetido; con los de fabricación hay que hacer cuentas, porque los materiales pueden valer más que el premio.
 - Según un consejo de los foros coreanos, los objetos que pide algún encargo llevan una marca de interrogación en el inventario. Conviene mirarlo antes de extraer equipo viejo.
+
+## Daeva Bio-Research Base
+
+Está en el menú Daily Dungeon, dentro de Unknown Fissure, y pide nivel 30. Es una prueba contrarreloj en solitario: según las guías, minuto y medio para matar a todos los sujetos de prueba que puedas. La puntuación final decide cuántas piedras de mejora te llevas.
+
+Lo que he visto en la pantalla de entrada:
+
+| Dato | Valor |
+|---|---|
+| Entradas | 14 por semana, se recargan solas |
+| Premio máximo | 10.000 piedras de mejora, con 10.000 puntos o más |
+| Con 8.000 puntos | 8.100 piedras |
+| Con 6.500 puntos | 7.200 piedras |
+| Ayuda al empezar | Eliges 1 efecto entre 3 que salen al azar |
+
+- Los efectos especiales son los que más puntúan: Slayer, +30 % de ataque; Adrenaline, +30 % de velocidad de combate; y Worm Carnage y Elite Hunter, que bajan el aguante de los enemigos normales o de los de élite. Los comunes dan defensa, crítico, velocidad de movimiento o maná.
+- Las entradas no se guardan de una semana a otra: el contador marca 14 de 14 y la recarga semanal es de 14.
+- Hay un Instant Clear Ticket que, después de haberla completado una vez, deja cobrar el premio sin volver a entrar. Cada uso gasta también una entrada.
+- Las guías hablan de 7 entradas gratis por semana y de tiques para llegar a 30. En mi cliente son 14 de base; el contador de recargas extra sí marca un máximo de 30.
+
+Es de lo más rentable del juego por minuto: las piedras de mejora son el cuello de botella del equipo.
 
 ## Shugo Festival
 
