@@ -44,6 +44,9 @@ const es = {
   notFoundTitle: 'Esta hoja está en blanco',
   notFoundLead: 'La página que buscas no existe o cambió de sitio.',
   marginNote: '¡Ojo! Esto no lo trae ninguna guía',
+  legionNote: '¡Buscamos gente!',
+  legionA: 'Juego en',
+  legionB: ', legión elyos en español en el servidor Nezekan de Europa.',
 };
 
 export const STRINGS: Record<Lang, typeof es> = { es };
