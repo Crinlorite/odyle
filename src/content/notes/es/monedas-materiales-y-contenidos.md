@@ -85,7 +85,7 @@ Se entra desde el menú principal, con Esc. Hay cuatro tipos:
 
 ## Shugo Festival
 
-Minijuegos de cinco minutos que no dependen de tu equipo. Terminar ya da Centuryroot Tokens y piedras de mejora; con las llaves se eligen cartas de premio; y con los tokens se compran Wisdom Stones y cristales de Daevanion. Está contado entero en [el apunte del Shugo Festival](/es/apuntes/shugo-festival/).
+Minijuegos de cinco minutos que no dependen de tu equipo. Terminar ya da Centuryroot Tokens y piedras de mejora; con las llaves se eligen cartas de premio; y con las fichas se compran cristales de Daevanion y fragmentos de estigma. Está contado entero en [el apunte del Shugo Festival](/es/apuntes/shugo-festival/).
 
 ## Lo que caduca cada semana
 

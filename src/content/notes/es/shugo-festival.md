@@ -1,7 +1,7 @@
 ---
 title: Shugo Festival, los minijuegos, las llaves y lo que dan
-description: Los nueve minijuegos, qué te llevas por terminar y qué con las llaves, cuándo no gastarlas, y qué comprar con los Centuryroot Tokens en la tienda del festival.
-basis: Guías coreanas de Inven y Gametoc y tres guías en inglés que cruzan varias fuentes; nada visto todavía en mi pantalla
+description: Los nueve minijuegos, qué te llevas por terminar y qué con las llaves, cuándo no gastarlas, y qué vende de verdad la tienda del festival en el global.
+basis: Guías coreanas y en inglés para las reglas; llaves, horario, premios y tienda vistos en mi pantalla
 updated: 2026-10-07
 sources:
   - { title: 'Shugo Festival, nodos de Daevanion y puntos de skill — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311592&site=aion2', lang: ko }
@@ -9,21 +9,23 @@ sources:
   - { title: 'AION 2 Shugo Festival Guide and Rewards — aion2.blog', url: 'https://aion2.blog/shugo-festival/', lang: en }
   - { title: 'Every Shugo Festival Minigame and Its Rewards — allthings.how', url: 'https://allthings.how/aion-2-every-shugo-festival-minigame-and-its-rewards/', lang: en }
   - { title: 'AION 2 Shugo Festival Guide, Mini-Games, Keys and Shop — aion2.help', url: 'https://www.aion2.help/guide/treegu-festival', lang: en }
+glossary:
+  - { en: \"Radiant Odyle\", es: \"Od radiante\" }
 translationKey: shugo-festival
 ---
 
 ## Qué es
 
-Minijuegos de entre tres y cinco minutos, contra otros jugadores, en los que no cuenta tu equipo ni tu nivel: carreras, memoria, esconderse, saltar plataformas. Son la parte ligera del juego, y aun así dan puntos de skill y cristales de Daevanion, que es lo que más escasea mientras subes.
+Minijuegos de entre tres y cinco minutos, contra otros jugadores, en los que no cuenta tu equipo ni tu nivel: carreras, memoria, esconderse, saltar plataformas. Son la parte ligera del juego, y aun así dan cristales de Daevanion y fragmentos de estigma, que es de lo que más escasea mientras subes.
 
 No piden un nivel alto: según las guías se abren pronto, y los premios tienen nueve tramos según el nivel del personaje, desde el 10.
 
 ## Si vas con prisa, lo justo
 
-1. **Entra siempre que te pille de paso.** Entrar es gratis, y terminar ya da tokens y piedras de mejora.
-2. **La llave se gasta al elegir carta de premio, no al entrar.** Si has quedado de los últimos, cierra el resultado sin elegir y te la guardas.
+1. **Entra siempre que te pille de paso.** Entrar es gratis, y terminar ya da fichas y piedras de mejora.
+2. **La llave se gasta al recoger el premio, no al entrar.** Si has quedado de los últimos, cierra el resultado sin elegir y te la guardas.
 3. **No dejes las llaves en el tope.** Las que llegan con el contador lleno se pierden.
-4. **Con los tokens, primero Wisdom Stones y cristales de Daevanion.** Lo estético, al final.
+4. **Con las fichas, primero cristales de Daevanion y luego fragmentos de estigma.** Lo estético, al final.
 
 ## Los nueve minijuegos
 
@@ -43,51 +45,52 @@ En cada franja salen varios de los nueve, no todos.
 
 ## Cuándo hay
 
-Aquí las guías no se ponen de acuerdo. Las coreanas y una en inglés dicen que hay ronda cada hora a y cuarto y a menos cuarto; otras hablan de la hora en punto. Lo fiable es el icono del Shugo que sale junto al minimapa, con su cuenta atrás.
+A la hora en punto. Las guías hablaban de y cuarto y menos cuarto, pero en mi pantalla la línea de tiempo va por horas y a las 22:02 estaba activa la ronda de las 22:00, con los nueve minijuegos abiertos a la vez. Junto al minimapa sale el icono del Shugo con la cuenta atrás.
 
 ## Qué te dan
 
 | Premio | Cómo |
 |---|---|
-| **Centuryroot Tokens y piedras de mejora** | Solo por terminar. No gasta llave |
+| **Centuryroot Tokens y piedras de mejora** | Solo por terminar |
 | **Cartas de premio** | Una llave por carta. Cuanto mejor quedes, más cartas puedes elegir |
 
-Lo que sale en las cartas: equipo, Odyle, piedras de refinado y Abyss Points. El equipo bueno es raro; una guía coreana habla de un 5 % para el de grado único.
+Lo que vi en la lista de premios de Jump Jump: la carta de fichas da 30 la mitad de las veces, 40 el 30 %, 60 el 17 % y 100 el 3 %, unas 40 de media. Y hay un 20 % de que caiga una pieza de equipo raro.
 
-Las cantidades suben con el nivel del personaje. La única cifra concreta que he encontrado es la del tramo más alto: 50 tokens y 700 piedras de mejora por partida.
+Según las guías, las cantidades suben con el nivel del personaje.
 
 ## Las llaves
 
-- Con la membresía, las guías coreanas dan 4 al día y un tope de 28. Sin ella, menos.
-- Las cifras publicadas no coinciden entre sí: he visto de 1 a 4 al día y topes de 4 a 28. El contador de tu cliente es el que manda.
-- No se compran ni se farmean: solo se recargan con el tiempo.
-- Según una de las guías coreanas, con membresía se elige el doble de cartas.
+- **Tres al día.** Es lo que marca mi cliente, no las cuatro de las guías coreanas.
+- **Con la membresía se guardan hasta 21.** Lo dice el propio recuadro de la pantalla.
+- **Se descuentan al recoger un premio** y se recargan solas una vez al día. La cuenta va por servidor.
+- No se compran ni se farmean.
 
 ## La tienda del festival
 
-Se paga con Centuryroot Tokens. Precios publicados a primeros de octubre de 2026; compruébalos en tu tienda antes de ahorrar para algo.
+Se paga con Centuryroot Tokens. Estos precios son los de mi pantalla el 7 de octubre de 2026; están contados con detalle en [la entrada del cuaderno](/es/cuaderno/tienda-shugo-festival/).
 
-| Objeto | Tokens | Qué es |
+| Objeto | Fichas | Límite |
 |---|---|---|
-| **Daevanion Crystal** | 50 | Un punto de Daevanion |
-| **Wisdom Stone** | 350 | Un punto de skill |
-| Soul Codex | 200 | Libro del alma, para el Soul Binding |
-| Soul Crystal | 20 | Tableros de mascotas |
-| Empathy Candy | 20 | Consumible |
-| Herramientas de marco | 50 y 500 | Decoración del Panteón |
-| Pendientes y collares | De 530 a 3.400 | Apariencia |
-| Alas | 2.100, 4.200 y 8.350 | Apariencia |
-| Mascota Wandering Merchant Lugi | 3.600 | Mascota |
-| Conjuntos de apariencia | 5.000 y 24.900 | Apariencia |
+| **Daevanion Crystal** | 50 | 10 por personaje |
+| **Stigma Shard** | 300 | 35 por personaje |
+| Soul Crystal | 50 | 30 al mes |
+| Empathy Candy | 20 | Sin límite a la vista |
+| Radiant Odyle | 1.000 | 3 al mes |
+| Alas | 2.100, 4.200 y 8.350 | Una de cada |
+| Mascota Wandering Merchant Lugi | 3.600 | Una |
+| Cuadros para decorar | 2.000 cada uno | Uno de cada |
+| Apariencias | De 530 a 5.400 | Una de cada |
 
-- **Los consumibles tienen límite de compra.** Por eso van primero: lo estético sigue ahí toda la temporada.
-- En Corea, el precio de las Wisdom Stones y de los cristales se dobla cada cuatro compras. No sé si en el global pasa igual.
-- Una guía cita datos del cliente global según los cuales hay un segundo mercader que cobra en los mismos tokens y vende más baratos los cristales y las Wisdom Stones, también con límite. Si lo encuentras, se compra antes ahí.
+- **No vende Wisdom Stones ni libros del alma**, que es lo que las guías ponían como compra prioritaria. Sí vende fragmentos de estigma.
+- El cristal de Daevanion lleva una etiqueta «Step 1/4»: el precio parece subir por tramos. No lo he comprobado comprando.
+- Una guía cita un segundo mercader más barato que cobra en las mismas fichas. No lo he encontrado.
 
 ## ¿Merece la pena?
 
-Sí. Una partida son cinco minutos, da premio aunque pierdas, y con los tokens se compran puntos de skill y de Daevanion que no dependen de ir más deprisa que nadie. Lo único que hay que vigilar es no malgastar llaves en partidas malas ni dejar que se llenen.
+Sí. Una partida son cinco minutos, da premio aunque pierdas, y con las fichas se compran puntos de Daevanion y fragmentos de estigma, que mientras subes no sobran. Lo único que hay que vigilar es no malgastar llaves en partidas malas ni dejar que se llenen.
 
-## Lo que no he comprobado
+## Lo que he visto yo y lo que no
 
-Todo. No he jugado ninguno todavía. Las reglas y los precios salen de las guías de abajo, que además se contradicen en el horario y en el número de llaves. Cuando lo vea en mi pantalla pasará al cuaderno.
+Visto en mi pantalla: las llaves, el horario, la lista de premios de un minijuego y la tienda entera.
+
+Sin comprobar: las reglas de cada minijuego, que salen de las guías; si los premios suben con el nivel; y cómo sube el precio de los cristales al comprarlos.
