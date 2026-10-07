@@ -18,6 +18,7 @@ const c = counts(list);
     <p class="data">{s.summary(c.total, c.ok, c.open)} · {s.lastOn}: {fmtDate(list[0].data.updated, lang)}</p>
     <p class="note">{s.marginNote}</p>
   </section>
+  <p class="legion-strip"><span class="note">{s.legionNote}</span><span>{s.legionA} <a href={`/${lang}/blacklights/`}>BlackLights</a>{s.legionB}</span></p>
   <section>
     <div class="sec-title"><h2>{s.latest}</h2><a href={`/${lang}/cuaderno/`}>{s.allEntries}</a></div>
     <ul class="cards">{list.slice(0, 6).map((e) => <li><EntryCard entry={e} lang={lang} /></li>)}</ul>

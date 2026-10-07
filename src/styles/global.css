@@ -162,6 +162,8 @@ h1, h2, h3 { font-family: var(--f-head); font-weight: 700; line-height: 1.12; te
 .legion-head { position: relative; }
 .legion-head .note { margin: 1rem 0 0; transform: rotate(-2deg); display: inline-block; }
 .legion-body { margin-top: 1.6rem; }
+.legion-strip { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1rem; max-width: 46rem; margin: 0 0 2.4rem; padding: .8rem 1rem; background: var(--card); border: 1.5px dashed var(--ink); }
+.legion-strip .note { font-size: 1.3rem; transform: rotate(-2deg); }
 
 .ftr { margin-top: 3rem; padding-top: 1rem; font-family: var(--f-data); font-size: .8rem; color: var(--ink-soft); max-width: 46rem; }
 [hidden] { display: none !important; }
