@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LANGS, type Lang } from '../../i18n/langs';
+import { t } from '../../i18n/strings';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+---
+<Base lang={lang} title="BlackLights, legión elyos en español en Nezekan" description="BlackLights es una legión elyos de habla española en el servidor Nezekan de Europa de AION 2. Cómo es y cómo entrar." ogImage={`/og/${lang}/blacklights.jpg`}>
+  <header class="page-head legion-head">
+    <p class="kicker">Legión · AION 2 global</p>
+    <h1><span class="hl">BlackLights</span>: legión elyos en español, en Nezekan</h1>
+    <p class="lead">Si juegas AION 2 en español, eres elyos y estás en Europa, aquí hay sitio.</p>
+    <p class="note">¡Buscamos gente!</p>
+  </header>
+  <dl class="ficha">
+    <div><dt>Facción</dt><dd>Elyos</dd></div>
+    <div><dt>Servidor</dt><dd>Nezekan</dd></div>
+    <div><dt>Región</dt><dd>Europa</dd></div>
+    <div><dt>Idioma</dt><dd>Español</dd></div>
+  </dl>
+  <div class="plain legion-body"><div class="prose">
+    <h2>Qué es</h2>
+    <p>BlackLights es una legión de habla española del bando elyos. Juega en Nezekan, uno de los servidores de Europa que abrieron con el acceso anticipado de AION 2.</p>
+    <h2>Cómo entrar</h2>
+    <p>Crea tu personaje elyos en Nezekan, en la región de Europa, y escribe por susurro a <strong>Gerlari</strong> dentro del juego. Te pongo en contacto con quien lleva la legión.</p>
+    <h2>Si ya juegas en otro servidor</h2>
+    <p>La legión está en Nezekan, y en AION 2 cada servidor es de un solo bando. Si ya tienes personaje en otro, NCSOFT anunció que las transferencias entre servidores llegarán el 13 de octubre de 2026 como tarde. Mientras tanto, las mazmorras y el resto del contenido instanciado ya se juegan entre servidores, así que podemos coincidir antes de que te cambies.</p>
+    <h2>Contra quién jugamos</h2>
+    <p>Cada servidor elyos se empareja con uno asmodiano para el Abismo y las grietas. A Nezekan le toca Zikel, según la lista oficial del 6 de octubre de 2026. NCSOFT cambia los emparejamientos cada cierto tiempo.</p>
+    <h2>Quién escribe esto</h2>
+    <p>Gerlari, Gladiator, miembro de BlackLights. No dirijo la legión: llevo este cuaderno y juego en ella.</p>
+  </div></div>
+  <aside class="aside">
+    <h2>{s.sources}</h2>
+    <ul>
+      <li><a href="https://aion2.plaync.com/en-us/board/notice/view?articleId=6ac10581a279104f7d9d5f4c" rel="noopener">New Server and Matchmaking Information</a> <span class="lang">· NCSOFT · inglés</span></li>
+      <li><a href="https://aion2.plaync.com/en-us/board/notice/view?articleId=6abd2d50a279104f7d9d5ee2" rel="noopener">Information on Server Transfer</a> <span class="lang">· NCSOFT · inglés</span></li>
+    </ul>
+  </aside>
+  <p class="signed">{s.signed}</p>
+</Base>
