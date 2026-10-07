@@ -34,7 +34,7 @@ Tampoco era que la gráfica se quedase sin memoria. Con la sincronización puest
 
 Encaja con dos pistas que ya había. Pasaba al salir de los menús, que es cuando los fotogramas cambian de golpe. Y el primer día se calmó al limitar los fotogramas. Las dos cosas tienen que ver con cómo se presentan las imágenes en pantalla, no con cuánto trabaja la gráfica.
 
-Hasta dónde llega esto: es una tarde de juego, no una semana. El controlador nuevo, por sí solo, no bastó: con él y la sincronización puesta se colgó tres veces. Y es este equipo, con un monitor compatible con FreeSync de 48 a 165 Hz. En otro puede no ser así.
+Hasta dónde llega esto: es una tarde de juego, no una semana. El controlador nuevo, por sí solo, no bastó: con él y la sincronización puesta se colgó tres veces. Y es este equipo, con un monitor con FreeSync de 48 a 165 Hz y la opción de FreeSync en «AMD Optimized» en el programa de AMD. En otro puede no ser así.
 
 ## Qué hacer
 
