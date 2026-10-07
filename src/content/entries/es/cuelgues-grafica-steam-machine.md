@@ -9,7 +9,9 @@ rig: { machine: Steam Machine, os: Windows 11, gpu: 8 GB, display: 3840×2160 }
 firstHand: true
 sources:
   - { title: 'Crashes all day — foro de AION 2 en Steam', url: 'https://steamcommunity.com/app/3393110/discussions/6/583935635494121453/', lang: en }
-updated: 2026-10-05
+history:
+  - { date: 2026-10-07, note: 'Los cierres volvieron el 6 y el 7 de octubre. Enlazada la entrada que cuenta lo que los paró.' }
+updated: 2026-10-07
 translationKey: cuelgues-grafica-steam-machine
 ---
 
@@ -27,6 +29,8 @@ Lo único que cambié antes de que parase fue limitar a 45 fotogramas. La causa 
 
 Un efecto aparte: con las texturas en media, las del personaje se quedaban borrosas al bajar de la montura o al tabular. En alta no pasa.
 
+**Añadido el 7 de octubre:** el límite de fotogramas no fue suficiente. Los cierres volvieron los dos días siguientes y lo que los paró fue apagar la sincronización vertical. Está contado en [la entrada del 7 de octubre](/es/cuaderno/cuelgues-sincronizacion-vertical/).
+
 ## Qué hacer
 
-Si se te cierra al abrir menús, pon un límite de fotogramas antes de tocar nada más. Deja las texturas en alta si tu gráfica lo aguanta, y baja el FSR en lugar de la calidad.
+Si se te cierra al abrir menús, apaga primero la sincronización vertical y pon después un límite de fotogramas. Deja las texturas en alta si tu gráfica lo aguanta, y baja el FSR en lugar de la calidad.
