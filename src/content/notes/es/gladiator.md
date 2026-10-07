@@ -159,7 +159,7 @@ Lo que he visto en mi pantalla alrededor del centro, pasando el ratón:
 | 7, 8 | **Murderous Burst +1** | 2 |
 | 5, 7 | HP +100 | 1 |
 
-Destructive Impulse es la pasiva que algunas guías llaman «Impact Hit». El orden de aion2-meta para los primeros nodos de Zikel es Attack, Defense, Critical Hit, Experienced Counterstrike +1, Attack, HP, Sword Aura Rampage +1, Defense, Impact Hit +1, Attack, Ruinous Blow +1 y Defense.
+Destructive Impulse e Impact Hit son dos pasivas distintas; las dos tienen nodo en este tablero. El orden de aion2-meta para los primeros nodos de Zikel es Attack, Defense, Critical Hit, Experienced Counterstrike +1, Attack, HP, Sword Aura Rampage +1, Defense, Impact Hit +1, Attack, Ruinous Blow +1 y Defense.
 
 Entre 150 Gladiators punteros medidos por metabot, los nodos de skill que casi todos cogen son Overhead Slam +1 y Rending Blow +1 en Nezekan (98 % y 97 %), y Rending Blow, Overhead Slam y Ruinous Blow en Zikel (96 %, 95 % y 93 %).
 
