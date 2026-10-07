@@ -49,6 +49,7 @@ export const GLOSARIO: { en: string; es: string }[] = [
   { en: "Ascension Trial", es: "Prueba de ascenso" },
   { en: "Unknown Fissure", es: "Fisura desconocida" },
   { en: "Supply Requests", es: "Solicitudes de suministros" },
+  { en: "Supply Request", es: "Solicitudes de suministros" },
   { en: "Daeva Pass", es: "Pase Daeva" },
   { en: "Dawn Legion", es: "Legión del Alba" },
   { en: "Pass Shop", es: "Tienda de pase" },
