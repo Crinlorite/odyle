@@ -10,6 +10,45 @@ sources:
   - { title: 'AION 2 Cleric, skills del cliente global — metabot', url: 'https://metabot.gg/en/aion-2/classes/cleric', lang: en }
   - { title: 'Guía PvE de Cleric tras el parche del 22 de abril — Inven', url: 'https://www.inven.co.kr/board/aion2/6452/19538', lang: ko }
   - { title: 'Cleric de cero a Sanctuary — foro de AION2 en Bahamut', url: 'https://forum.gamer.com.tw/C.php?bsn=82913&snA=3303', lang: zh }
+  - { title: 'Clérigo, nombres de las skills con el cliente en español — metabot', url: 'https://metabot.gg/es/aion-2/classes/cleric', lang: es }
+glossary:
+  - { en: "Cleric", es: "Clérigo" }
+  - { en: "Chanter", es: "Cantor" }
+  - { en: "Earth's Retribution", es: "Retribución terrestre" }
+  - { en: "Judgment Thunder", es: "Rayo del juicio" }
+  - { en: "Debilitating Mark", es: "Estigma debilitante" }
+  - { en: "Divine Aura", es: "Aura divina" }
+  - { en: "Chain of Torment", es: "Enlace de dolor" }
+  - { en: "Lightning Strike Scattershot", es: "Relámpagos sin puntería" }
+  - { en: "Light of Regeneration", es: "Luz de regeneración" }
+  - { en: "Condemnation", es: "Condena" }
+  - { en: "Healing Light", es: "Luz de curación" }
+  - { en: "Radiant Recovery", es: "Resplandor de recobro" }
+  - { en: "Bolt", es: "Centella" }
+  - { en: "Defiance", es: "Eliminación de impacto" }
+  - { en: "Warm Benediction", es: "Favor cálido" }
+  - { en: "Empyrean Lords' Benediction", es: "Favor empíreo" }
+  - { en: "Empyrean Lord's Grace", es: "Gracia empírea" }
+  - { en: "Healing Enhancement", es: "Mejora curativa" }
+  - { en: "Immortal Veil", es: "Velo inmortal" }
+  - { en: "Heal Block", es: "Bloqueo de recuperación" }
+  - { en: "Prayer of Concentration", es: "Oración de concentración" }
+  - { en: "Earth's Grace", es: "Gracia terrestre" }
+  - { en: "Survival Willpower", es: "Voluntad de supervivencia" }
+  - { en: "Radiant Benediction", es: "Favor radiante" }
+  - { en: "Light of Protection", es: "Luz de protección" }
+  - { en: "Noble Aura", es: "Aura noble" }
+  - { en: "Earth Punishment", es: "Castigo terrestre" }
+  - { en: "Summon Resurrection", es: "Resurrección de invocación" }
+  - { en: "Voice of Doom", es: "Voz de perdición" }
+  - { en: "Power Burst", es: "Explosión de poder" }
+  - { en: "Absolution", es: "Absolución" }
+  - { en: "Salvation", es: "Salvación" }
+  - { en: "Assault Mark", es: "Estigma de agresión" }
+  - { en: "Benevolence", es: "Poder de vida" }
+  - { en: "Root", es: "Atadura" }
+  - { en: "Prayer of Amplification", es: "Oración de amplificación" }
+  - { en: "Yustiel's Power", es: "Poder de Yustiel" }
 translationKey: cleric
 ---
 
@@ -30,7 +69,7 @@ Un detalle que cambia cómo se juega: la élite coreana no lo lleva a curar y es
 
 Con eso se llega a nivel 45. Lo demás de esta página es para afinar.
 
-Los nombres son los del juego en inglés. Si lo tienes en otro idioma, se llaman distinto.
+Los nombres salen como en el juego en inglés. Si lo tienes en español, usa el botón de arriba: cambia cada skill a su nombre en español.
 
 ## Los botones
 

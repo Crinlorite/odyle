@@ -28,7 +28,45 @@ const { Content } = await render(note);
       </dl>
     </header>
     <p class="warn">Esto es un apunte mío, no una entrada del cuaderno. No lo he comprobado en el cliente global: es lo que sigo mientras juego, sacado de las fuentes de abajo. Lo que vaya confirmando pasará al cuaderno.</p>
+    {d.glossary.length > 0 && (
+      <p class="glos" id="glos" hidden>
+        <button type="button" id="glos-btn" aria-pressed="false">Ver los nombres en español</button>
+        <span>Las skills salen con el nombre del juego en inglés. El botón las cambia a como aparecen con el juego en español.</span>
+      </p>
+    )}
     <div class="plain"><div class="prose"><Content /></div></div>
+    {d.glossary.length > 0 && (
+      <script is:inline define:vars={{ pairs: d.glossary }}>
+        (function () {
+          var box = document.getElementById('glos'), btn = document.getElementById('glos-btn');
+          if (!box || !btn) return;
+          var art = box.closest('article');
+          var esc = function (s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/['\u2019]/g, "['\u2019]"); };
+          var key = function (s) { return s.replace(/\u2019/g, "'").toLowerCase(); };
+          var sorted = pairs.slice().sort(function (a, b) { return b.en.length - a.en.length; });
+          var map = {}; sorted.forEach(function (p) { map[key(p.en)] = p.es; });
+          var src = '(^|[^A-Za-z\u00C0-\u00FF])(' + sorted.map(function (p) { return esc(p.en); }).join('|') + ')(?![A-Za-z\u00C0-\u00FF])';
+          var re = new RegExp(src, 'g'), probe = new RegExp(src);
+          var nodes = [], w = document.createTreeWalker(art, NodeFilter.SHOW_TEXT);
+          while (w.nextNode()) {
+            var n = w.currentNode, pa = n.parentElement;
+            if (!pa || pa.closest('.aside, script, style, #glos')) continue;
+            if (probe.test(n.nodeValue)) nodes.push({ n: n, en: n.nodeValue, es: n.nodeValue.replace(re, function (m, pre, term) { return pre + (map[key(term)] || term); }) });
+          }
+          function set(es, save) {
+            nodes.forEach(function (o) { o.n.nodeValue = es ? o.es : o.en; });
+            btn.setAttribute('aria-pressed', es ? 'true' : 'false');
+            btn.textContent = es ? 'Ver los nombres en inglés' : 'Ver los nombres en español';
+            if (save) { try { localStorage.setItem('odyle-nombres', es ? 'es' : 'en'); } catch (e) {} }
+          }
+          var q = new URLSearchParams(location.search).get('nombres'), saved = null;
+          try { saved = localStorage.getItem('odyle-nombres'); } catch (e) {}
+          box.hidden = false;
+          set(q ? q === 'es' : saved === 'es', false);
+          btn.addEventListener('click', function () { set(btn.getAttribute('aria-pressed') !== 'true', true); });
+        })();
+      </script>
+    )}
     <div class="aside">
       <h2>{s.sources}</h2>
       <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a> <span class="lang">[{src.lang}]</span></li>)}</ul>
