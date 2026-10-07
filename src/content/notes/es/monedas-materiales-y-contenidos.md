@@ -10,6 +10,8 @@ sources:
   - { title: 'Currencies — metabot', url: 'https://metabot.gg/en/aion-2/currencies', lang: en }
   - { title: 'Shugo Festival, nodos de Daevanion y puntos de skill — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311592&site=aion2', lang: ko }
   - { title: 'AION 2 Shugo Festival Guide, Mini-Games, Keys and Shop — aion2.help', url: 'https://www.aion2.help/guide/treegu-festival', lang: en }
+  - { title: 'Abyss Supply Request Guide — game8', url: 'https://game8.co/games/Aion-2/archives/629071', lang: en }
+  - { title: 'Cómo reconocer los objetos de los encargos de suministros — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/439', lang: ko }
 translationKey: monedas-materiales-y-contenidos
 ---
 
@@ -63,6 +65,23 @@ Las alas y las apariencias dan estadísticas permanentes solo por tenerlas.
 | **Ascension Trials** | Semanal | Progreso del Daevanion |
 
 Las recargas y los topes de cada uno están en [el apunte de la temporada 1](/es/apuntes/temporada-1-del-global/).
+
+## Supply Requests
+
+Se abren a nivel 25. Son encargos de entrega: das objetos que ya tienes (equipo, materiales, consumibles) y te pagan en Abyss Points y, muchas veces, en piedras de mejora. Es la primera forma de juntar Abyss Points sin hacer PvP, bastante antes de que se abra el Abismo a nivel 45.
+
+Se entra desde el menú principal, con Esc. Hay cuatro tipos:
+
+| Tipo | Qué piden |
+|---|---|
+| **Emergency Request** | Equipo, materiales y consumibles corrientes |
+| **Weekly Request** | Más cantidad, a cambio de más premio |
+| **Regular: Crafting Request** | Objetos fabricados |
+| **Regular: Boss Request** | Equipo que sueltan jefes concretos |
+
+- Lo que entregas se consume. Antes de dar una pieza, mira que no la necesites para otra cosa.
+- Los de urgencia y los semanales se cubren con equipo repetido; con los de fabricación hay que hacer cuentas, porque los materiales pueden valer más que el premio.
+- Según un consejo de los foros coreanos, los objetos que pide algún encargo llevan una marca de interrogación en el inventario. Conviene mirarlo antes de extraer equipo viejo.
 
 ## Shugo Festival
 
