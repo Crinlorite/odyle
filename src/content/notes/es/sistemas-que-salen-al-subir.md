@@ -2,7 +2,7 @@
 title: Los sistemas que te salen al paso mientras subes
 description: Monolito y plumas, equipo que no se vende, inventario, Odyle Energy y pases, explicado en corto para no perderse los primeros días.
 basis: Guías con datos del cliente global y lo visto en mi pantalla
-updated: 2026-10-06
+updated: 2026-10-07
 sources:
   - { title: 'AION 2 Monoliths, Permanent Stats & Trace Levels — metabot', url: 'https://metabot.gg/en/aion-2/monoliths', lang: en }
   - { title: 'Monolith Guide — game8', url: 'https://game8.co/games/Aion-2/archives/628125', lang: en }
@@ -66,6 +66,8 @@ Se recarga sola, 15 cada 3 horas, y acumula hasta 560, o 840 con membresía. Lo 
 | Tope semanal | 50.000 | 15.000 |
 
 Estos números los he visto en mi pantalla. La experiencia se gana jugando, sin hacer nada especial. Comprar niveles sueltos cuesta 50 Quna cada uno.
+
+La comparación completa está en [la entrada de los dos pases](/es/cuaderno/dos-pases-temporada-1/), y el resto de la tienda en [el apunte de la tienda de pago](/es/apuntes/tienda-de-pago/).
 
 ## Lo que he visto yo y lo que no
 
