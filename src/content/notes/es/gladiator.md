@@ -84,6 +84,7 @@ Llevar una skill a 8 son 13 puntos; a 10, 21. Subiendo a nivel 45 se ganan 203, 
 - Al principio los puntos van a Rending Blow y Keen Strike, porque son las únicas que hay.
 - Las pasivas del paso 5 se suben en cuanto se aprenden (niveles 13, 21 y 25).
 - Las activas de persecución solo importan en PvP.
+- Ya a nivel 45 no hay ninguna skill «menor». Entre los mejores Gladiators que mide metabot, casi todos llevan también **Impact Hit** (13,3 de media), **Blood Absorption** (12,8), **Survival Stance** (12,5), Survival Willpower (10,1), Destructive Impulse (9,8) y Protection Armor (7,9), contando lo que suman Daevanion y equipo. De las activas, Leaping Slam (12,3), Rush Strike (11,5), Sword Aura Rampage (11) y Ankle Slice (10,3). Al llegar a 45, los puntos que sobren van a estas.
 - El juego deja guardar tres configuraciones de skills. Lo he visto en mi pantalla; me falta probar qué guarda cada una.
 
 ## Especializaciones
