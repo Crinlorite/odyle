@@ -52,12 +52,12 @@ Cada servidor es de un solo bando, y a cada uno le toca otro del bando contrario
 - Las transferencias entre servidores del mismo bando empiezan el 14 de octubre de 2026 y al principio son gratis. El aviso pone restricciones entre los servidores del acceso anticipado y los del lanzamiento: conviene leerlo antes de contar con ello.
 - Las mazmorras y el resto del contenido instanciado se juegan entre servidores.
 
-Los cortes se anuncian en las noticias de AION 2 en Steam y en el tablón oficial, y el aviso se actualiza cuando vuelven los servidores. Los que llevamos:
+Los cortes se anuncian en las noticias de AION 2 en Steam y en el tablón oficial. La vuelta no siempre: el 8 de octubre los servidores volvieron sin que el aviso cambiara, así que lo seguro es probar a entrar. Los que llevamos:
 
 | Fecha | Qué pasó | Duración |
 |---|---|---|
 | 7-oct-2026 | Mantenimiento con parche, desde las 08:30 (hora de España) | 3 h 30 min en Europa; 5 h 30 min en Asia |
-| 8-oct-2026 | Caída del servicio en la nube que usa NCSOFT en los 22 servidores europeos, de los dos bandos. Aviso a las 12:43 (hora de España) | Sin hora de vuelta en el aviso |
+| 8-oct-2026 | Caída del servicio en la nube que usa NCSOFT en los 22 servidores europeos, de los dos bandos. Aviso a las 12:43 (hora de España) | Más de dos horas y veinte: a las 15:07 ya se podía entrar en Nezekan. NCSOFT no avisó de la vuelta |
 
 ## Qué se abre a cada nivel
 
