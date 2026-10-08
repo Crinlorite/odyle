@@ -2,7 +2,7 @@
 title: La temporada 1 del global, qué trae y qué no
 description: Qué versión juega el servidor global, fechas, qué se abre a cada nivel, cómo funciona lo diario y lo semanal, y qué se espera por lo que pasó en Corea.
 basis: Guías hechas con los datos del cliente global, prensa coreana y un hilo taiwanés
-updated: 2026-10-07
+updated: 2026-10-08
 sources:
   - { title: 'Aion 2 Season 1, Dates, Weekly Reset and What Unlocks When — aion2-meta', url: 'https://aion2-meta.com/guides/season-1/', lang: en }
   - { title: 'Aion 2 Daily and Weekly Checklist — aion2-meta', url: 'https://aion2-meta.com/guides/activities/', lang: en }
@@ -14,6 +14,8 @@ sources:
   - { title: 'Hoja de ruta de la temporada 2 en Corea — NC', url: 'https://about.ncsoft.com/news/article/aion2_update_260107', lang: ko }
   - { title: 'New Server and Matchmaking Information — NCSOFT', url: 'https://aion2.plaync.com/en-us/board/notice/view?articleId=6ac10581a279104f7d9d5f4c', lang: en }
   - { title: 'Information on Server Transfer — NCSOFT', url: 'https://aion2.plaync.com/en-us/board/notice/view?articleId=6abd2d50a279104f7d9d5ee2', lang: en }
+  - { title: 'Maintenance, Oct. 6 (PDT) / Oct. 7 (CEST) — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/712288224875120804', lang: en }
+  - { title: 'EU servers affected by cloud service outage (Oct 8) — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/712288859283522475', lang: en }
 translationKey: temporada-1-del-global
 ---
 
@@ -49,6 +51,13 @@ Cada servidor es de un solo bando, y a cada uno le toca otro del bando contrario
 - En la lista oficial del 6 de octubre de 2026, al servidor elyos Nezekan de Europa le toca el asmodiano Zikel.
 - Las transferencias entre servidores del mismo bando empiezan el 14 de octubre de 2026 y al principio son gratis. El aviso pone restricciones entre los servidores del acceso anticipado y los del lanzamiento: conviene leerlo antes de contar con ello.
 - Las mazmorras y el resto del contenido instanciado se juegan entre servidores.
+
+Los cortes se anuncian en las noticias de AION 2 en Steam y en el tablón oficial, y el aviso se actualiza cuando vuelven los servidores. Los que llevamos:
+
+| Fecha | Qué pasó | Duración |
+|---|---|---|
+| 7-oct-2026 | Mantenimiento con parche, desde las 08:30 (hora de España) | 3 h 30 min en Europa; 5 h 30 min en Asia |
+| 8-oct-2026 | Caída del servicio en la nube que usa NCSOFT en los 22 servidores europeos, de los dos bandos. Aviso a las 12:43 (hora de España) | Sin hora de vuelta en el aviso |
 
 ## Qué se abre a cada nivel
 
