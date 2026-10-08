@@ -2,7 +2,7 @@
 title: Gladiator en PvE, qué subir y en qué orden
 description: Mi chuleta del Gladiator, puntos de skill, especializaciones, estigmas, Daevanion y rotación, según lo que llevan los mejores jugadores coreanos.
 basis: Datos de jugadores coreanos, tablas del cliente global y una guía taiwanesa
-updated: 2026-10-07
+updated: 2026-10-08
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (8.459 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -101,8 +101,13 @@ Por encima de 10 ya no se sube con puntos, sino con Daevanion, cartas Arcana y e
 | **Crushing Wave** | **Roba 2 % de vida** · 50 de maná por crítico · hasta +20 % con más objetivos | Se reinicia con cada crítico | 50 % de arrastrar |
 | **Leaping Slam** | Prepare for Battle 3 s · 50 % de lanzar Ankle Slice · **se reinicia al matar** | +20 % de aguante PvE 3 s | Pasa a ser de área y atrae |
 | **Rush Strike** | 300 de aguante al acertar · **+10 m de alcance** · carga con daño en área | −10 s de recarga | +25 % de derribo |
+| Mocking Blade | Roba 4 % de vida y un 15 % de la del objetivo (el final sale cortado) · pasa a ser de área con el objetivo derribado · añade 2 golpes | +1 s de derribo | Ignora bloqueo y evasión (cortado) |
+| Sword Aura Rampage | Roba 5 % de vida · recupera 120 de maná · usable en movimiento | Golpe múltiple al acertar | −1 s a la recarga de todas las skills al acertar |
+| Ankle Slice | 30 % de derribar 3 s · añade la cadena Ankle Smash · +16 m de alcance | Ignora bloqueo y evasión | 25 % de reiniciar su recarga |
+| Aerial Snare | Golpe múltiple al acertar · +25 % de lanzar por los aires · +100 % de daño a objetivos incapacitados | Añade la cadena Forced Fall | −50 % de recarga |
+| Defiance | Añade la cadena Wrath Burst · recupera 1000 de aguante al usarla · recupera 20 % de vida al usarla | +2 s de Tenacity | +50 % de aguante PvE y algo más (cortado) |
 
-En negrita, lo que eligen para subir de nivel los creadores y los foros coreanos. En el final de juego la élite cambia varias: en Rending Blow lleva movimiento, bloqueo y el maná por crítico; en Overhead Slam, la cadena y las dos de nivel 12 y 16.
+Las cinco últimas filas las he copiado de mi pantalla el 8 de octubre de 2026; para esas no he encontrado qué eligen los demás. En negrita, lo que eligen para subir de nivel los creadores y los foros coreanos. En el final de juego la élite cambia varias: en Rending Blow lleva movimiento, bloqueo y el maná por crítico; en Overhead Slam, la cadena y las dos de nivel 12 y 16.
 
 Las de «+X % de probabilidad» de aplicar un estado no valen nada en PvE, porque contra un monstruo el estado entra siempre.
 
