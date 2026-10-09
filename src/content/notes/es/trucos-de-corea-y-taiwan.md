@@ -12,6 +12,11 @@ sources:
   - { title: 'Hidden Cubes, datos del cliente global — metabot', url: 'https://metabot.gg/en/aion-2/hidden-cubes', lang: en }
   - { title: 'El cubo oculto, mejor con llave — Inven', url: 'https://www.inven.co.kr/board/aion2/6493/15', lang: ko }
   - { title: 'Mascotas y comprensión de razas — GamePle', url: 'https://www.gameple.co.kr/news/articleView.html?idxno=214601', lang: ko }
+  - { title: '22 Things Aion 2 Doesn’t Tell You (cliente global) — Daeva Guides', url: 'https://daevaguides.com/en/guides/things-the-game-doesnt-tell-you/', lang: en }
+  - { title: 'Pequeños puntos del juego: berserk, Stagger y marcas — foro de AION2 en Bahamut', url: 'https://forum.gamer.com.tw/C.php?bsn=82913&snA=1784', lang: zh }
+  - { title: 'Ocho claves que marcan la diferencia tras el nivel máximo — PlayForum', url: 'https://www.playforum.net/news/curationView.html?idxno=633249', lang: ko }
+  - { title: 'Ya soy 45, ¿y ahora? Guía para subir el poder — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311565&site=aion2', lang: ko }
+  - { title: 'Endgame: consejos de equipo, progresión e item level — MeinMMO', url: 'https://mein-mmo.de/aion2-endgame-tipps/2/', lang: de }
 translationKey: trucos-de-corea-y-taiwan
 ---
 
@@ -87,6 +92,38 @@ Los coreanos lo llaman el trabajo de fondo definitivo, y dan un consejo: no gast
 - Con golpear a un enemigo ya te cuenta para la misión, aunque lo mate otro.
 - Borrar un personaje deja el hueco bloqueado siete días.
 - Al crear un personaje no se puede comprobar antes si el nombre está libre.
+
+## Ya en el nivel 45
+
+**En los jefes:**
+- El círculo debajo de la barra de vida del jefe es la cuenta atrás del berserk: empieza a girar al empezar la pelea.
+- La barra verde azulada es la de Stagger. Lo que la llena es un valor fijo de cada skill, no el daño: un grupo con más daño no la llena antes. Los estados como dormir o inmovilizar no cuentan, porque los jefes son inmunes.
+- Si te inmovilizan, sale un aviso para soltarte con la barra espaciadora. Su recarga se ve abajo en el centro.
+- La estrella blanca y roja junto a la barra de vida de un jefe o de un compañero pone una marca.
+- Según un hilo taiwanés, matar a los dos primeros jefes de una expedición mejora lo que sale del cubo del final. El botín que cae directamente del último jefe se puede comerciar; el del cubo, no.
+
+**Pociones:**
+- La Superior Life Potion cura un 10 % de vida en 10 segundos; la normal, un 5 %.
+- El uso automático se ajusta en Settings → Combat → Auto-use, «Auto Use HP Condition». Por defecto salta al 70 %.
+- La Healing Potion no cura vida: quita un estado negativo. Se guarda para jefes que los ponen.
+
+**Equipo:**
+- Los objetos dorados no se extraen: sirven para volver a tirar líneas del Soul Binding. Hay que quitarlos de la extracción rápida.
+- Antes de un Substance Morph, quita la pieza de todos los conjuntos de equipo guardados.
+- Extraer una pieza destruye las Manastones que lleve.
+- Cada fortaleza da 2 pergaminos de cinturón y es la única fuente. Los del amuleto salen de los niveles del Monolito.
+- Una Clash Rune de misión no se pasa de +1.
+
+**Límites y entradas:**
+- Las Duty Quests, las llaves del Shugo Festival y las entradas de la Unknown Fissure van por servidor, no por personaje. Se gastan con el personaje principal.
+- Nightmare solo gasta el intento cuando matas al jefe: se puede entrar a aprender la pelea.
+- Ascension Trial lo gasta al entrar.
+- Según Daeva Guides, las mazmorras selladas de la facción contraria no dan cristales de Daevanion en el global.
+- Según MeinMMO, entre todas las mazmorras selladas se pueden juntar hasta 360 puntos de Daevanion.
+- En Corea dicen que las mazmorras selladas se ajustan a tu nivel, y que compensa dejar las que queden para después del 45.
+- El título de Daevanion sube estadísticas, pero no el poder de combate.
+
+**Ojo con las guías:** Daeva Guides da 3 llaves del Shugo Festival al día con tope de 12, y especializaciones a nivel 8, 12 y 20 de skill. En mi cliente eran 21 llaves con membresía, y la tercera especialización de Keen Strike sale a 16.
 
 ## Y las rarezas
 

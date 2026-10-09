@@ -15,6 +15,8 @@ sources:
   - { title: 'Gear score guide: every item level threshold — corpus.gg', url: 'https://corpus.gg/blog/aion-2/gear-score-guide', lang: en }
   - { title: 'Gear Progression: Level 45 Upgrade Order — metabot', url: 'https://metabot.gg/en/aion-2/guides/gear-progression-guide', lang: en }
   - { title: 'Del 1.000 al 2.300: ruta rápida — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311942&site=aion2', lang: ko }
+  - { title: 'Endgame: consejos de equipo, progresión e item level — MeinMMO', url: 'https://mein-mmo.de/aion2-endgame-tipps/2/', lang: de }
+  - { title: 'Kampfrunen: cómo conseguirlas y equiparlas — playnews', url: 'https://www.playnews.gg/de/guides/aion-2-kampfrunen-wie-erhalt-und-rustet-man-sie-aus', lang: de }
 translationKey: del-45-a-los-1000
 ---
 
@@ -47,7 +49,8 @@ La Kina se va deprisa. En un día de mejorar, grabar y Soul Binding pasé de 2,1
 
 Sin comprobar todavía en mi cliente:
 
-- **Clash Runes.** Hay dos huecos de runa y cada una suma 40, según corpus.gg. Salen de cofres de misiones regionales. Pasar a +1 no falla; a +2 hay un 80 %, y si falla la runa puede romperse.
+- **Cómo se cuenta.** Según una guía en inglés, el nivel de objeto total es la suma de los 20 huecos de equipo: con todos a nivel 45 se llega a 900, y los últimos 100 salen de Daevanion, runas y mejoras. Por eso compensa cambiar primero la pieza de nivel más bajo.
+- **Clash Runes.** Hay dos huecos de runa y cada una suma 40, según corpus.gg. Según MeinMMO, la primera llega al terminar la historia y otras dos salen de cofres de misiones regionales; para los Elyos, de Verteron: Cursed Blue Mineral (30), Zumion's Call Part Two (37), Kraka Pond Pests (45) y All Work and No Play (45). Pasar a +1 no falla. Más arriba hay riesgo de romperla: unas guías dicen desde +2 y otras desde +3.
 - **Cinturón y amulete.** Empiezan raros, de nivel 13. Al llegar a +10 se transforman con Substance Morph en épicos de 36, y otra vez a +10 en únicos de 65 (metabot). El cinturón se sube con pergaminos de las fortalezas y el amulete con los de las plumas.
 - **Piezas de paso de nivel 46:** los conjuntos de élites con nombre de los mapas de casa (metabot).
 - **Fabricar una pieza True Dragon Lord**, de nivel 62 (metabot).
@@ -66,6 +69,10 @@ Sin comprobar todavía en mi cliente:
 | Extraer piezas viejas | Las piedras que llevaban, sin la Kina | No |
 
 Según metabot, el modo Conquest de Draupnir garantiza un Gear Change Voucher a las 14 partidas y una Sync Stone a las 28.
+
+## Lo que se abre a 1.000
+
+Además del Abismo y de Ascension Trial, según MeinMMO y gamesfuze, a 1.000 se abre el modo Nightmare, que da material para más Clash Runes.
 
 ## Arcana, todavía no
 

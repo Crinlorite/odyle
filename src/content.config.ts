@@ -18,7 +18,7 @@ const entries = defineCollection({
       client: z.literal('global').default('global'),
       changedAt: z.coerce.date().optional(),
       changedNote: z.string().optional(),
-      sources: z.array(z.object({ title: z.string(), url: z.url(), lang: z.enum(['es', 'en', 'ko', 'zh']) })).default([]),
+      sources: z.array(z.object({ title: z.string(), url: z.url(), lang: z.enum(['es', 'en', 'ko', 'zh', 'ja', 'de', 'fr', 'pt', 'ru', 'tr', 'ar']) })).default([]),
       firstHand: z.boolean().default(false),
       history: z.array(z.object({ date: z.coerce.date(), note: z.string() })).default([]),
       cover: z.string().startsWith('/capturas/').optional(),
@@ -45,7 +45,7 @@ const notes = defineCollection({
     description: z.string().max(170),
     basis: z.string(),
     updated: z.coerce.date(),
-    sources: z.array(z.object({ title: z.string(), url: z.url(), lang: z.enum(['es', 'en', 'ko', 'zh']) })).min(1),
+    sources: z.array(z.object({ title: z.string(), url: z.url(), lang: z.enum(['es', 'en', 'ko', 'zh', 'ja', 'de', 'fr', 'pt', 'ru', 'tr', 'ar']) })).min(1),
     // Nombres del juego en inglés y cómo salen con el cliente en español: la página enseña un botón para cambiarlos.
     glossary: z.array(z.object({ en: z.string(), es: z.string() })).default([]),
     translationKey: z.string(),
