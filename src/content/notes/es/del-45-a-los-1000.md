@@ -12,6 +12,9 @@ sources:
   - { title: 'AION 2 Arcana Guide — metabot', url: 'https://metabot.gg/en/aion-2/guides/arcana-guide', lang: en }
   - { title: 'AION 2 Ascension Trial Guide — gamesfuze', url: 'https://gamesfuze.com/guides/aion-2-ascension-trial-guide/', lang: en }
   - { title: 'Enhancement Calculator — metabot', url: 'https://metabot.gg/en/aion-2/enhancement', lang: en }
+  - { title: 'Gear score guide: every item level threshold — corpus.gg', url: 'https://corpus.gg/blog/aion-2/gear-score-guide', lang: en }
+  - { title: 'Gear Progression: Level 45 Upgrade Order — metabot', url: 'https://metabot.gg/en/aion-2/guides/gear-progression-guide', lang: en }
+  - { title: 'Del 1.000 al 2.300: ruta rápida — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311942&site=aion2', lang: ko }
 translationKey: del-45-a-los-1000
 ---
 
@@ -27,7 +30,7 @@ Comprobado en mi pantalla:
 - **El primer grabado de Manastone de cada pieza.** Una vez cada pieza: de 726 a 800.
 - **Equipar piezas mejores.** Las doradas de Bakarma, de Draupnir, son únicas de nivel 54.
 
-Lo que **no** lo sube: volver a grabar Manastones y el Soul Binding. Mejoran estadísticas, pero el número se queda igual ([la entrada](/es/cuaderno/primer-grabado-de-manastone-sube-nivel/)).
+Lo que **no** lo sube: el Soul Binding. Volver a grabar Manastones tampoco me lo subió, pero las líneas salieron del mismo color; según corpus.gg, cada línea suma 1 si es gris, 2 si es verde y 3 si es azul ([la entrada](/es/cuaderno/primer-grabado-de-manastone-sube-nivel/)).
 
 Según las guías, también suma cada cristal de Daevanion gastado.
 
@@ -39,6 +42,17 @@ Según las guías, también suma cada cristal de Daevanion gastado.
 4. **Antes de extraer** una pieza vieja, mira la pestaña Transfer.
 
 La Kina se va deprisa. En un día de mejorar, grabar y Soul Binding pasé de 2,1 millones a 300.000.
+
+## Lo que más sube, según las guías
+
+Sin comprobar todavía en mi cliente:
+
+- **Clash Runes.** Hay dos huecos de runa y cada una suma 40, según corpus.gg. Salen de cofres de misiones regionales. Pasar a +1 no falla; a +2 hay un 80 %, y si falla la runa puede romperse.
+- **Cinturón y amulete.** Empiezan raros, de nivel 13. Al llegar a +10 se transforman con Substance Morph en épicos de 36, y otra vez a +10 en únicos de 65 (metabot). El cinturón se sube con pergaminos de las fortalezas y el amulete con los de las plumas.
+- **Piezas de paso de nivel 46:** los conjuntos de élites con nombre de los mapas de casa (metabot).
+- **Fabricar una pieza True Dragon Lord**, de nivel 62 (metabot).
+- **En Corea** recomiendan comprar en el Mercado cualquier pieza única barata para los huecos más flojos, subirla a +3 o +5 y grabarle Manastones baratas. En mi Mercado, las piezas únicas más baratas costaban de 1 a 2 millones.
+- **Krao Cave da armas y accesorios; Draupnir, armadura.** Hacer solo una deja huecos.
 
 ## De dónde salen las piedras y la Kina
 
