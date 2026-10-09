@@ -1,6 +1,6 @@
 ---
-title: El primer grabado de Manastone sube el nivel de objeto; repetirlo y el Soul Binding, no
-description: Grabar una vez cada pieza me llevó de 726 a 800. Volver a grabar y el Soul Binding lo dejaron igual. Y el Soul Binding cuesta el doble de lo que dicen las guías.
+title: Grabar Manastones sube el nivel de objeto; el Soul Binding, no
+description: Grabar una vez cada pieza me llevó de 726 a 800. Tres intentos de Soul Binding lo dejaron igual. Y el Soul Binding cuesta el doble de lo que dicen las guías.
 status: comprobado
 topic: progresion
 verifiedAt: 2026-10-09
@@ -9,19 +9,21 @@ firstHand: true
 sources:
   - { title: 'Best stats Manastones for every class — odealo', url: 'https://odealo.com/articles/best-stats-manastones-for-every-class-aion-2-guide', lang: en }
   - { title: 'Manastones, Theostones y Soul Binding — gamesfuze', url: 'https://gamesfuze.com/guides/aion-2-how-to-upgrade-gear-manastones-theostones-and-soul-binding/', lang: en }
+history:
+  - { date: 2026-10-09, note: 'Corregida: decía que volver a grabar nunca sube el nivel. Lo que vi es que no lo subió con líneas del mismo color.' }
 updated: 2026-10-09
 translationKey: primer-grabado-de-manastone-sube-nivel
 ---
 
 ## Lo que se dice
 
-Una guía dice que cada Manastone suma de 1 a 4 de nivel de objeto según lo buena que salga la tirada. Otra da 30.000 de Kina por cada intento de Soul Binding. Varias aconsejan no gastar Manastones en equipo que vas a cambiar, porque se pierden.
+Una guía dice que cada Manastone suma de 1 a 4 de nivel de objeto según lo buena que salga la tirada; otra, que cada línea suma 1 si es gris, 2 si es verde y 3 si es azul. Otra da 30.000 de Kina por cada intento de Soul Binding. Varias aconsejan no gastar Manastones en equipo que vas a cambiar, porque se pierden.
 
 ## Lo que pasa
 
 La ventana se abre con la N y tiene cinco pestañas: Growth, Manastone, Theostone, Soul Binding y Transfer.
 
-**Manastone.** Cada «Engrave» gasta una piedra y 2.000 de Kina, y vuelve a tirar las líneas. Grabé una vez cada pieza equipada y el nivel de objeto pasó de 726 a **800**. Después volví a grabar la espada varias veces buscando mejores líneas, y el nivel no se movió.
+**Manastone.** Cada «Engrave» gasta una piedra y 2.000 de Kina, y vuelve a tirar las líneas. Grabé una vez cada pieza equipada y el nivel de objeto pasó de 726 a **800**. Después volví a grabar la espada varias veces buscando mejores líneas, y el nivel no se movió, pero las líneas nuevas salieron del mismo color que las viejas: tres grises y una verde. Que una tirada mejor lo suba, como dicen las guías, no lo he podido ver.
 
 El botón «Auto Engrave» graba solo hasta cumplir un objetivo. Se elige grado, cantidad de líneas y estadísticas. Con el grado más bajo solo deja pedir una línea; con «Superior or Higher», dos. Las líneas que pueden salir, con su rango:
 
@@ -42,5 +44,5 @@ El botón «Auto Engrave» graba solo hasta cumplir un objetivo. Se elige grado,
 ## Qué hacer
 
 - **Graba una Manastone en cada pieza nueva que te pongas**, aunque sea de paso: sube el nivel de objeto por 2.000 de Kina.
-- Volver a grabar y el Soul Binding mejoran estadísticas, pero no el nivel. Déjalos para las piezas que vas a llevar tiempo, y cuando sobre Kina.
+- El Soul Binding mejora estadísticas, pero no el nivel. Volver a grabar solo lo sube si salen líneas de mejor color. Déjalos para las piezas que vas a llevar tiempo, y cuando sobre Kina.
 - Antes de extraer una pieza vieja, mira la pestaña Transfer.
