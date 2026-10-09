@@ -2,7 +2,7 @@
 title: Gladiator en PvE, qué subir y en qué orden
 description: Mi chuleta del Gladiator, puntos de skill, especializaciones, estigmas, Daevanion y rotación, según lo que llevan los mejores jugadores coreanos.
 basis: Datos de jugadores coreanos, tablas del cliente global y una guía taiwanesa
-updated: 2026-10-08
+updated: 2026-10-09
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (8.459 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -212,6 +212,22 @@ Entre 150 Gladiators punteros medidos por metabot, los nodos de skill que casi t
 2. Alternar **Rending Blow** y **Overhead Slam**, metiendo **Keen Strike** para recuperar maná.
 3. Cuando salte **Rage Burst**, machacar Overhead Slam durante 10 segundos.
 4. Contra grupos, **Crushing Wave**.
+
+## Para tumbar a los jefes (Stagger)
+
+Algunos jefes, como Bakarma en Draupnir o Berk en Krao Cave, sacan una barra de Stagger. Si el grupo no la llena a tiempo, muere todo el mundo. Lo que llena la barra, según las fichas de metabot del cliente global:
+
+| Skill | Llena | Qué es |
+|---|---|---|
+| **Lifestealing Blade** | 20 | Estigma, de área, roba vida |
+| **Forced Restraint** | 20 | Un objetivo, sella |
+| **Mocking Blade** | 15 | Un objetivo, derriba 3 s |
+| **Leaping Slam** | 10 | Salto desde 20 m |
+| Crushing Wave | 5 | De área |
+| Blade Toss | 5 | A distancia, baja la defensa |
+| Rending Blow | 2 | Clic derecho |
+
+Lifestealing Blade es el quinto estigma, y con cuatro huecos no suele caber. Sword Aura Rampage y la pasiva Destructive Impulse no llenan la barra: pegan más fuerte al jefe una vez tumbado. Lo práctico es guardar Mocking Blade, Leaping Slam y Forced Restraint, si la llevas, para cuando salga la barra.
 
 ## Equipo
 
