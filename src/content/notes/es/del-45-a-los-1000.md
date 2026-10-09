@@ -24,6 +24,18 @@ translationKey: del-45-a-los-1000
 
 Llegué a 45 con 664 de nivel de objeto. La siguiente misión de historia, entrar en el Abismo, pide 1.000, y Ascension Trial también. Lo único que se abre antes son las expediciones de 700: Draupnir y Krao Cave, en Exploration y en Conquest. Más arriba, según gamesfuze, Vakron Sky Island a 1.400 y Transcendence a 1.600.
 
+## Mi subida, paso a paso
+
+| Día y hora | Nivel de objeto | Qué hice |
+|---|---|---|
+| 8 de octubre, noche | 664 | Llegar a 45, con los cristales de Daevanion gastados |
+| 9 de octubre, 14:38 | 673 | Mejorar la espada dorada de la historia |
+| 14:39 | 694 | Mejorar el casco y la pechera |
+| 14:40 | 704 | Mejorar las hombreras. Se abre Draupnir |
+| 14:55 | 726 | Primeras partidas de Draupnir |
+| 15:23 | 800 | Un grabado de Manastone en cada pieza |
+| 16:55 | 885 | 44 cristales de Daevanion y más partidas de Draupnir y Krao Cave |
+
 ## Qué sube el nivel de objeto
 
 Comprobado en mi pantalla:
@@ -100,3 +112,5 @@ Qué skills llenan la barra: en los apuntes del [Gladiator](/es/apuntes/gladiato
 Visto: los 1.000 del Abismo y de Ascension Trial, los 700 de las expediciones, sus recompensas semanales, la ventana de mejora y lo que sube y no sube el nivel de objeto.
 
 Sin comprobar: las mecánicas de los jefes, que son de guías; si el Soul Binding se conserva con Transfer; y lo que da cada mazmorra sellada.
+
+Sin resolver: dentro de las expediciones, el chat de grupo me dice «Cannot chat right now», y no he encontrado ninguna guía que explique por qué.
