@@ -35,6 +35,10 @@ Llegué a 45 con 664 de nivel de objeto. La siguiente misión de historia, entra
 | 14:55 | 726 | Primeras partidas de Draupnir |
 | 15:23 | 800 | Un grabado de Manastone en cada pieza |
 | 16:55 | 885 | 44 cristales de Daevanion y más partidas de Draupnir y Krao Cave |
+| 17:56 | 902 | 17 cristales más |
+| 18:28 | 934 | Mejorar piezas y un anillo de una misión regional |
+| 18:41 | 941 | Mejorar algunas piezas |
+| 18:50 | 953 | Solo 12 cristales: +12 |
 
 ## Qué sube el nivel de objeto
 
@@ -43,10 +47,11 @@ Comprobado en mi pantalla:
 - **Mejorar el equipo con Enhance Stones.** Subiendo la espada dorada de la historia pasé de 664 a 673; con casco, pechera y hombreras, a 704.
 - **El primer grabado de Manastone de cada pieza.** Una vez cada pieza: de 726 a 800.
 - **Equipar piezas mejores.** Las doradas de Bakarma, de Draupnir, son únicas de nivel 54.
+- **Gastar cristales de Daevanion.** Cada cristal suma 1, sea el nodo que sea: gastando solo 12 cristales pasé de 941 a 953.
 
 Lo que **no** lo sube: el Soul Binding. Volver a grabar Manastones tampoco me lo subió, pero las líneas salieron del mismo color; según corpus.gg, cada línea suma 1 si es gris, 2 si es verde y 3 si es azul ([la entrada](/es/cuaderno/primer-grabado-de-manastone-sube-nivel/)).
 
-Según las guías, también suma cada cristal de Daevanion gastado.
+
 
 ## Dónde gastar
 
