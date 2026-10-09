@@ -2,7 +2,7 @@
 title: Monedas, materiales y contenidos, para qué sirve cada cosa
 description: Mi chuleta de las monedas del juego, qué material alimenta cada sistema, qué da cada contenido, lo que caduca cada semana y los errores que repiten las guías.
 basis: Guías coreanas de Inven y Gametoc, tablas del cliente global de metabot y algunas pantallas vistas en mi cliente
-updated: 2026-10-07
+updated: 2026-10-09
 sources:
   - { title: 'Las 11 monedas de AION 2 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311584&site=aion2', lang: ko }
   - { title: 'Lo que confunde al principio — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311570&site=aion2', lang: ko }
@@ -63,7 +63,7 @@ Las alas y las apariencias dan estadísticas permanentes solo por tenerlas.
 | **Sanctuary** | Raid de 10, desde nivel 45 | Brazalete |
 | **Abismo** | Zona de PvP y PvE | Abyss Points |
 | **Nightmare** | Jefes en solitario por capas | Phantasmal Fragment |
-| **Ascension Trials** | Semanal | Progreso del Daevanion |
+| **Ascension Trials** | Solitario, 3 por semana; pide 1.000 de nivel de objeto (visto en mi pantalla) | Enhance Stones, fragmentos de Amplify Stone y cofres |
 
 Las recargas y los topes de cada uno están en [el apunte de la temporada 1](/es/apuntes/temporada-1-del-global/).
 
@@ -119,7 +119,7 @@ Minijuegos de cinco minutos que no dependen de tu equipo. Terminar ya da Century
 
 ## Errores que repiten las guías
 
-1. Invertir en equipo de subida. Las Manastones y el Soul Binding se pierden al cambiar de pieza.
+1. Invertir en equipo de subida. Las Manastones se pierden al cambiar de pieza; el Soul Binding, según una guía, se conserva con Transfer. Eso sí: el primer grabado de Manastone sube el nivel de objeto, así que en cada pieza nueva compensa uno.
 2. Gastar pronto las Transfer Stones naranjas.
 3. Repartir los puntos de skill por igual entre muchas skills.
 4. Farmear monstruos en vez de seguir la historia.

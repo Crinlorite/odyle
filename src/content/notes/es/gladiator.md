@@ -233,7 +233,7 @@ Lifestealing Blade es el quinto estigma, y con cuatro huecos no suele caber. Swo
 
 - En el arma: velocidad de combate, después aumento de daño y precisión.
 - Subiendo de nivel, arma a +5 y parar.
-- Nada de Manastones ni Soul Binding en equipo que se va a cambiar: se pierden.
+- En equipo que se va a cambiar, un solo grabado de Manastone: sube el nivel de objeto. Volver a grabar y el Soul Binding, solo en lo que vas a llevar tiempo.
 
 ## Dónde queda la clase
 
