@@ -2,7 +2,7 @@
 title: Recolección y oficios, dónde van los puntos
 description: Mi chuleta de Essence Extraction, los puntos comunes y de especialidad, el plan Odyle más gemas, el ascenso a Profesional y los cinco oficios.
 basis: Tablas del cliente global de metabot y lo visto en mi pantalla
-updated: 2026-10-07
+updated: 2026-10-09
 sources:
   - { title: 'Gathering Guide (tablas del cliente global) — metabot', url: 'https://metabot.gg/en/aion-2/gathering', lang: en }
   - { title: 'Gathering Nodes, Proficiency and Extraction Skills — wikily', url: 'https://wikily.gg/aion-2/gathering', lang: en }
@@ -93,6 +93,12 @@ Cinco: herrería de armas, armaduras, accesorios, alquimia y cocina. Cada uno ti
 - Hay «gran éxito»: según las guías, un 25 % en casi todo el equipo y un 30 % en cocina.
 - El equipo fabricado iguala al de mazmorra en nivel, pero amplifica menos.
 - Los cinco oficios se pueden subir en el mismo personaje. Lo que frena son los materiales.
+
+### La escalera del equipo fabricado
+
+Según metabot, el equipo se fabrica por escalones: Orichalcum a maestría 3, Expert's a 15 y Artisan's a 30. Cada pieza puede salir normal o, con gran éxito, «Splendent», que es mejor. Además, cada escalón pide como ingrediente la pieza Splendent del anterior. La pieza Artisan's Splendent es única, de nivel de objeto 44. Desde maestría 51 se fabrica con materiales Balaur, y el equipo Dragon Lord pide 55.
+
+El 9 de octubre, en mi Mercado, las piezas Artisan's Splendent estaban entre 12 y 49 millones de Kina. Las piezas de Wisdom, de nivel 36, estaban por debajo de 2 millones.
 
 ## Lo que he visto yo y lo que no
 
