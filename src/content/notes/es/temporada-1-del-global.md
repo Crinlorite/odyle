@@ -2,7 +2,7 @@
 title: La temporada 1 del global, qué trae y qué no
 description: Qué versión juega el servidor global, fechas, qué se abre a cada nivel, cómo funciona lo diario y lo semanal, y qué se espera por lo que pasó en Corea.
 basis: Guías hechas con los datos del cliente global, prensa coreana y un hilo taiwanés
-updated: 2026-10-08
+updated: 2026-10-09
 sources:
   - { title: 'Aion 2 Season 1, Dates, Weekly Reset and What Unlocks When — aion2-meta', url: 'https://aion2-meta.com/guides/season-1/', lang: en }
   - { title: 'Aion 2 Daily and Weekly Checklist — aion2-meta', url: 'https://aion2-meta.com/guides/activities/', lang: en }
@@ -92,10 +92,10 @@ No hay una lista fija de diarias. Casi todo son entradas que se recargan y se ac
 | Actividad | Recarga | Desde |
 |---|---|---|
 | **Duty Quests** | 5 al día | 45 |
-| **Mazmorras de conquista** | 1 cada 8 h, acumula 21; 35 jefes finales por semana | 45 |
+| **Expediciones en Conquest** | 10 cubos por semana en cada una (visto en Draupnir y Krao Cave) | 45 y 700 de nivel de objeto |
 | **Nightmare** | 2 al día, acumula 14 | 45 |
 | **Transcendence** | 1 cada 12 h, acumula 14 | 45 y 1.600 de nivel de objeto |
-| **Ascension Trial** | 3 por semana | 45 |
+| **Ascension Trial** | 3 por semana | 45 y 1.000 de nivel de objeto |
 | **Unknown Fissure** | 14 por semana | 30 |
 | Shugo Festival | 4 llaves al día, acumula 28 | |
 | Raids de Sanctuary | 4 intentos por raid y semana | 45 |
@@ -106,7 +106,7 @@ No hay una lista fija de diarias. Casi todo son entradas que se recargan y se ac
 - Lo que manda es el nivel de objeto total: 700, 1.400 y 2.100 para los tres escalones de conquista abiertos, y 2.800 para el primer raid.
 - Amuleto y cinturón primero: no se cambian en toda la temporada. El amuleto se mejora con los pergaminos del Monolito y el cinturón con los de las fortalezas.
 - Todo a +10. Según las guías, hasta +10 no falla.
-- Ningún hueco de Arcana vacío: una carta común ya suma 20.
+- Ningún hueco de Arcana vacío: una carta común ya suma 20. Pero las cartas salen de Transcendence, a 1.600; a 45 lo normal es no tener ninguna.
 - Cada cristal de Daevanion gastado suma 1 de nivel de objeto, para siempre.
 - Hay 161 mazmorras selladas, de unos diez minutos. Las de tu facción dan Kina, 2 cristales de Daevanion, 2 Wisdom Stones y 1.250 piedras de mejora.
 

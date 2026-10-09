@@ -2,7 +2,7 @@
 title: Trucos y rarezas que vienen de Corea y Taiwán
 description: Lo que cuentan los foros que llevan un año jugando y no sale en las guías de inicio. Volar plegando las alas, cubos ocultos, títulos, el armario y manías del juego.
 basis: Hilos de jugadores coreanos y taiwaneses y prensa coreana; casi nada comprobado todavía en el cliente global
-updated: 2026-10-07
+updated: 2026-10-09
 sources:
   - { title: 'Para llegar lejos, pliega las alas — PlayForum', url: 'https://www.playforum.net/news/articleView.html?idxno=633297', lang: ko }
   - { title: 'Un jugador, un dato: hilo de conocimiento suelto — foro de AION2 en Bahamut', url: 'https://forum.gamer.com.tw/C.php?bsn=82913&snA=877', lang: zh }
@@ -82,8 +82,8 @@ Los coreanos lo llaman el trabajo de fondo definitivo, y dan un consejo: no gast
 
 ## Cosas que conviene saber antes
 
-- No hace falta farmear el arma dorada de la mazmorra de nivel 38: la historia regala una al final.
-- Hay una puerta de la historia que pide 1.000 de poder de combate para pasar.
+- No hace falta farmear el arma dorada de la mazmorra de nivel 38: la historia regala una al final. **Comprobado:** a mí me llegó la Spiritforged Greatsword dorada.
+- Hay una puerta de la historia que pide 1.000 de poder para pasar. **Comprobado:** en el global es la misión de entrar en el Abismo, a nivel 45, y pide 1.000 de nivel de objeto ([la entrada](/es/cuaderno/abismo-y-ascension-trial-piden-1000/)).
 - Con golpear a un enemigo ya te cuenta para la misión, aunque lo mate otro.
 - Borrar un personaje deja el hueco bloqueado siete días.
 - Al crear un personaje no se puede comprobar antes si el nombre está libre.
@@ -95,4 +95,4 @@ Los coreanos lo llaman el trabajo de fondo definitivo, y dan un consejo: no gast
 
 ## Lo que he visto yo y lo que no
 
-De esta página he comprobado poco: que el equipo se extrae y da la apariencia, y que el Monolito existe y da llaves. El resto es de los foros, y parte es de la versión coreana actual, que va por delante de la nuestra.
+De esta página he comprobado poco: que el equipo se extrae y da la apariencia, que el Monolito existe y da llaves, que la historia regala un arma dorada y que la puerta de 1.000 existe. El resto es de los foros, y parte es de la versión coreana actual, que va por delante de la nuestra.
