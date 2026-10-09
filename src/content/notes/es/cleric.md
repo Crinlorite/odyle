@@ -2,7 +2,7 @@
 title: Cleric, la rotación, qué subir y estigmas
 description: Chuleta del Cleric para empezar. Qué botón va detrás de cuál subiendo solo y contra un jefe, cuándo curar, el orden de skills y los estigmas que lleva casi todo el mundo.
 basis: Datos de jugadores coreanos, foros coreanos y taiwaneses, y tablas del cliente global
-updated: 2026-10-07
+updated: 2026-10-09
 sources:
   - { title: 'Cleric, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-cleric', lang: es }
   - { title: 'Aion 2 Cleric Build Guide (10.287 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/cleric/', lang: en }
@@ -202,6 +202,20 @@ Se abren a nivel 22 y cada uno se aprende con un fragmento. En el global hay 13 
 - **Subiendo de nivel**, el orden de una de las guías: Summon Resurrection aprendido a nivel 22, porque los grupos esperan que el sanador resucite; después Earth Punishment, Noble Aura y Benevolence, cada uno a nivel 5.
 - **Light of Protection** es el primero en el final de juego. Si en el grupo hay un Chanter con el suyo, solo cuenta el de más nivel.
 - Coste: 1 fragmento por nivel hasta el 5, 2 hasta el 10, 4 hasta el 15 y 8 hasta el 20.
+
+## Para tumbar a los jefes (Stagger)
+
+Algunos jefes, como Bakarma en Draupnir o Berk en Krao Cave, sacan una barra de Stagger. Si el grupo no la llena a tiempo, muere todo el mundo. Lo que llena la barra, según las fichas de metabot del cliente global:
+
+| Skill | Llena |
+|---|---|
+| **Power Burst** | 50 |
+| **Bolt** | De 20 a 35, según lo cargada |
+| **Earth Punishment** | 20 (estigma) |
+| Condemnation | 7 |
+| Judgment Thunder | 2 |
+
+Lightning Strike Scattershot no llena la barra: pega más fuerte al jefe una vez tumbado. Lo práctico es guardar Power Burst, Bolt cargada y Earth Punishment para cuando salga la barra.
 
 ## Equipo
 
