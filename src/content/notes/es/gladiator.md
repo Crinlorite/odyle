@@ -2,7 +2,7 @@
 title: Gladiator en PvE, qué subir y en qué orden
 description: Mi chuleta del Gladiator, puntos de skill, especializaciones, estigmas, Daevanion y rotación, según lo que llevan los mejores jugadores coreanos.
 basis: Datos de jugadores coreanos, tablas del cliente global y una guía taiwanesa
-updated: 2026-10-09
+updated: 2026-10-11
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (8.459 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -89,7 +89,7 @@ Llevar una skill a 8 son 13 puntos; a 10, 21. Subiendo a nivel 45 se ganan 203, 
 
 ## Especializaciones
 
-Cada activa tiene cinco. Se usa una con la skill entre nivel 8 y 11, dos desde el 12 y tres desde el 20. Hay que equiparlas a mano después de subir la skill.
+Cada activa tiene cinco. Se usa una con la skill entre nivel 8 y 11, dos desde el 12 y tres desde el 16: el propio juego marca el tercer hueco con un 16. Hay que equiparlas a mano después de subir la skill; si no, el hueco se queda vacío y no da nada. En algunas skills, la de nivel 12 o la de 16 es fija; en otras, el segundo hueco deja elegir entre varias (en Crushing Wave, por ejemplo, entre las tres de nivel 8 y la de 12).
 
 Por encima de 10 ya no se sube con puntos, sino con Daevanion, cartas Arcana y equipo. En el global, skills y estigmas topan en 20.
 
