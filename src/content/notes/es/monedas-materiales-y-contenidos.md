@@ -2,7 +2,7 @@
 title: Monedas, materiales y contenidos, para qué sirve cada cosa
 description: Mi chuleta de las monedas del juego, qué material alimenta cada sistema, qué da cada contenido, lo que caduca cada semana y los errores que repiten las guías.
 basis: Guías coreanas de Inven y Gametoc, tablas del cliente global de metabot y algunas pantallas vistas en mi cliente
-updated: 2026-10-09
+updated: 2026-10-11
 sources:
   - { title: 'Las 11 monedas de AION 2 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311584&site=aion2', lang: ko }
   - { title: 'Lo que confunde al principio — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311570&site=aion2', lang: ko }
@@ -97,6 +97,8 @@ Lo que he visto en la pantalla de entrada:
 | Con 8.000 puntos | 8.100 piedras |
 | Con 6.500 puntos | 7.200 piedras |
 | Ayuda al empezar | Eliges 1 efecto entre 3 que salen al azar |
+
+Y lo que he sacado yo: la partida dura **1 minuto 30 segundos** de verdad; con **4.530 puntos, 6.100 piedras**. Con mejor equipo subió a unas 6.400 por partida. Durante la partida avisa de que «sube el nivel de peligro» y salen sujetos de prueba más fuertes, que son los que más puntúan.
 
 - Los efectos especiales son los que más puntúan: Slayer, +30 % de ataque; Adrenaline, +30 % de velocidad de combate; y Worm Carnage y Elite Hunter, que bajan el aguante de los enemigos normales o de los de élite. Los comunes dan defensa, crítico, velocidad de movimiento o maná.
 - Las entradas no se guardan de una semana a otra: el contador marca 14 de 14 y la recarga semanal es de 14.

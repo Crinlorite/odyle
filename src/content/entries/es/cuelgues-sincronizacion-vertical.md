@@ -13,7 +13,8 @@ sources:
 history:
   - { date: 2026-10-07, note: 'Publicada por la tarde diciendo que apagar la sincronización vertical había parado los cierres.' }
   - { date: 2026-10-07, note: 'Corregida esa misma tarde: volvió a colgarse dos veces con ella apagada, y los informes del juego lo desmienten.' }
-updated: 2026-10-07
+  - { date: 2026-10-10, note: 'Once cierres más del 8 al 10 de octubre, con FreeSync apagado y a 2K; el último, a 1080p, resolución al 100 % y texturas al mínimo, en pleno combate. Descartada también la pista de los menús. En prueba: escalador TAA en lugar de FSR.' }
+updated: 2026-10-11
 translationKey: cuelgues-sincronizacion-vertical
 ---
 
@@ -36,15 +37,19 @@ Lo que he cambiado y no lo arregla:
 | Controlador de AMD, de Adrenalin 26.8.1 a 26.9.2 | Se colgó a los tres minutos |
 | Ventana, sin bordes y pantalla completa, a 1080p y a 4K | Se cuelga en todos los modos |
 | Sincronización vertical | Se cuelga con ella y sin ella |
+| FreeSync apagado en el programa de AMD, y 2560×1440 | Once cierres más en tres días |
+| 1080p, resolución al 100 % y texturas al mínimo | Se colgó igual, el 10 de octubre |
 
 Tampoco depende de lo llena que esté la memoria de la gráfica: se ha colgado con 7,0 GB ocupados de 8 y ha aguantado un buen rato con 8,06.
 
-Lo único que no cambia nunca es el momento: pasa al cerrar un menú de pantalla completa y volver al mundo. Habilidades, logros, ajustes, da igual cuál.
+Durante los primeros días parecía que solo pasaba al cerrar un menú de pantalla completa. El 10 de octubre se colgó en pleno combate de la mazmorra diaria, así que tampoco es eso. La planificación de GPU por hardware de Windows ya estaba apagada.
 
 Lo que dice el volcado de Windows de cada cierre es poco, pero claro: la gráfica deja de avanzar con una orden de dibujo y Windows la reinicia. En el foro de Steam hay jugadores con gráficas de otra marca y el mismo aviso al cerrar menús. Por eso sospecho de algo que hace el juego al volver del menú más que de este equipo. No lo puedo demostrar.
 
 ## Qué hacer
 
 No tengo arreglo. Lo que sí puedo decir es qué no merece la tarde: cambiar de controlador, bajar la calidad o tocar la sincronización vertical no sirvió aquí.
+
+Lo que les ha funcionado a otros y aquí falta por probar, de uno en uno: cambiar de escalador (a uno le funcionó pasar de TSR a DLSS; yo estoy probando TAA en lugar de FSR), vaciar la caché de sombreadores y quitar las superposiciones.
 
 Si te pasa lo mismo, evita abrir menús de pantalla completa cuando un cierre te haría perder algo, como en mitad de una mazmorra. Y si quieres comprobar algo antes de darlo por bueno, mira el informe que el juego deja de cada cierre en lugar de fiarte de un rato sin fallos, que es justo el error que cometí yo.

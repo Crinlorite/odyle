@@ -2,7 +2,7 @@
 title: Trucos y rarezas que vienen de Corea y Taiwán
 description: Lo que cuentan los foros que llevan un año jugando y no sale en las guías de inicio. Volar plegando las alas, cubos ocultos, títulos, el armario y manías del juego.
 basis: Hilos de jugadores coreanos y taiwaneses y prensa coreana; casi nada comprobado todavía en el cliente global
-updated: 2026-10-09
+updated: 2026-10-11
 sources:
   - { title: 'Para llegar lejos, pliega las alas — PlayForum', url: 'https://www.playforum.net/news/articleView.html?idxno=633297', lang: ko }
   - { title: 'Un jugador, un dato: hilo de conocimiento suelto — foro de AION2 en Bahamut', url: 'https://forum.gamer.com.tw/C.php?bsn=82913&snA=877', lang: zh }
@@ -17,6 +17,7 @@ sources:
   - { title: 'Ocho claves que marcan la diferencia tras el nivel máximo — PlayForum', url: 'https://www.playforum.net/news/curationView.html?idxno=633249', lang: ko }
   - { title: 'Ya soy 45, ¿y ahora? Guía para subir el poder — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311565&site=aion2', lang: ko }
   - { title: 'Endgame: consejos de equipo, progresión e item level — MeinMMO', url: 'https://mein-mmo.de/aion2-endgame-tipps/2/', lang: de }
+  - { title: 'Dimensional Invasion — allthings.how', url: 'https://allthings.how/?p=247654', lang: en }
 translationKey: trucos-de-corea-y-taiwan
 ---
 
@@ -76,6 +77,12 @@ Algunos de los mejores, según la prensa coreana, y de qué salen:
 Cada mascota pertenece a una de cinco razas. Conseguir mascotas y subirlas hace crecer tu «comprensión» de esa raza, hasta nivel 10, y cada nivel abre una casilla de estadísticas que se puede volver a tirar con Soul Crystals.
 
 Los coreanos lo llaman el trabajo de fondo definitivo, y dan un consejo: no gastes cristales tirando al principio. Las estadísticas buenas no salen hasta los niveles 4, 7 y 9 de comprensión.
+
+En el global se llama Genus Insight, y lo he probado: un análisis rellena a la vez todos los huecos de esa raza y además le suma experiencia ([la entrada](/es/cuaderno/genus-insight-un-analisis-rellena-la-raza/)).
+
+## Dimensional Invasion
+
+Es el evento cooperativo de 3 minutos al que se entra desde el reloj junto al minimapa; Beritra Air Raid es uno de sus escenarios. Según allthings.how, los puntos salen del daño y de las muertes, el jefe del final da muchos, y el puesto decide cuántas cartas de botín eliges: 4 los dos primeros, 3 hasta el quinto. Hay una llave al día, hasta 7, y **solo se gasta al elegir cartas**: si quedas mal, cancelas y la guardas para otra partida. Lo de la llave no lo he comprobado.
 
 ## Trucos de manejo
 

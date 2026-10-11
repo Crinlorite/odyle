@@ -2,7 +2,7 @@
 title: Recolección y oficios, dónde van los puntos
 description: Mi chuleta de Essence Extraction, los puntos comunes y de especialidad, el plan Odyle más gemas, el ascenso a Profesional y los cinco oficios.
 basis: Tablas del cliente global de metabot y lo visto en mi pantalla
-updated: 2026-10-09
+updated: 2026-10-11
 sources:
   - { title: 'Gathering Guide (tablas del cliente global) — metabot', url: 'https://metabot.gg/en/aion-2/gathering', lang: en }
   - { title: 'Gathering Nodes, Proficiency and Extraction Skills — wikily', url: 'https://wikily.gg/aion-2/gathering', lang: en }
@@ -99,6 +99,21 @@ Cinco: herrería de armas, armaduras, accesorios, alquimia y cocina. Cada uno ti
 Según metabot, el equipo se fabrica por escalones: Orichalcum a maestría 3, Expert's a 15 y Artisan's a 30. Cada pieza puede salir normal o, con gran éxito, «Splendent», que es mejor. Además, cada escalón pide como ingrediente la pieza Splendent del anterior. La pieza Artisan's Splendent es única, de nivel de objeto 44. Desde maestría 51 se fabrica con materiales Balaur, y el equipo Dragon Lord pide 55.
 
 El 9 de octubre, en mi Mercado, las piezas Artisan's Splendent estaban entre 12 y 49 millones de Kina. Las piezas de Wisdom, de nivel 36, estaban por debajo de 2 millones.
+
+## Lo que paga es la calidad
+
+Precio más bajo a la venta en mi Mercado, el 9 de octubre por la noche:
+
+| Material | Común | Fina | Pura | Radiante |
+|---|---|---|---|---|
+| **Odyle** | 1.485 | 2.400 | 36.900 | **395.000** |
+| Yggdrasil Log | 1.999 | 6.554 | 64.666 | 288.000 |
+| Zafiro | 1.999 | 1.798 | 46.650 | 190.000 |
+| Rubí | 1.173 | 2.399 | 33.211 | 100.000 |
+| Diamante | 1.299 | 4.999 | 26.499 | 90.000 |
+| Mena de oricalco | 1.086 | 610 | 18.999 | 78.000 |
+
+Un Odyle radiante vale lo que 266 comunes: es el Od radiante que hace falta para abrir las alas selladas. Vendí dos a 389.000 cada uno. Por eso la rama de Odyle con Appraiser, que vuelve a tirar la calidad, es la que más dinero da. Los materiales de fabricación que tenía guardados en el almacén también se vendieron bien: con ellos y el Odyle pasé de 300.000 a más de 2 millones de Kina en dos días.
 
 ## Lo que he visto yo y lo que no
 
