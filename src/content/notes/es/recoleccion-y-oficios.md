@@ -123,4 +123,6 @@ Visto también: la misión de ascenso y el paso a Profesional. Y ya en Profesion
 
 A Profesional 39 tenía Proficient Handling en 10 y la rama de Odyle completa, y las cuentas de puntos seguían cuadrando con las tablas: 84 comunes y 10 de especialidad ganados.
 
-Sin comprobar todavía: el tope de Profesional, el coste del reinicio y los oficios.
+Comprobado el 11 de octubre: el tope es **Profesional 50** (maestría 100). Llegué con Odyle y gemas completas, Proficient Handling y Delicate Touch a 10 y Lady Luck con lo que sobraba: justo los 95 puntos comunes y los 14 de especialidad de las tablas.
+
+Sin comprobar todavía: el coste del reinicio y los oficios.
