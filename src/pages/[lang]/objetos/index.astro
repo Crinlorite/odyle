@@ -1,0 +1,37 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, type Lang } from '../../../i18n/langs';
+import { t } from '../../../i18n/strings';
+import { objetos, slugOf } from '../../../lib/objetos';
+export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
+const lang = Astro.params.lang as Lang;
+const s = t(lang);
+const { all } = await objetos(lang);
+const norm = (x: string) => x.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+---
+<Base lang={lang} title={s.itemsTitle} description={s.itemsLead} section="objetos" ogImage={`/og/${lang}/objetos.jpg`}>
+  <header class="page-head"><h1>{s.itemsTitle}</h1><p class="lead">{s.itemsLead}</p></header>
+  <p class="buscar"><label for="q">{s.itemsSearch}</label><input id="q" type="search" autocomplete="off" spellcheck="false" /></p>
+  <ul class="cards" id="objetos">
+    {all.map((o) => (
+      <li data-q={norm(`${o.data.en} ${o.data.es}`)}><article class="card">
+        <div class="row"><span class="data">{o.data.gradoEn} · {o.data.grado}</span>{o.data.firstHand && <span class="seal seal--comprobado">{s.itemSeen}</span>}</div>
+        <h3><a href={`/${lang}/objetos/${slugOf(o)}/`}>{o.data.en}</a></h3>
+        {o.data.es !== o.data.en && <p class="data">{o.data.es}</p>}
+        <p>{o.data.description}</p>
+      </article></li>
+    ))}
+  </ul>
+  <p class="data" id="nada" hidden>{s.itemsNone}</p>
+  <script is:inline>
+    (() => {
+      const q = document.getElementById('q'), items = [...document.querySelectorAll('#objetos > li')], nada = document.getElementById('nada');
+      const norm = (x) => x.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+      q.addEventListener('input', () => {
+        const v = norm(q.value); let n = 0;
+        for (const li of items) { const ok = !v || li.dataset.q.includes(v); li.hidden = !ok; n += ok; }
+        nada.hidden = n > 0;
+      });
+    })();
+  </script>
+</Base>

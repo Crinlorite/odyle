@@ -10,7 +10,7 @@ const font = (pkg, file) => `file://${root}node_modules/@fontsource/${pkg}/files
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 const field = (src, key) => (new RegExp(`^${key}:\\s*(.+)$`, 'm').exec(src)?.[1] ?? '').trim().replace(/^['"]|['"]$/g, '');
 
-const SEAL = { comprobado: ['Comprobado', '#197a42'], duda: ['Duda abierta', '#c0392b'], cambio: ['Cambió', '#5f6877'], apunte: ['Apunte sin comprobar', '#5f6877'] };
+const SEAL = { comprobado: ['Comprobado', '#197a42'], duda: ['Duda abierta', '#c0392b'], cambio: ['Cambió', '#5f6877'], apunte: ['Apunte sin comprobar', '#5f6877'], objeto: ['Objeto', '#1d2b53'] };
 const TOPIC = { economia: 'Economía', recoleccion: 'Recolección', fabricacion: 'Fabricación', tienda: 'Tienda', progresion: 'Progresión', equipo: 'Equipo' };
 
 const jobs = [{ out: 'default.jpg', title: 'Lo que dicen las guías y lo que pasa cuando lo pruebas.', seal: null, topic: 'Cuaderno de campo de AION 2 · cliente global' }];
@@ -27,6 +27,14 @@ for (const lang of readdirSync(`${root}src/content/notes`)) {
     jobs.push({ out: `${lang}/apunte-${f.replace(/\.md$/, '')}.jpg`, title: field(src, 'title'), seal: 'apunte', topic: 'Apuntes' });
   }
 }
+for (const lang of readdirSync(`${root}src/content/objetos`)) {
+  for (const f of readdirSync(`${root}src/content/objetos/${lang}`)) {
+    const src = readFileSync(`${root}src/content/objetos/${lang}/${f}`, 'utf8');
+    const en = field(src, 'en'), es = field(src, 'es');
+    jobs.push({ out: `${lang}/objeto-${f.replace(/\.md$/, '')}.jpg`, title: en === es ? en : `${en} · ${es}`, seal: 'objeto', topic: 'Objetos' });
+  }
+}
+jobs.push({ out: 'es/objetos.jpg', title: 'Objetos: para qué sirven de verdad y de dónde salen', seal: null, topic: 'Objetos · AION 2 global' });
 
 const html = (j) => `<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:Z;font-weight:700;src:url('${font('zilla-slab', 'zilla-slab-latin-700-normal.woff2')}')}

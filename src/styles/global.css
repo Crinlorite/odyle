@@ -174,3 +174,18 @@ h1, h2, h3 { font-family: var(--f-head); font-weight: 700; line-height: 1.12; te
 .glos[hidden] { display: none; }
 .glos button { font-family: var(--f-data); font-size: .9rem; padding: .45rem .8rem; border: 1.5px solid var(--ink); border-radius: 4px; background: var(--card); color: var(--ink); cursor: pointer; }
 .glos button[aria-pressed='true'] { background: var(--ink); color: var(--paper); }
+
+/* objetos */
+.seal--objeto { color: var(--ink); }
+.buscar { max-width: 46rem; margin: 0 0 1.6rem; display: grid; gap: .35rem; }
+.buscar label { font-family: var(--f-data); font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); }
+.buscar input { font: inherit; font-family: var(--f-data); padding: .6rem .8rem; border: 1.5px solid var(--ink); border-radius: 4px; background: var(--card); color: var(--ink); width: 100%; box-sizing: border-box; }
+.juego { max-width: 46rem; margin: 1.4rem 0; padding: .8rem 1rem; background: var(--card); border-left: 4px solid var(--ink-soft); }
+.juego figcaption { font-family: var(--f-data); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: .4rem; }
+.juego blockquote { margin: 0; font-style: italic; }
+.juego blockquote p { margin: 0 0 .3rem; }
+.conexiones { max-width: 46rem; margin-top: 1.6rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(13rem, 100%), 1fr)); gap: 1rem 1.4rem; }
+.conexiones h2 { font-family: var(--f-data); font-size: .86rem; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 .4rem; }
+.conexiones ul { margin: 0; padding-left: 1.1rem; }
+.conexiones li { margin-bottom: .3rem; overflow-wrap: anywhere; }
+.conexiones .nota { color: var(--ink-soft); font-size: .92rem; }
