@@ -2,7 +2,7 @@
 title: Del nivel 45 a los 1.000 de nivel de objeto
 description: Mi chuleta para el primer muro del final de juego. Qué sube el nivel de objeto, de dónde salen las piedras y la Kina, y cómo no morir en Draupnir y Krao Cave.
 basis: Lo visto en mi cliente del 8 al 9 de octubre, y guías en inglés del cliente global para lo que aún no he comprobado
-updated: 2026-10-11
+updated: 2026-10-12
 sources:
   - { title: 'AION 2: What to Do After Lvl 45 — gamesfuze', url: 'https://gamesfuze.com/guides/aion-2-what-to-do-after-lvl-45/', lang: en }
   - { title: 'Draupnir, botín y requisitos — metabot', url: 'https://metabot.gg/en/aion-2/dungeons/draupnir', lang: en }
@@ -23,7 +23,7 @@ translationKey: del-45-a-los-1000
 
 ## El muro
 
-Llegué a 45 con 664 de nivel de objeto. La siguiente misión de historia, entrar en el Abismo, pide 1.000, y Ascension Trial también. Lo único que se abre antes son las expediciones de 700: Draupnir y Krao Cave, en Exploration y en Conquest. Más arriba, según gamesfuze, Vakron Sky Island a 1.400 y Transcendence a 1.600.
+Llegué a 45 con 664 de nivel de objeto. La siguiente misión de historia, entrar en el Abismo, pide 1.000, y Ascension Trial también. Lo único que se abre antes son las expediciones de 700: Draupnir y Krao Cave, en Exploration y en Conquest. Más arriba, Urugugu Canyon y Vakron Sky Island a 1.400 y Fire Temple y Ferocious Horn Den a 2.100, comprobado en mi menú ([la entrada](/es/cuaderno/expediciones-700-1400-2100/)); Transcendence, a 1.600 según gamesfuze.
 
 ## Mi subida, paso a paso
 
@@ -124,7 +124,7 @@ Con 1.000 entré al Abismo y la misión dio una pieza dorada. La siguiente pide 
 
 ## Arcana, todavía no
 
-Las cartas de Arcana se equipan desde nivel 45, pero salen sobre todo de Transcendence, que pide 1.600. Yo no tenía ninguna a 45 aunque llevo los dos pases. Según metabot hay cinco huecos (Chalice, Parchment, Compass, Bell y Mirror), y las cartas se suben con experiencia, sin riesgo, hasta +2 las comunes y +5 las únicas.
+Las cartas de Arcana se equipan desde nivel 45, pero salen sobre todo de Transcendence, que pide 1.600 según gamesfuze (no lo he visto). Yo no tenía ninguna a 45 aunque llevo los dos pases. Según metabot hay cinco huecos (Chalice, Parchment, Compass, Bell y Mirror), y las cartas se suben con experiencia, sin riesgo, hasta +2 las comunes y +5 las únicas.
 
 ## Draupnir: Bakarma
 
@@ -147,7 +147,7 @@ Qué skills llenan la barra: en los apuntes del [Gladiator](/es/apuntes/gladiato
 
 ## Lo que he visto yo y lo que no
 
-Visto: los 1.000 del Abismo y de Ascension Trial, los 700 de las expediciones, sus recompensas semanales, la ventana de mejora y lo que sube y no sube el nivel de objeto.
+Visto: los 1.000 del Abismo y de Ascension Trial (y los 1.500 de su modo Normal), los 700, 1.400 y 2.100 de las expediciones, sus recompensas semanales, la ventana de mejora y lo que sube y no sube el nivel de objeto.
 
 Visto también: la tienda de Nightmare y la del Abismo con sus precios, y el poder de combate a cada paso.
 
