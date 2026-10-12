@@ -1,0 +1,70 @@
+---
+import { existsSync } from 'node:fs';
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { LANGS, type Lang } from '../../../i18n/langs';
+import { t } from '../../../i18n/strings';
+import { fmtDate } from '../../../lib/entries';
+import { objetos, mencionan, slugOf, type Ref } from '../../../lib/objetos';
+export async function getStaticPaths() {
+  const all = await getCollection('objetos');
+  return all.filter((o) => (LANGS as readonly string[]).includes(o.id.split('/')[0])).map((objeto) => ({ params: { lang: objeto.id.split('/')[0], slug: slugOf(objeto) }, props: { objeto } }));
+}
+const lang = Astro.params.lang as Lang;
+const { objeto } = Astro.props;
+const d = objeto.data;
+const s = t(lang);
+const slug = slugOf(objeto);
+const { all, bySlug } = await objetos(lang);
+const backlinks = mencionan(all, slug);
+const ogImage = `/og/${lang}/objeto-${slug}.jpg`;
+if (!existsSync(`public${ogImage}`)) throw new Error(`${objeto.id}: falta ${ogImage}; lanza «npm run og»`);
+const { Content } = await render(objeto);
+const href = (r: Ref) => (r.objeto ? `/${lang}/objetos/${r.objeto}/` : r.href);
+const nombre = (r: Ref) => (r.objeto ? bySlug.get(r.objeto)!.data.en : undefined);
+const bloques: [string, Ref[]][] = [[s.itemUses, d.sirvePara], [s.itemMadeWith, d.hechoCon], [s.itemFrom, d.saleDe]];
+const title = d.en === d.es ? d.en : `${d.en} (${d.es})`;
+---
+<Base lang={lang} title={title} description={d.description} section="objetos" ogImage={ogImage}>
+  <article>
+    <header class="page-head">
+      <div class="row"><span class="seal seal--objeto">{s.itemSeal}</span><a class="topic" href={`/${lang}/objetos/`}>{s.itemsTitle}</a></div>
+      <h1>{d.en}</h1>
+      {d.es !== d.en && <p class="lead">{d.es}</p>}
+      <dl class="ficha">
+        <div><dt>{s.itemGrade}</dt><dd>{d.gradoEn} · {d.grado}</dd></div>
+        {d.categoria && <div><dt>{s.itemCategory}</dt><dd>{d.categoria}</dd></div>}
+        <div><dt>{s.itemTrade}</dt><dd>{s.itemTradeVals[d.comercio]}</dd></div>
+        {d.npc !== undefined && <div><dt>{s.itemNpc}</dt><dd>{d.npc.toLocaleString('es-ES')} Kina</dd></div>}
+        {d.verifiedAt && <div><dt>{s.itemSeen}</dt><dd>{fmtDate(d.verifiedAt, lang)}</dd></div>}
+      </dl>
+    </header>
+    {d.textoJuego && (
+      <figure class="juego">
+        <figcaption>{s.itemGameText}</figcaption>
+        <blockquote>{d.textoJuego.split('\n').map((l) => <p>{l}</p>)}</blockquote>
+      </figure>
+    )}
+    <div class="plain"><div class="prose"><Content /></div></div>
+    <nav class="conexiones" aria-label="Conexiones">
+      {bloques.filter(([, rs]) => rs.length).map(([h, rs]) => (
+        <section>
+          <h2>{h}</h2>
+          <ul>{rs.map((r) => <li>{href(r) ? <a href={href(r)}>{nombre(r) ?? r.texto}</a> : <span>{r.texto}</span>}{nombre(r) && r.texto && <span class="nota"> — {r.texto}</span>}</li>)}</ul>
+        </section>
+      ))}
+      {backlinks.length > 0 && (
+        <section>
+          <h2>{s.itemLinkedFrom}</h2>
+          <ul>{backlinks.map((o) => <li><a href={`/${lang}/objetos/${slugOf(o)}/`}>{o.data.en}</a></li>)}</ul>
+        </section>
+      )}
+    </nav>
+    <div class="aside">
+      <h2>{s.sources}</h2>
+      <ul>{d.sources.map((src) => <li><a href={src.url} rel="noopener">{src.title}</a> <span class="lang">[{src.lang}]</span></li>)}</ul>
+      <p class="data">{s.noteUpdated}: {fmtDate(d.updated, lang)}</p>
+      <p class="signed">— {s.signed}</p>
+    </div>
+  </article>
+</Base>

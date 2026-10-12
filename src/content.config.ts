@@ -52,4 +52,33 @@ const notes = defineCollection({
   }),
 });
 
-export const collections = { entries, notes };
+// Objetos: una ficha por objeto del que tengo nota propia. Datos de metabot contados con mis palabras y citados;
+// lo visto en partida va marcado aparte. Las conexiones apuntan a otras fichas (objeto) o a páginas del sitio (href).
+const ref = z.object({ objeto: z.string().optional(), href: z.string().startsWith('/').optional(), texto: z.string() });
+const objetos = defineCollection({
+  loader: glob({ pattern: '*/*.md', base: './src/content/objetos' }),
+  schema: z
+    .object({
+      en: z.string(),
+      es: z.string(),
+      description: z.string().max(170),
+      grado: z.string(),
+      gradoEn: z.string(),
+      categoria: z.string().optional(),
+      comercio: z.enum(['mercado', 'no', 'alma']),
+      npc: z.number().int().optional(),
+      textoJuego: z.string().optional(),
+      sirvePara: z.array(ref).default([]),
+      hechoCon: z.array(ref).default([]),
+      saleDe: z.array(ref).default([]),
+      firstHand: z.boolean().default(false),
+      verifiedAt: z.coerce.date().optional(),
+      sources: z.array(z.object({ title: z.string(), url: z.url(), lang: z.enum(['es', 'en', 'ko', 'zh', 'ja', 'de', 'fr', 'pt', 'ru', 'tr', 'ar']) })).min(1),
+      updated: z.coerce.date(),
+    })
+    .superRefine((d, ctx) => {
+      if (d.firstHand && !d.verifiedAt) ctx.addIssue({ code: 'custom', path: ['verifiedAt'], message: 'lo visto en partida lleva fecha' });
+    }),
+});
+
+export const collections = { entries, notes, objetos };
