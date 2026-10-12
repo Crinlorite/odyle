@@ -40,3 +40,4 @@ Las piezas doradas de Bakarma son únicas, de nivel 54. Me tocaron dos, la peche
 - **Exploration** para aprender la mazmorra y llenar su recompensa garantizada.
 - **Conquest en cuanto se pueda**, porque paga casi el triple de Kina. Mejor con un grupo que vaya a por todos los jefes, porque la Kina va por matarlos a todos. En las salas se anuncian como «all bosses» o «3boss».
 - Los grupos de entrada rápida se deshacen a menudo tras el primer jefe.
+- Lo que viene después, a 1.400 y a 2.100, en [esta otra entrada](/es/cuaderno/expediciones-700-1400-2100/).
