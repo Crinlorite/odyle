@@ -9,6 +9,8 @@ firstHand: true
 sources:
   - { title: 'AION 2: What to Do After Lvl 45 — gamesfuze', url: 'https://gamesfuze.com/guides/aion-2-what-to-do-after-lvl-45/', lang: en }
   - { title: 'Draupnir, botín y requisitos del cliente global — metabot', url: 'https://metabot.gg/en/aion-2/dungeons/draupnir', lang: en }
+history:
+  - { date: 2026-10-12, note: 'Corregido: la barra garantizada son puntos (2 por partida en Krao Cave) y vuelve a empezar al cobrarla.' }
 updated: 2026-10-12
 translationKey: expediciones-700-1400-2100
 ---
@@ -21,14 +23,16 @@ Las guías hablan de escalones de 700 en 700 para las conquistas de la temporada
 
 Esto enseñaba mi menú Expedition, pestaña Conquest, el 12 de octubre, con 1.519 de nivel de objeto:
 
-| Mazmorra | Estrellas | Nivel de objeto | Jugadores | Kina por matar a todos los jefes, a la semana | Recompensa garantizada |
+| Mazmorra | Estrellas | Nivel de objeto | Jugadores | Kina por matar a todos los jefes, a la semana | Barra de la recompensa garantizada |
 |---|---|---|---|---|---|
-| Krao Cave | 1 | 700 | 1 a 5 | 200.000 | A las 14 partidas |
-| Draupnir | 1 | 700 | 1 a 5 | 200.000 | A las 14 |
-| Urugugu Canyon | 2 | 1.400 | **2 a 5** | 300.000 | A las 21 |
-| Vakron Sky Island | 2 | 1.400 | **2 a 5** | 300.000 | A las 21 |
-| Fire Temple | 3 | **2.100** | 1 a 5 | 400.000 | A las 28 |
-| Ferocious Horn Den | 3 | **2.100** | 1 a 5 | 400.000 | A las 28 |
+| Krao Cave | 1 | 700 | 1 a 5 | 200.000 | 14 puntos |
+| Draupnir | 1 | 700 | 1 a 5 | 200.000 | 14 puntos |
+| Urugugu Canyon | 2 | 1.400 | **2 a 5** | 300.000 | 21 puntos |
+| Vakron Sky Island | 2 | 1.400 | **2 a 5** | 300.000 | 21 puntos |
+| Fire Temple | 3 | **2.100** | 1 a 5 | 400.000 | 28 puntos |
+| Ferocious Horn Den | 3 | **2.100** | 1 a 5 | 400.000 | 28 puntos |
+
+En Krao Cave, cada partida me sumaba **2 puntos** a la barra, así que la de 14 se llenaba en 7 partidas. No sé si los 2 puntos son por la membresía o para todos. Al cobrar la recompensa, **la barra vuelve a cero y empieza otra**: no se acaba como la Kina de la semana.
 
 Cada mazmorra enseña **lo suyo por separado**: su recompensa de Kina, su barra garantizada y su «Remaining Unobtained Cube» 10/10. Todos los cubos son de 40 de Odyle Energy. Si los diez cubos son por mazmorra o compartidos no lo he podido comprobar: Krao Cave seguía en 10/10 después de dos partidas, aunque cuando lo miré tenía la energía a 0. En este menú no hay nada de 1.600. Las de 1.400 no se pueden hacer solo.
 
@@ -48,5 +52,6 @@ Con 1.519 de nivel y unos 61k de poder, Krao Cave en Conquest ya me resultaba se
 ## Qué hacer
 
 - **Haz todas las que tengas abiertas, no solo una.** La Kina va por mazmorra: Krao Cave y Draupnir juntas dan 400.000 a la semana, y con las de 1.400, 1.000.000.
+- **La Kina semanal se acaba; la recompensa garantizada, no.** Si una mazmorra te sale rápida, puedes seguir repitiéndola por la barra.
 - **Para Urugugu y Vakron, busca grupo**: piden dos jugadores como mínimo.
 - El siguiente muro de expediciones está en **2.100**. Cómo llegué hasta aquí, en [el apunte del 45 a los 1.000](/es/apuntes/del-45-a-los-1000/).
