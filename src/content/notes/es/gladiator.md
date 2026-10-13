@@ -2,7 +2,7 @@
 title: Gladiator en PvE, qué subir y en qué orden
 description: Mi chuleta del Gladiator, puntos de skill, especializaciones, estigmas, Daevanion y rotación, según lo que llevan los mejores jugadores coreanos.
 basis: Datos de jugadores coreanos, tablas del cliente global y una guía taiwanesa
-updated: 2026-10-11
+updated: 2026-10-13
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (8.459 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -116,13 +116,20 @@ Las de «+X % de probabilidad» de aplicar un estado no valen nada en PvE, porqu
 
 Se abren a nivel 22 y usan fragmentos, no puntos de skill. En el cliente global hay 13 por clase y **cuatro huecos**, que se abren a nivel 22, 27, 32 y 37.
 
-| Orden | Estigma | Objetivo | Uso entre los mejores |
+Lo que llevan los 151 mejores Gladiator que sigue metabot (13 de octubre): **Lunge Stance 91 %, Zikel's Blessing 91 %, Rage Burst 73 % y Focused Block 62 %**. Detrás, Lifestealing Blade (42 %), Wrath Wave (27 %) y Tenaciousness (17 %). De media los llevan a 5-8.
+
+Cada estigma enciende una especialidad fija a nivel 5, 10, 15 y 20; no se elige. Lo que dan los dos primeros escalones:
+
+| Estigma | Qué hace | A nivel 5 | A nivel 10 |
 |---|---|---|---|
-| 1 | **Lunge Stance** | 20 | 99 % |
-| 2 | **Zikel's Blessing** | subir | 98,8 % |
-| 3 | **Rage Burst** | subir | 96,9 % |
-| 4 | **Focused Block** | 10 | 94,8 % |
-| 5 | **Lifestealing Blade** | cuando haya hueco | 93,7 % |
+| **Zikel's Blessing** | +20 % de ataque y +100 de precisión 10 s (2 min) | +50 % de daño a la barra de aturdimiento | **+10 % de daño PvE** (+5 % PvP) |
+| **Lunge Stance** | +20 % de velocidad de combate 10 s (1 min) | +5 % de probabilidad de golpe doble | +20 % de velocidad de movimiento |
+| **Rage Burst** | Golpe fuerte y Wounded: −10 % de ataque al enemigo (45 s) | **−15 s de recarga** | −10 % más de ataque al enemigo |
+| **Focused Block** | +100 % de reducción al bloquear y parada segura (20 s) | Dos usos seguidos | Se puede usar en movimiento |
+| **Lifestealing Blade** | Área a 4 enemigos y roba vida (90 s) | Hasta +20 % de daño cuantos más golpea | Robo de vida para el grupo 20 s |
+| **Wrath Wave** | Área a 4 enemigos con derribo (1 min) | Hasta +20 % de daño cuantos más golpea | −20 % de ataque al enemigo 5 s |
+
+Si solo uno puede ir a 10, que sea **Zikel's Blessing**: su escalón de 10 es el único que suma daño puro. Los demás, a 5: Lunge Stance y Rage Burst siempre, y el cuarto según toque. Focused Block para jefes; Lifestealing Blade si farmeas grupos de bichos o vas solo.
 
 Coste por nivel: 1 fragmento hasta el 5, 2 hasta el 10, 4 hasta el 15 y 8 hasta el 20. Un estigma a nivel 20 son 75 fragmentos.
 
