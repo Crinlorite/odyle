@@ -2,7 +2,7 @@
 title: Spiritmaster, qué subir, espíritus y estigmas
 description: Chuleta del Spiritmaster para empezar, los cinco espíritus, el orden de skills mientras se sube, los estigmas que lleva casi todo el mundo y la rotación.
 basis: Datos de jugadores coreanos, foros coreanos y taiwaneses, y tablas del cliente global
-updated: 2026-10-07
+updated: 2026-10-14
 sources:
   - { title: 'Spiritmaster, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-spiritmaster', lang: es }
   - { title: 'Aion 2 Spiritmaster Build Guide (3.587 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/spiritmaster/', lang: en }
@@ -12,6 +12,7 @@ sources:
   - { title: 'Skills recomendadas al empezar con Spiritmaster — Inven', url: 'https://www.inven.co.kr/board/aion2/6454/43', lang: ko }
   - { title: 'Guía grande de Spiritmaster — foro de AION2 en Bahamut', url: 'https://forum.gamer.com.tw/C.php?bsn=82913&snA=3587', lang: zh }
   - { title: 'Espiritualista, nombres de las skills con el cliente en español — metabot', url: 'https://metabot.gg/es/aion-2/classes/spiritmaster', lang: es }
+  - { title: 'Patch Notes, Oct. 13 (PDT) / Oct. 14 (CEST) — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/670631196372238370', lang: en }
 glossary:
   - { en: "Spiritmaster", es: "Espiritualista" }
   - { en: "Cold Shock", es: "Impacto helado" }
@@ -195,6 +196,10 @@ La guía de IMPERIUM dice que se empiece por el tablero Ariel. Ese tablero no ex
 - Guardar Elemental Fusion en vez de lanzarla.
 - Dejar caer Jointstrike: Corrode y Jointstrike: Curse.
 - Llevar el espíritu de fuego al PvP.
+
+## Cambios de parche
+
+- **14-oct-2026:** arreglan que el Ancient Spirit, con el estigma a nivel 15 o menos, no lanzara bien sus skills. No es un cambio de fuerza: ahora hace lo que ya ponía. [Todo el parche](/es/apuntes/parche-14-oct-y-halloween/).
 
 ## Lo que no he comprobado
 
