@@ -11,7 +11,8 @@ sources:
   - { title: 'Lo que debería saber quien empieza — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/2116', lang: ko }
 history:
   - { date: 2026-10-12, note: 'Añadido: Normal a 1.500, con lo que dio la primera partida.' }
-updated: 2026-10-12
+  - { date: 2026-10-14, note: 'Añadida la segunda partida en Normal, en otro mapa, y para qué sirve de verdad.' }
+updated: 2026-10-14
 translationKey: abismo-y-ascension-trial-piden-1000
 ---
 
@@ -31,8 +32,10 @@ Con 1.519 entré en Normal (el mapa se llama Nightmare Altar). Sin muertes, me s
 
 Lo que dio: **1.500 piedras de mejora**, 9 fragmentos de Amplify Stone (Unique), 11 Growth Pet Chest y 7 Ascension Binding Chest, todo ligado. El contador de intentos va sobre 3.
 
+El 14 de octubre repetí, con 1.641. El mapa era otro, Sanctum of Loathing, y los objetivos extra más cortos: 2:00, 4:30 y 7:00. Sin muertes y con 11:36 de sobra saqué 2.492. Dio lo mismo con un fragmento menos: 1.500 piedras de mejora, 8 fragmentos, 11 Growth Pet Chest y 7 Ascension Binding Chest. Cada Ascension Binding Chest da una Manastone o una Soulstone, con alguna posibilidad de que sea Intermediate.
+
 ## Qué hacer
 
 Lo que sí se abre antes es Draupnir y Krao Cave, a 700, también en su versión Conquest ([esta entrada](/es/cuaderno/expediciones-se-abren-a-700/)). El camino de 700 a 1.000 lo tengo en [el apunte del nivel 45 a los 1.000](/es/apuntes/del-45-a-los-1000/).
 
-En cuanto pases de 1.500, haz los intentos en Normal: a mí me resultó fácil, y da 1.500 piedras de mejora por partida.
+En cuanto pases de 1.500, haz los intentos en Normal: a mí me resultó fácil. Pero no por las piedras de mejora: una Bio-Research con 1.536 me dio 6.700, más de cuatro veces lo de aquí. Lo que vale de Ascension Trial son los fragmentos de [Amplify Stone](/es/objetos/amplify-stone-fragment-unique/), que hacen falta para pasar de +15 las piezas doradas ([las cuentas](/es/apuntes/monedas-materiales-y-contenidos/)). Guárdalos.

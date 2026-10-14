@@ -1,7 +1,7 @@
 ---
 en: Amplify Stone Fragment (Unique)
 es: Pedazo de Piedra de superación (único)
-description: "Trozos que se juntan por Substance Morph en una Amplify Stone (Unique). Ascension Trial en Normal da 9 por partida."
+description: "Trozos que se juntan por Substance Morph en una Amplify Stone (Unique): 4 por piedra, más 2.500 Enhance Stones. Ascension Trial en Normal da 8 o 9 por partida."
 grado: Único
 gradoEn: Unique
 categoria: Material especial
@@ -15,19 +15,20 @@ saleDe:
   - { texto: 'Abyssal Forge: Ludra y Deus Research Base' }
   - { texto: 'Trade Shop y Season Shop, por 500 Phantasmal Fragment' }
 firstHand: true
-verifiedAt: 2026-10-12
+verifiedAt: 2026-10-14
 sources:
   - { title: 'Amplify Stone Fragment (Unique) (Bound) — metabot', url: 'https://metabot.gg/en/aion-2/items/amplify-stone-fragment-unique-bound', lang: en }
-updated: 2026-10-12
+  - { title: 'Substance Morph, Growth Materials — wikily', url: 'https://wikily.gg/aion-2/substance-morph/growth-materials', lang: en }
+updated: 2026-10-14
 ---
 
 ## Para qué sirve
 
-Solo para una cosa: juntarlos en Substance Morph (en el cliente en español, «Conversión») para sacar una [Amplify Stone (Unique)](/es/objetos/amplify-stone-unique/). Cuántos fragmentos pide cada piedra no lo he comprobado todavía.
+Solo para una cosa: juntarlos en Substance Morph (en el cliente en español, «Conversión») para sacar una [Amplify Stone (Unique)](/es/objetos/amplify-stone-unique/). Según la tabla de recetas de wikily, cada piedra pide **4 fragmentos y 2.500 Enhance Stones**. En mi Substance Morph no lo he visto todavía.
 
 ## Dónde sale
 
-**Visto en partida:** Ascension Trial en Normal me dio **9** en una partida, el 12 de octubre.
+**Visto en partida:** Ascension Trial en Normal me dio **9** el 12 de octubre y **8** el 14. Con los tres intentos de la semana salen entre 24 y 27: lo justo para el primer paso de amplificación de una pieza, que pide 6 piedras ([las cuentas](/es/apuntes/monedas-materiales-y-contenidos/)).
 
 **Según metabot:**
 

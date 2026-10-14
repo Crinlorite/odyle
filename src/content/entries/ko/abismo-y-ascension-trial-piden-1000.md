@@ -11,7 +11,8 @@ sources:
   - { title: '처음 시작하는 분들이 알아야 할 것 — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/2116', lang: ko }
 history:
   - { date: 2026-10-12, note: '추가: 1,500에 열리는 Normal과 첫 판 보상.' }
-updated: 2026-10-12
+  - { date: 2026-10-14, note: '추가: 다른 맵에서 한 두 번째 Normal, 그리고 진짜 쓸모.' }
+updated: 2026-10-14
 translationKey: abismo-y-ascension-trial-piden-1000
 ---
 
@@ -31,8 +32,10 @@ translationKey: abismo-y-ascension-trial-piden-1000
 
 보상: **강화석 1,500개**, Amplify Stone (Unique) 조각 9개, Growth Pet Chest 11개, Ascension Binding Chest 7개. 전부 귀속입니다. 입장 횟수는 3회 기준입니다.
 
+10월 14일에 1,641로 다시 들어갔습니다. 맵이 Sanctum of Loathing으로 바뀌었고, 추가 목표 시간도 2:00, 4:30, 7:00으로 더 짧았습니다. 한 번도 안 죽었고 11:36이 남았으며 2,492점이 나왔습니다. 보상은 조각이 하나 적은 것 말고는 같았습니다. 강화석 1,500개, 조각 8개, Growth Pet Chest 11개, Ascension Binding Chest 7개. Ascension Binding Chest에서는 Manastone이나 Soulstone이 하나 나오고, 일정 확률로 Intermediate가 나옵니다.
+
 ## 할 일
 
 그 전에 열리는 건 Draupnir와 Krao Cave로, 700부터이며 Conquest 버전도 마찬가지입니다([이 글](/ko/cuaderno/expediciones-se-abren-a-700/)). 700에서 1,000까지 올리는 방법은 [45레벨에서 1,000까지 정리한 노트](/ko/apuntes/del-45-a-los-1000/)에 있습니다.
 
-1,500을 넘기면 바로 Normal로 도전하세요. 저는 쉬웠고, 한 판에 강화석 1,500개를 줍니다.
+1,500을 넘기면 바로 Normal로 도전하세요. 저는 쉬웠습니다. 다만 강화석 때문은 아닙니다. 1,536일 때 Bio-Research 한 판에서 6,700개가 나왔으니, 여기의 4배가 넘습니다. Ascension Trial의 진짜 가치는 골드 장비를 +15 이상으로 올릴 때 필요한 [Amplify Stone](/ko/objetos/amplify-stone-fragment-unique/) 조각입니다([계산](/ko/apuntes/monedas-materiales-y-contenidos/)). 모아 두세요.
