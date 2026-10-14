@@ -10,7 +10,7 @@ sources:
   - { title: 'Every Shugo Festival Minigame and Its Rewards — allthings.how', url: 'https://allthings.how/aion-2-every-shugo-festival-minigame-and-its-rewards/', lang: en }
   - { title: 'AION 2 Shugo Festival Guide, Mini-Games, Keys and Shop — aion2.help', url: 'https://www.aion2.help/guide/treegu-festival', lang: en }
 glossary:
-  - { en: \"Radiant Odyle\", es: \"Od radiante\" }
+  - { en: "Radiant Odyle", es: "Od radiante" }
 translationKey: shugo-festival
 ---
 
@@ -81,7 +81,7 @@ Se paga con Centuryroot Tokens. Estos precios son los de mi pantalla el 7 de oct
 | Cuadros para decorar | 2.000 cada uno | Uno de cada |
 | Apariencias | De 530 a 5.400 | Una de cada |
 
-- **No vende Wisdom Stones ni libros del alma**, que es lo que las guías ponían como compra prioritaria. Sí vende fragmentos de estigma.
+- **No vende Wisdom Stones ni Soul Codex**, que es lo que las guías ponían como compra prioritaria. Sí vende fragmentos de estigma.
 - El cristal de Daevanion lleva una etiqueta «Step 1/4»: el precio parece subir por tramos. No lo he comprobado comprando.
 - Una guía cita un segundo mercader más barato que cobra en las mismas fichas. No lo he encontrado.
 
