@@ -15,8 +15,9 @@ const present = (['comprobado', 'duda', 'cambio'] as const).filter((st) => list.
     <p class="kicker">{s.entriesCount(list.length)}</p>
     <h1>{s.notebookTitle}</h1>
     <p class="lead">{s.notebookLead}</p>
+    {s.untranslated && <p class="data">{s.untranslated}</p>}
   </header>
-  <div class="filters" role="group" aria-label="Estado">
+  <div class="filters" role="group" aria-label={s.statusAria}>
     <button type="button" data-f="" aria-pressed="true">{s.filterAll}</button>
     {present.map((st) => <button type="button" data-f={st} aria-pressed="false">{s.status[st]}</button>)}
   </div>

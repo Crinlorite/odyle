@@ -1,27 +1,28 @@
 ---
 import { existsSync } from 'node:fs';
-import { render } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Glosario from '../../../components/Glosario.astro';
 import Seal from '../../../components/Seal.astro';
 import { LANGS, type Lang } from '../../../i18n/langs';
 import { t } from '../../../i18n/strings';
 import { TOPICS } from '../../../lib/topics';
-import { entriesFor, fmtDate, isoDate, slugOf, type Entry } from '../../../lib/entries';
+import { fmtDate, isoDate, langOf, slugOf, type Entry } from '../../../lib/entries';
+import { published, versions } from '../../../lib/i18n';
 
 export async function getStaticPaths() {
-  const out = [];
-  for (const lang of LANGS) for (const entry of await entriesFor(lang)) out.push({ params: { lang, slug: slugOf(entry) }, props: { entry } });
-  return out;
+  return published(await getCollection('entries')).map((entry) => ({ params: { lang: langOf(entry), slug: slugOf(entry) }, props: { entry } }));
 }
 const lang = Astro.params.lang as Lang;
 const { entry } = Astro.props as { entry: Entry };
 const d = entry.data;
 const s = t(lang);
+const alts = versions(await getCollection('entries'), slugOf(entry), 'cuaderno');
 
 // Los tres apartados son parte del formato: si falta uno, la web no compila.
-const third = d.status === 'duda' ? 'Cómo se va a comprobar' : 'Qué hacer';
-for (const h of ['Lo que se dice', 'Lo que pasa', third]) {
+const HEADS = { es: ['Lo que se dice', 'Lo que pasa', 'Qué hacer', 'Cómo se va a comprobar'], en: ['What people say', 'What happens', 'What to do', 'How it will be verified'], ko: ['알려진 내용', '실제로 일어나는 일', '할 일', '확인 방법'] }[lang];
+const third = d.status === 'duda' ? HEADS[3] : HEADS[2];
+for (const h of [HEADS[0], HEADS[1], third]) {
   if (!new RegExp(`^## ${h}\\s*$`, 'm').test(entry.body ?? '')) throw new Error(`${entry.id}: falta el apartado «${h}»`);
 }
 // Cada entrada lleva su imagen para compartir (npm run og). Si falta, la web no compila.
@@ -30,15 +31,15 @@ if (!existsSync(`public${ogImage}`)) throw new Error(`${entry.id}: falta ${ogIma
 const { Content } = await render(entry);
 const url = new URL(Astro.url.pathname, Astro.site).href;
 const jsonLd = {
-  '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, inLanguage: 'es',
+  '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description, inLanguage: lang,
   datePublished: isoDate(d.verifiedAt ?? d.updated), dateModified: isoDate(d.updated), mainEntityOfPage: url, image: new URL(ogImage, Astro.site).href,
   author: { '@type': 'Person', name: 'Gerlari' }, publisher: { '@type': 'Organization', name: 'odyle', url: 'https://odyle.net/' },
 };
 ---
-<Base lang={lang} title={d.title} description={d.description} section="cuaderno" jsonLd={jsonLd} ogImage={ogImage}>
+<Base lang={lang} title={d.title} description={d.description} section="cuaderno" jsonLd={jsonLd} ogImage={ogImage} alts={alts}>
   <article>
     <header class="page-head">
-      <div class="row"><Seal status={d.status} lang={lang} /><a class="topic" href={`/${lang}/temas/${d.topic}/`}>{TOPICS[d.topic].name}</a></div>
+      <div class="row"><Seal status={d.status} lang={lang} /><a class="topic" href={`/${lang}/temas/${d.topic}/`}>{TOPICS[lang][d.topic].name}</a></div>
       <h1>{d.title}</h1>
       <dl class="ficha">
         <div><dt>{s.fVerified}</dt><dd>{d.verifiedAt ? fmtDate(d.verifiedAt, lang) : s.unverified}</dd></div>
@@ -49,7 +50,7 @@ const jsonLd = {
         {d.rig && <div><dt>{s.fRig}</dt><dd>{d.rig.machine}, {d.rig.os}</dd></div>}
       </dl>
     </header>
-    <Glosario own={d.glossary} text={`${d.title}\n${entry.body ?? ''}`} />
+    {lang === 'es' && <Glosario own={d.glossary} text={`${d.title}\n${entry.body ?? ''}`} />}
     <div class="plain"><div class="prose prose--entry"><Content /></div></div>
     <div class="aside">
       <h2>{s.sources}</h2>

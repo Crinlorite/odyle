@@ -8,12 +8,16 @@ import '@fontsource/courier-prime/latin-700.css';
 import '@fontsource/patrick-hand/latin-400.css';
 import '../styles/global.css';
 import Logo from '../components/Logo.astro';
-import type { Lang } from '../i18n/langs';
-import { LOCALE } from '../i18n/langs';
+import { LANGS, LANG_LABEL, LANG_NAME, LOCALE, type Lang } from '../i18n/langs';
 import { t } from '../i18n/strings';
 
-interface Props { lang: Lang; title: string; description: string; section?: 'cuaderno' | 'temas' | 'apuntes' | 'objetos' | 'acerca'; jsonLd?: object; noindex?: boolean; ogImage?: string }
-const { lang, title, description, section, jsonLd, noindex, ogImage = '/og/default.jpg' } = Astro.props;
+// alts: en qué idiomas existe esta misma página. Si no se pasa, la página existe en todos (portadas y secciones).
+interface Props { lang: Lang; title: string; description: string; section?: 'cuaderno' | 'temas' | 'apuntes' | 'objetos' | 'acerca'; jsonLd?: object; noindex?: boolean; ogImage?: string; alts?: Partial<Record<Lang, string>> }
+const { lang, title, description, section, jsonLd, noindex, ogImage = `/og/${lang === 'es' ? '' : `${lang}/`}default.jpg`, alts } = Astro.props;
+const swap = (l: Lang) => Astro.url.pathname.replace(/^\/(es|en|ko)\//, `/${l}/`);
+const versions: Partial<Record<Lang, string>> = alts ?? Object.fromEntries(LANGS.map((l) => [l, swap(l)]));
+// Si esta página no está en otro idioma, el selector lleva a la sección equivalente de ese idioma.
+const target = (l: Lang) => versions[l] ?? `/${l}/${section ? { cuaderno: 'cuaderno', temas: 'temas', apuntes: 'apuntes', objetos: 'objetos', acerca: 'acerca' }[section] + '/' : ''}`;
 const ogUrl = new URL(ogImage, Astro.site).href;
 const s = t(lang);
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
@@ -30,6 +34,8 @@ const fullTitle = title === 'odyle' ? `odyle · ${s.tagline}` : `${title} · ody
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {Object.entries(versions).map(([l, href]) => <link rel="alternate" hreflang={l} href={new URL(href!, Astro.site).href} />)}
+    {versions.es && <link rel="alternate" hreflang="x-default" href={new URL(versions.es, Astro.site).href} />}
     {noindex && <meta name="robots" content="noindex" />}
     <meta property="og:site_name" content="odyle" />
     <meta property="og:type" content={jsonLd ? 'article' : 'website'} />
@@ -37,6 +43,7 @@ const fullTitle = title === 'odyle' ? `odyle · ${s.tagline}` : `${title} · ody
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content={LOCALE[lang].replace('-', '_')} />
+    {Object.keys(versions).filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={LOCALE[l as Lang].replace('-', '_')} />)}
     <meta property="og:image" content={ogUrl} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -50,13 +57,16 @@ const fullTitle = title === 'odyle' ? `odyle · ${s.tagline}` : `${title} · ody
   <body>
     <div class="sheet">
       <header class="hdr">
-        <a class="logo" href={`/${lang}/`} aria-label="odyle, portada"><Logo />odyle</a>
-        <nav class="nav" aria-label="Secciones">
+        <a class="logo" href={`/${lang}/`} aria-label="odyle"><Logo />odyle</a>
+        <nav class="nav" aria-label={s.navAria}>
           <a href={`/${lang}/cuaderno/`} aria-current={section === 'cuaderno' ? 'page' : undefined}>{s.navNotebook}</a>
           <a href={`/${lang}/temas/`} aria-current={section === 'temas' ? 'page' : undefined}>{s.navTopics}</a>
           <a href={`/${lang}/apuntes/`} aria-current={section === 'apuntes' ? 'page' : undefined}>{s.navNotes}</a>
           <a href={`/${lang}/objetos/`} aria-current={section === 'objetos' ? 'page' : undefined}>{s.navItems}</a>
           <a href={`/${lang}/acerca/`} aria-current={section === 'acerca' ? 'page' : undefined}>{s.navAbout}</a>
+        </nav>
+        <nav class="langs" aria-label={s.langNav}>
+          {LANGS.map((l) => <a href={target(l)} hreflang={l} lang={l} title={LANG_NAME[l]} aria-current={l === lang ? 'true' : undefined}>{LANG_LABEL[l]}</a>)}
         </nav>
         <button class="theme" type="button" id="tema" aria-label={s.theme} title={s.theme}>
           <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"></circle><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.100 2.100M17 17l2.100 2.100M4.900 19.100L7 17M17 7l2.100-2.100"></path></g></svg>

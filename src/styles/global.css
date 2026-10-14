@@ -65,6 +65,14 @@ img { max-width: 100%; height: auto; }
 .logo svg { width: 2.5rem; height: 2rem; flex: none; filter: drop-shadow(0 0 6px var(--orb-glow)); }
 .nav { display: flex; flex-wrap: wrap; gap: .3rem 1.3rem; margin-left: auto; font-family: var(--f-data); font-size: .98rem; }
 .nav a[aria-current='page'] { font-weight: 700; text-decoration-thickness: 3px; }
+.langs { display: flex; gap: .15rem; font-family: var(--f-data); font-size: .85rem; }
+.langs a { padding: .15rem .4rem; border: 1.5px solid transparent; border-radius: 4px; text-decoration: none; color: var(--ink-soft); }
+.langs a[aria-current='true'] { border-color: var(--ink); color: var(--ink); font-weight: 700; }
+.langs a:hover { color: var(--ink); text-decoration: underline; }
+.enes { font-family: var(--f-data); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); border: 1px dashed var(--card-line); border-radius: 3px; padding: .05rem .35rem; }
+/* Coreano: las fuentes del cuaderno no tienen hangul; se usa la del sistema y se corta por palabras. */
+:lang(ko) { word-break: keep-all; overflow-wrap: anywhere; }
+html:lang(ko) { --f-head: 'Zilla Slab', 'Noto Serif KR', 'Nanum Myeongjo', 'Apple SD Gothic Neo', 'Malgun Gothic', serif; --f-body: 'Bitter', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; --f-hand: 'Patrick Hand', 'Nanum Pen Script', 'Apple SD Gothic Neo', 'Malgun Gothic', cursive; }
 .theme { display: inline-flex; align-items: center; justify-content: center; width: 2.4rem; height: 2.4rem; padding: 0; border: 1.5px solid var(--ink); border-radius: 4px; background: var(--card); color: var(--ink); cursor: pointer; }
 .theme svg { width: 1.2rem; height: 1.2rem; }
 .theme .moon { display: none; }

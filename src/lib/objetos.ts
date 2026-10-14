@@ -1,13 +1,16 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import type { Lang } from '../i18n/langs';
+import { localized } from './i18n';
 
 export type Objeto = CollectionEntry<'objetos'>;
 export type Ref = Objeto['data']['sirvePara'][number];
 
 export const slugOf = (o: Objeto) => o.id.split('/')[1];
 
-// Todas las fichas de un idioma, y las conexiones resueltas: si una apunta a una ficha que no existe, no compila.
-export async function objetos(lang: string) {
-  const all = (await getCollection('objetos', (o) => o.id.startsWith(`${lang}/`))).sort((a, b) => a.data.en.localeCompare(b.data.en));
+// Todas las fichas de un idioma (más las que solo están en español), y las conexiones resueltas:
+// si una apunta a una ficha que no existe, no compila.
+export async function objetos(lang: Lang) {
+  const all = localized(await getCollection('objetos'), lang).sort((a, b) => a.data.en.localeCompare(b.data.en));
   const bySlug = new Map(all.map((o) => [slugOf(o), o]));
   for (const o of all) {
     for (const r of [...o.data.sirvePara, ...o.data.hechoCon, ...o.data.saleDe]) {

@@ -6,6 +6,7 @@ import Glosario from '../../../components/Glosario.astro';
 import { LANGS, type Lang } from '../../../i18n/langs';
 import { t } from '../../../i18n/strings';
 import { fmtDate } from '../../../lib/entries';
+import { versions } from '../../../lib/i18n';
 export async function getStaticPaths() {
   const all = await getCollection('notes');
   return all.filter((n) => (LANGS as readonly string[]).includes(n.id.split('/')[0])).map((note) => ({ params: { lang: note.id.split('/')[0], slug: note.id.split('/')[1] }, props: { note } }));
@@ -14,11 +15,12 @@ const lang = Astro.params.lang as Lang;
 const { note } = Astro.props;
 const d = note.data;
 const s = t(lang);
+const alts = versions(await getCollection('notes'), note.id.split('/')[1], 'apuntes');
 const ogImage = `/og/${lang}/apunte-${note.id.split('/')[1]}.jpg`;
 if (!existsSync(`public${ogImage}`)) throw new Error(`${note.id}: falta ${ogImage}; lanza «npm run og»`);
 const { Content } = await render(note);
 ---
-<Base lang={lang} title={d.title} description={d.description} section="apuntes" ogImage={ogImage}>
+<Base lang={lang} title={d.title} description={d.description} section="apuntes" ogImage={ogImage} alts={alts}>
   <article>
     <header class="page-head">
       <div class="row"><span class="seal seal--apunte">{s.noteSeal}</span><a class="topic" href={`/${lang}/apuntes/`}>{s.notesTitle}</a></div>
@@ -28,8 +30,8 @@ const { Content } = await render(note);
         <div><dt>{s.noteBasis}</dt><dd>{d.basis}</dd></div>
       </dl>
     </header>
-    <p class="warn">Esto es un apunte mío, no una entrada del cuaderno. No lo he comprobado en el cliente global: es lo que sigo mientras juego, sacado de las fuentes de abajo. Lo que vaya confirmando pasará al cuaderno.</p>
-    <Glosario own={d.glossary} text={`${d.title}\n${note.body ?? ''}`} />
+    <p class="warn">{s.noteWarn}</p>
+    {lang === 'es' && <Glosario own={d.glossary} text={`${d.title}\n${note.body ?? ''}`} />}
     <div class="plain"><div class="prose"><Content /></div></div>
     <div class="aside">
       <h2>{s.sources}</h2>

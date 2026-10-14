@@ -3,6 +3,7 @@ import Base from '../../../layouts/Base.astro';
 import { LANGS, type Lang } from '../../../i18n/langs';
 import { t } from '../../../i18n/strings';
 import { objetos, slugOf } from '../../../lib/objetos';
+import { langOfId } from '../../../lib/i18n';
 export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
 const lang = Astro.params.lang as Lang;
 const s = t(lang);
@@ -10,15 +11,15 @@ const { all } = await objetos(lang);
 const norm = (x: string) => x.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 ---
 <Base lang={lang} title={s.itemsTitle} description={s.itemsLead} section="objetos" ogImage={`/og/${lang}/objetos.jpg`}>
-  <header class="page-head"><h1>{s.itemsTitle}</h1><p class="lead">{s.itemsLead}</p></header>
+  <header class="page-head"><h1>{s.itemsTitle}</h1><p class="lead">{s.itemsLead}</p>{s.untranslated && <p class="data">{s.untranslated}</p>}</header>
   <p class="buscar"><label for="q">{s.itemsSearch}</label><input id="q" type="search" autocomplete="off" spellcheck="false" /></p>
   <ul class="cards" id="objetos">
     {all.map((o) => (
       <li data-q={norm(`${o.data.en} ${o.data.es}`)}><article class="card">
-        <div class="row"><span class="data">{o.data.gradoEn} · {o.data.grado}</span>{o.data.firstHand && <span class="seal seal--comprobado">{s.itemSeen}</span>}</div>
-        <h3><a href={`/${lang}/objetos/${slugOf(o)}/`}>{o.data.en}</a></h3>
-        {o.data.es !== o.data.en && <p class="data">{o.data.es}</p>}
-        <p>{o.data.description}</p>
+        <div class="row"><span class="data">{lang === 'es' ? `${o.data.gradoEn} · ${o.data.grado}` : o.data.gradoEn}</span>{o.data.firstHand && <span class="seal seal--comprobado">{s.itemSeen}</span>}{langOfId(o.id) !== lang && <span class="enes">{s.inSpanish}</span>}</div>
+        <h3><a href={`/${langOfId(o.id)}/objetos/${slugOf(o)}/`}>{o.data.en}</a></h3>
+        {lang === 'es' && o.data.es !== o.data.en && <p class="data">{o.data.es}</p>}
+        <p lang={langOfId(o.id) !== lang ? langOfId(o.id) : undefined}>{o.data.description}</p>
       </article></li>
     ))}
   </ul>
