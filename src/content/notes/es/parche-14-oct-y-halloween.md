@@ -1,7 +1,7 @@
 ---
 title: El parche del 14 de octubre, Halloween y los traslados de servidor
-description: Lo que cambia con el mantenimiento del 14-oct-2026. Más Odyle Energy, piedras del Abismo por Kina, el evento de Halloween hasta el 4-nov y los primeros traslados gratis.
-basis: Notas del parche, aviso de mantenimiento y carta del productor publicados por NCSOFT en Steam; lo de Ludra y los plazos de traslado, de prensa y guías
+description: Lo que cambia con el mantenimiento del 14-oct-2026. Más Odyle Energy, piedras del Abismo por Kina, el evento de Halloween hasta el 4-nov y los traslados gratis.
+basis: Notas del parche, avisos de mantenimiento y de traslados y carta del productor, publicados por NCSOFT en Steam; lo de Ludra, de prensa y guías
 updated: 2026-10-14
 sources:
   - { title: 'Patch Notes, Oct. 13 (PDT) / Oct. 14 (CEST) — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/670631196372238370', lang: en }
@@ -9,7 +9,8 @@ sources:
   - { title: 'AION 2 Producer’s Letter: Welcome to Atreia! — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/712288859283523622', lang: en }
   - { title: 'Account Restrictions (Oct 14) — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/670631196372238382', lang: en }
   - { title: 'Information on Server Transfer — NCSOFT', url: 'https://aion2.plaync.com/en-us/board/notice/view?articleId=6abd2d50a279104f7d9d5ee2', lang: en }
-  - { title: 'AION 2 Server Transfer Guide — Timesaver', url: 'https://timesaver.gg/blog/aion-2-server-transfer-guide', lang: en }
+  - { title: 'Server Transfer Products Info — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/712288859283523637', lang: en }
+  - { title: 'Server Transfer Q&A — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/712288859283523640', lang: en }
   - { title: 'Ludra raid removed, rework — GamesGaming', url: 'https://gaminghq.eu/2026/10/08/aion-2-ludra-raid-removed-rework/', lang: en }
   - { title: 'Abyssal Forge: Ludra — thegameswiki', url: 'https://thegameswiki.com/aion-2/wiki/abyssal-forge-ludra', lang: en }
 translationKey: parche-14-oct-y-halloween
@@ -108,9 +109,17 @@ Halloween Candy y Halloween Cookie son comida de 5 minutos:
 
 ## Traslados de servidor
 
-Según la carta del productor, desde el 14 de octubre se puede cambiar de servidor y **el primer traslado es gratis**. El aviso oficial de traslados dice que es entre servidores del mismo bando y que hay restricciones entre los del acceso anticipado y los del lanzamiento.
+NCSOFT lo detalló el 9 de octubre en dos avisos, uno de precios y otro de preguntas y respuestas.
 
-Una guía (Timesaver) da más detalle, pero nadie más lo confirma: dos semanas de plazo, primero los servidores del acceso anticipado (14 a 21 de octubre) y luego los del lanzamiento (21 a 28), un traslado por cuenta, nivel 10 o más y sin legión. Antes de contar con ello, lee el aviso oficial.
+- **Un traslado por cuenta** en todo el periodo, de un servidor a otro. Pero en ese traslado **puedes llevarte todos los personajes que quieras** de ese servidor.
+- **Gratis:** 0 Quna de base y 0 Quna por personaje. Solo se paga 1.000 Quna por cada hueco de personaje que falte en el servidor de destino.
+- **Plazos:** los servidores del acceso anticipado, del 14 al 21 de octubre; los del lanzamiento, del 21 al 28. Los del acceso anticipado solo pueden ir a otros del acceso anticipado.
+- **Horario en Europa:** cada día de 12:00 a 16:00 y de 18:00 a 22:00, hora de España. Fuera de esas horas el botón no deja.
+- Mismo bando y misma región. Cada servidor tiene un cupo de salidas y de entradas: si se llena, no se puede.
+
+**Requisitos de cada personaje:** nivel 10 o más; estar en un pueblo (no en el Abismo, una Spacetime Rift ni una mazmorra); **no estar en una legión** ni tener solicitud pendiente; no tener Duty Quests activas; nada a la venta ni por cobrar en el Mercado; nada sin recoger en Shop Storage ni en el correo.
+
+**Qué pasa:** el nombre pasa a «@TemporaryName» y eliges uno nuevo al entrar (si el tuyo está cogido allí, no lo recuperas). Se llevan la Kina del inventario y del almacén del personaje, **no la del Server Storage**: mueve antes lo que quieras llevarte. Quna, Mileage, membresía, Daeva Pass, apariencias, mascotas, alas, Arcana, Monolith, puntos de temporada y progreso de misiones viajan contigo. Los límites de compra de la tienda no se reinician: se queda el más alto de los dos servidores. No se puede deshacer.
 
 ## Ludra vuelve
 

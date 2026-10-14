@@ -50,7 +50,7 @@ El tablero Ariel, que las guías coreanas mandan empezar el primero, no existe t
 Cada servidor es de un solo bando, y a cada uno le toca otro del bando contrario como rival. Los emparejamientos los publica NCSOFT y cambian cada cierto tiempo.
 
 - En la lista oficial del 6 de octubre de 2026, al servidor elyos Nezekan de Europa le toca el asmodiano Zikel.
-- Las transferencias entre servidores del mismo bando empiezan el 14 de octubre de 2026 y la primera es gratis. El aviso pone restricciones entre los servidores del acceso anticipado y los del lanzamiento: conviene leerlo antes de contar con ello. Lo que se sabe de plazos, en [el apunte del parche del 14 de octubre](/es/apuntes/parche-14-oct-y-halloween/#traslados-de-servidor).
+- Las transferencias entre servidores del mismo bando empiezan el 14 de octubre de 2026 y son gratis: un traslado por cuenta, con todos los personajes que quieras de ese servidor. El aviso pone restricciones entre los servidores del acceso anticipado y los del lanzamiento: conviene leerlo antes de contar con ello. Lo que se sabe de plazos, en [el apunte del parche del 14 de octubre](/es/apuntes/parche-14-oct-y-halloween/#traslados-de-servidor).
 - Las mazmorras y el resto del contenido instanciado se juegan entre servidores.
 
 Los cortes se anuncian en las noticias de AION 2 en Steam y en el tablón oficial. La vuelta no siempre: el 8 de octubre los servidores volvieron sin que el aviso cambiara, así que lo seguro es probar a entrar. Los que llevamos:
