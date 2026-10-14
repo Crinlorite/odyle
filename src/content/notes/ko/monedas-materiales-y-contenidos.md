@@ -2,7 +2,7 @@
 title: 재화, 재료, 콘텐츠별 용도 정리
 description: 게임 재화, 시스템별로 들어가는 재료, 콘텐츠별 보상, 매주 초기화되는 것, 가이드들이 반복하는 실수를 정리한 제 요약표입니다.
 basis: Inven·Gametoc의 한국 가이드, metabot의 글로벌 클라이언트 표, 제 클라이언트에서 본 화면 몇 개
-updated: 2026-10-11
+updated: 2026-10-14
 sources:
   - { title: 'AION 2의 재화 11종 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311584&site=aion2', lang: ko }
   - { title: '처음에 헷갈리는 것들 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311570&site=aion2', lang: ko }
@@ -13,6 +13,8 @@ sources:
   - { title: 'Abyss Supply Request Guide — game8', url: 'https://game8.co/games/Aion-2/archives/629071', lang: en }
   - { title: 'Supply Request 대상 아이템 알아보는 법 — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/439', lang: ko }
   - { title: 'Daeva Bio-Research Base Daily Dungeon Guide — game8', url: 'https://game8.co/games/Aion-2/archives/614849', lang: en }
+  - { title: 'Enhancement Calculator — metabot', url: 'https://metabot.gg/en/aion-2/enhancement', lang: en }
+  - { title: 'Substance Morph, Growth Materials — wikily', url: 'https://wikily.gg/aion-2/substance-morph/growth-materials', lang: en }
 translationKey: monedas-materiales-y-contenidos
 ---
 
@@ -48,6 +50,26 @@ Quna로 살 수 있는 건 [유료 상점 메모](/ko/apuntes/tienda-de-pago/)�
 | **Soul Crystal** | 펫 보드 | 업적, 패스, Wind Breeze 상점 |
 
 날개와 외형은 보유만 해도 능력치가 영구적으로 오릅니다.
+
+## 증폭: 최대 + 이후
+
+골드(Unique) 장비는 강화석으로 **+15**까지 올라갑니다. metabot에 따르면 +10까지는 무조건 성공하고, 그 뒤로는 실패할 수 있습니다. +15가 되면 더 이상 강화석을 쓸 수 없고, 다음 단계는 [Amplify Stone (Unique)](/ko/objetos/amplify-stone-unique/)으로 **증폭**하는 것입니다. 파란 장비는 +10에서 멈추고 증폭할 수 없습니다. 이건 제 게임에서 직접 봤습니다.
+
+**추가 단계 수.** 장비의 아이템 레벨에 따라 다릅니다. metabot 계산기 기준:
+
+| 장비 아이템 레벨 | 추가 단계 | 단계별 확률 | 실패할 때마다 오르는 확률 |
+|---|---|---|---|
+| 54 | 1 | 66% | +5% |
+| 70 | 3 | 66%, 50%, 33% | +5, +4, +3% |
+| 86 | 5 | 66%, 50%, 33%, 25%, 20% | +5, +4, +3, +2, +1% |
+
+**비용.** 첫 단계에 600,000 키나와 Amplify Stone (Unique) 6개가 듭니다. 그다음 단계 비용은 metabot에 나와 있지 않습니다.
+
+**재료를 얻는 곳.** Amplify Stone (Unique) 1개는 Substance Morph에서 **[Amplify Stone Fragment (Unique)](/ko/objetos/amplify-stone-fragment-unique/) 4개와 강화석 2,500개**로 만듭니다(wikily 제작법 표 기준). 귀속되지 않은 돌은 거래소에서도 살 수 있습니다.
+
+**Ascension Trial로 계산하면.** 10월 14일 Normal 한 판에서 조각 8개와 강화석 1,500개가 나왔습니다. 조각 8개는 돌 2개이고, 변환에 강화석 5,000개가 듭니다. 한 판에서 나오는 강화석보다 많습니다. 장비 한 부위의 첫 단계에는 조각 24개, 강화석 15,000개, 키나 600,000이 필요합니다. 주 3회 도전으로 조각 24~27개가 나오니 딱 그만큼입니다.
+
+**아직 모르는 것:** 증폭 단계마다 장비가 무엇을 얻는지, 그다음 단계 비용, 실패하면 쓴 재료 말고도 잃는 게 있는지. +15에 도달하는 첫 장비로 확인하겠습니다.
 
 ## 콘텐츠
 
