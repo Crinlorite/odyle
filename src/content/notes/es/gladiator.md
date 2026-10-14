@@ -2,7 +2,7 @@
 title: Gladiator en PvE, qué subir y en qué orden
 description: Mi chuleta del Gladiator, puntos de skill, especializaciones, estigmas, Daevanion y rotación, según lo que llevan los mejores jugadores coreanos.
 basis: Datos de jugadores coreanos, tablas del cliente global y una guía taiwanesa
-updated: 2026-10-13
+updated: 2026-10-14
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (8.459 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -12,6 +12,11 @@ sources:
   - { title: 'Cómo llegar a nivel 16–20 de skill — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/457', lang: ko }
   - { title: 'How to Respec Skills and Daevanion Board — game8', url: 'https://game8.co/games/Aion-2/archives/629160', lang: en }
   - { title: 'Gladiador, nombres de las skills con el cliente en español — metabot', url: 'https://metabot.gg/es/aion-2/classes/gladiator', lang: es }
+  - { title: 'Arena Guide: Modes, Rewards, Ranks — metabot', url: 'https://metabot.gg/en/aion-2/guides/arena-pvp-guide', lang: en }
+  - { title: 'Arena of Solitude Guide — game8', url: 'https://game8.co/games/Aion-2/archives/619351', lang: en }
+  - { title: 'The ONLY Gladiator PvP Guide You Need — Sen (YouTube)', url: 'https://www.youtube.com/watch?v=K_rfMNr0auk', lang: en }
+  - { title: 'Guía de PvP del Gladiator, 1.000 muertes — 어썸재 (YouTube)', url: 'https://www.youtube.com/watch?v=B4NSjLC7xsc', lang: ko }
+  - { title: 'Skills y guía de PvP del Gladiator — Inven', url: 'https://www.inven.co.kr/board/aion2/6448/91', lang: ko }
 glossary:
   - { en: "Keen Strike", es: "Estacazo punzante" }
   - { en: "Ruinous Blow", es: "Embestida de perdición" }
@@ -235,6 +240,28 @@ Algunos jefes, como Bakarma en Draupnir o Berk en Krao Cave, sacan una barra de 
 | Rending Blow | 2 | Clic derecho |
 
 Lifestealing Blade es el quinto estigma, y con cuatro huecos no suele caber. Sword Aura Rampage y la pasiva Destructive Impulse no llenan la barra: pegan más fuerte al jefe una vez tumbado. Lo práctico es guardar Mocking Blade, Leaping Slam y Forced Restraint, si la llevas, para cuando salga la barra.
+
+## Arena 1v1
+
+Arena of Solitude, según metabot y game8; no lo he comprobado. 1 contra 1, 10 minutos, 3 vidas con 5 segundos para reaparecer, en Fire Temple Arena o Impetusium Arena. Abre siempre, desde nivel 45. El rango va por clase, de Iron a Challenger 1 (1.800 puntos), y da un bono de PvP que no se suma al del Abismo: vale el más alto. Cada combate da Abyss Points: 300 por jugar (10 a la semana) y 500 por ganar (30 a la semana). Abandonar cuenta como derrota.
+
+Si iguala el equipo, las fuentes no se ponen de acuerdo: game8 dice que no y metabot que sí. En un vídeo de Taiwán, un Gladiator con 2.487 de nivel de objeto dice que su rival le gana por equipo.
+
+**Ajustes.** Un Gladiator coreano con 1.000 muertes en PvP quita el objetivo automático al usar skills, en las opciones de combate: el Gladiator entra con cargas y apuntando a mano falla menos. Sen guarda una configuración de skills para PvE, otra para PvP y otra para Battlefield, y al pasar a PvP cambia también alas y título.
+
+**Estigmas.** Tenaciousness no falta nunca: 3 segundos sin recibir daño. Con ella, Lunge Stance, Zikel's Blessing y una de estas dos: **Blade Toss** (−30 % de defensa y −70 % de curación recibida 10 segundos; a nivel 10, además, ralentiza) o **Forced Restraint** (sella 5 segundos: el rival no puede usar skills).
+
+**Apertura**, la del coreano: Blade Toss → Leaping Slam para entrar → Mocking Blade, el único derribo seguro → Forced Restraint → **Ruinous Blow para rematar**, que es el golpe más fuerte. Si el intercambio se tuerce, Zikel's Blessing o Tenaciousness y aguantar. La cadena de control de Inven: Mocking Blade → Overhead Slam → Aerial Snare → Forced Fall, entre 4 y 5 segundos en los que el rival no hace nada.
+
+**Defiance** quita aturdimiento, derribo, lanzamiento, agarre, congelación y miedo, y da inmunidad; tarda 60 segundos en volver. Hay que hacérsela gastar al rival con un control flojo antes de soltar el bueno. El sello no lo quita.
+
+**Contra cada clase,** lo que dicen las guías coreanas:
+
+- **Cleric:** nada de daño en el tiempo, porque sus curas y las pociones lo limpian. Derribos, Forced Restraint para sellarle las curas y Blade Toss para quitarle el 70 % de lo que se cura.
+- **Assassin:** si te embosca, Tenaciousness en el momento, no Defiance.
+- **Templar y Chanter:** Ankle Slice, con su derribo.
+
+En Arena no hay barra de Stagger, así que Sword Aura Rampage no sirve. Lo que más sube para PvP: PvP Damage Boost y PvP Damage Tolerance en el tablero de Azphel, el título Tread on White Wings (matar a 300 jugadores), los Abyss Power Shards y el amuleto.
 
 ## Equipo
 

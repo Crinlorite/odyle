@@ -2,7 +2,7 @@
 title: 검성(Gladiator) PvE, 무엇을 어떤 순서로 올릴까
 description: 제 검성 정리 노트입니다. 스킬 포인트, 특화, 스티그마, 데바니온, 딜 사이클을 한국 상위 유저들이 쓰는 세팅 기준으로 정리했습니다.
 basis: 한국 유저 데이터, 글로벌 클라이언트 테이블, 대만 공략
-updated: 2026-10-13
+updated: 2026-10-14
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (한국 유저 8,459명) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -12,6 +12,11 @@ sources:
   - { title: '스킬 16~20레벨 만드는 법 — 인벤', url: 'https://www.inven.co.kr/board/aion2/6444/457', lang: ko }
   - { title: 'How to Respec Skills and Daevanion Board — game8', url: 'https://game8.co/games/Aion-2/archives/629160', lang: en }
   - { title: '스페인어 클라이언트의 검성 스킬 이름 — metabot', url: 'https://metabot.gg/es/aion-2/classes/gladiator', lang: es }
+  - { title: 'Arena Guide: Modes, Rewards, Ranks — metabot', url: 'https://metabot.gg/en/aion-2/guides/arena-pvp-guide', lang: en }
+  - { title: 'Arena of Solitude Guide — game8', url: 'https://game8.co/games/Aion-2/archives/619351', lang: en }
+  - { title: 'The ONLY Gladiator PvP Guide You Need — Sen (YouTube)', url: 'https://www.youtube.com/watch?v=K_rfMNr0auk', lang: en }
+  - { title: 'Guía de PvP del Gladiator, 1.000 muertes — 어썸재 (YouTube)', url: 'https://www.youtube.com/watch?v=B4NSjLC7xsc', lang: ko }
+  - { title: 'Skills y guía de PvP del Gladiator — Inven', url: 'https://www.inven.co.kr/board/aion2/6448/91', lang: ko }
 glossary:
   - { en: "Keen Strike", es: "Estacazo punzante" }
   - { en: "Ruinous Blow", es: "Embestida de perdición" }
@@ -235,6 +240,28 @@ Draupnir의 Bakarma나 Krao Cave의 Berk 같은 일부 보스는 Stagger 게이�
 | Rending Blow | 2 | 우클릭 |
 
 Lifestealing Blade는 다섯 번째 스티그마라서 슬롯이 네 개뿐이면 보통 들어갈 자리가 없습니다. Sword Aura Rampage와 패시브 Destructive Impulse는 게이지를 채우지 않습니다. 보스가 누운 뒤에 더 세게 때리는 스킬입니다. 실전에서는 Mocking Blade, Leaping Slam, 그리고 들고 있다면 Forced Restraint를 아껴 뒀다가 게이지가 뜰 때 씁니다.
+
+## 1대1 투기장
+
+Arena of Solitude, metabot과 game8 기준이며 직접 확인하지는 않았습니다. 1대1, 10분, 목숨 3개, 부활 5초이고 맵은 Fire Temple Arena 또는 Impetusium Arena입니다. 항상 열려 있고 45레벨부터 입장합니다. 등급은 클래스별로 Iron부터 Challenger 1(1,800점)까지이며, 어비스 등급 버프와 중첩되지 않고 가장 높은 것만 적용됩니다. 한 판마다 Abyss Points를 줍니다. 참여 300(주 10회), 승리 500(주 30회). 이탈은 패배로 처리됩니다.
+
+장비 보정이 있는지는 출처마다 다릅니다. game8은 없다고, metabot은 있다고 합니다. 대만 영상에서는 아이템 레벨 2,487의 검성이 상대에게 장비 차이로 진다고 말합니다.
+
+**설정.** PvP 1,000킬을 달성한 한국 검성은 전투 설정에서 스킬 사용 시 자동 타깃을 끕니다. 검성은 돌진기로 붙기 때문에 직접 조준하는 편이 덜 빗나갑니다. Sen은 스킬 프리셋을 PvE, PvP, 전장용으로 하나씩 두고, PvP로 바꿀 때 날개와 타이틀도 함께 바꿉니다.
+
+**스티그마.** Tenaciousness는 반드시 넣습니다. 3초 동안 피해를 받지 않습니다. 그 외에 Lunge Stance, Zikel's Blessing, 그리고 둘 중 하나: **Blade Toss**(방어력 −30%, 받는 치유 −70% 10초. 10레벨부터 이동 속도 감소 추가) 또는 **Forced Restraint**(5초 봉인: 상대가 스킬을 쓸 수 없음).
+
+**오프닝**, 한국 검성의 방식: Blade Toss → Leaping Slam으로 진입 → 유일한 확정 넘어뜨리기인 Mocking Blade → Forced Restraint → **마무리는 가장 강한 한 방인 Ruinous Blow**. 교전이 밀리면 Zikel's Blessing이나 Tenaciousness를 켜고 버팁니다. 인벤의 제어 연계: Mocking Blade → Overhead Slam → Aerial Snare → Forced Fall, 상대가 4~5초 동안 아무것도 못 합니다.
+
+**Defiance**는 기절, 넘어짐, 공중 띄우기, 잡기, 빙결, 공포를 풀고 상태 이상 면역을 줍니다. 재사용 대기시간은 60초입니다. 약한 제어로 상대의 Defiance를 먼저 빼고 강한 제어를 넣어야 합니다. 봉인은 풀지 못합니다.
+
+**클래스별 대응**, 한국 가이드 기준:
+
+- **Cleric:** 지속 피해는 치유와 물약으로 지워지므로 쓰지 않습니다. 넘어뜨리기, 치유를 봉인하는 Forced Restraint, 치유량을 70% 줄이는 Blade Toss.
+- **Assassin:** 기습을 당하면 Defiance가 아니라 바로 Tenaciousness.
+- **Templar와 Chanter:** 넘어뜨리기가 있는 Ankle Slice.
+
+투기장에는 Stagger 게이지가 없어서 Sword Aura Rampage는 쓸모가 없습니다. PvP에 가장 도움이 되는 것: Azphel 보드의 PvP Damage Boost와 PvP Damage Tolerance, 타이틀 Tread on White Wings(플레이어 300명 처치), Abyss Power Shard, 아뮬렛.
 
 ## 장비
 
