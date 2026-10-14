@@ -13,7 +13,7 @@ const list = await entriesFor(lang);
   <header class="page-head"><h1>{s.topicsTitle}</h1><p class="lead">{s.topicsLead}</p></header>
   <ul class="topics">
     {TOPIC_KEYS.map((k) => (
-      <li><a href={`/${lang}/temas/${k}/`}><strong>{TOPICS[k].name}</strong><span>{TOPICS[k].blurb}</span><span class="data">{s.entriesCount(byTopic(list, k).length)}</span></a></li>
+      <li><a href={`/${lang}/temas/${k}/`}><strong>{TOPICS[lang][k].name}</strong><span>{TOPICS[lang][k].blurb}</span><span class="data">{s.entriesCount(byTopic(list, k).length)}</span></a></li>
     ))}
   </ul>
 </Base>

@@ -4,19 +4,20 @@ import Base from '../../../layouts/Base.astro';
 import { LANGS, type Lang } from '../../../i18n/langs';
 import { t } from '../../../i18n/strings';
 import { fmtDate } from '../../../lib/entries';
+import { langOfId, localized, slugOfId } from '../../../lib/i18n';
 export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
 const lang = Astro.params.lang as Lang;
 const s = t(lang);
-const notes = (await getCollection('notes', (n) => n.id.startsWith(`${lang}/`))).sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime());
+const notes = localized(await getCollection('notes'), lang).sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime());
 ---
 <Base lang={lang} title={s.notesTitle} description={s.notesLead} section="apuntes">
-  <header class="page-head"><h1>{s.notesTitle}</h1><p class="lead">{s.notesLead}</p></header>
+  <header class="page-head"><h1>{s.notesTitle}</h1><p class="lead">{s.notesLead}</p>{s.untranslated && <p class="data">{s.untranslated}</p>}</header>
   <ul class="cards">
     {notes.map((n) => (
       <li><article class="card">
-        <div class="row"><span class="seal seal--apunte">{s.noteSeal}</span></div>
-        <h3><a href={`/${lang}/apuntes/${n.id.split('/')[1]}/`}>{n.data.title}</a></h3>
-        <p>{n.data.description}</p>
+        <div class="row"><span class="seal seal--apunte">{s.noteSeal}</span>{langOfId(n.id) !== lang && <span class="enes">{s.inSpanish}</span>}</div>
+        <h3><a href={`/${langOfId(n.id)}/apuntes/${slugOfId(n.id)}/`} lang={langOfId(n.id) !== lang ? langOfId(n.id) : undefined}>{n.data.title}</a></h3>
+        <p lang={langOfId(n.id) !== lang ? langOfId(n.id) : undefined}>{n.data.description}</p>
         <p class="data">{s.noteUpdated}: {fmtDate(n.data.updated, lang)}</p>
       </article></li>
     ))}

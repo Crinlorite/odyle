@@ -11,11 +11,11 @@ const tema = Astro.params.tema as Topic;
 const s = t(lang);
 const list = byTopic(await entriesFor(lang), tema);
 ---
-<Base lang={lang} title={TOPICS[tema].name} description={TOPICS[tema].blurb} section="temas" noindex={list.length === 0}>
+<Base lang={lang} title={TOPICS[lang][tema].name} description={TOPICS[lang][tema].blurb} section="temas" noindex={list.length === 0}>
   <header class="page-head">
     <p class="kicker"><a href={`/${lang}/temas/`}>{s.topicsTitle}</a> · {s.entriesCount(list.length)}</p>
-    <h1>{TOPICS[tema].name}</h1>
-    <p class="lead">{TOPICS[tema].blurb}</p>
+    <h1>{TOPICS[lang][tema].name}</h1>
+    <p class="lead">{TOPICS[lang][tema].blurb}</p>
   </header>
   {list.length === 0 ? <p>{s.noEntries}</p> : <ul class="cards">{list.map((e) => <li><EntryCard entry={e} lang={lang} /></li>)}</ul>}
 </Base>
