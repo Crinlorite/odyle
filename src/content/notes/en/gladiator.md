@@ -17,6 +17,10 @@ sources:
   - { title: 'The ONLY Gladiator PvP Guide You Need — Sen (YouTube)', url: 'https://www.youtube.com/watch?v=K_rfMNr0auk', lang: en }
   - { title: 'Guía de PvP del Gladiator, 1.000 muertes — 어썸재 (YouTube)', url: 'https://www.youtube.com/watch?v=B4NSjLC7xsc', lang: ko }
   - { title: 'Skills y guía de PvP del Gladiator — Inven', url: 'https://www.inven.co.kr/board/aion2/6448/91', lang: ko }
+  - { title: 'The Only Gladiator PVE Guide You Need — Grobs (YouTube)', url: 'https://www.youtube.com/watch?v=xRPr30JetyY', lang: en }
+  - { title: 'How to Animation Cancel + Gladiator Macro — Sen (YouTube)', url: 'https://www.youtube.com/watch?v=vRSioIhNfj8', lang: en }
+  - { title: 'Cancelar con Rending Blow, con medidor — 희수 (YouTube)', url: 'https://www.youtube.com/watch?v=tqQ-5Apo_O0', lang: ko }
+  - { title: 'Overhead Slam solo o con Rending Blow, medido — 호이호이 (YouTube)', url: 'https://www.youtube.com/watch?v=2uWvqOBqM7U', lang: ko }
 glossary:
   - { en: "Keen Strike", es: "Estacazo punzante" }
   - { en: "Ruinous Blow", es: "Embestida de perdición" }
@@ -220,10 +224,25 @@ Among 150 top Gladiators measured by metabot, the skill nodes almost everyone ta
 
 ## Rotation
 
-1. Open with **Ruinous Blow**: it gives Prepare for Battle for 20 seconds, with +20% PvE damage.
-2. Alternate **Rending Blow** and **Overhead Slam**, weaving in **Keen Strike** to recover mana.
-3. When **Rage Burst** goes off, spam Overhead Slam for 10 seconds.
-4. Against groups, **Crushing Wave**.
+What Grobs (the most-watched PvE guide), Sen and three Koreans with a damage meter do:
+
+1. **The game's own macro.** In Settings → Keys → General there is a "Skill Macro" key. The macro is one line of skills by priority; you hold that key **together with left click** (Keen Strike), and the game chains and cancels the animations by itself. When the cancel lands, a black shadow appears. Sen puts it on right click.
+2. **The line**, top to bottom: Rage Burst → Overhead Slam → Rending Blow.
+3. **Opener:** Lunge Stance and Zikel's Blessing, jump to the boss, Ruinous Blow (20 seconds of +20% PvE damage) and into the macro.
+4. **Take the boss's first hit with Focused Block.** If you block it, Experienced Counterstrike raises the whole party's damage for 20 seconds.
+5. **Always in front of the boss:** Experienced Counterstrike gives more frontal damage. Turning on the boss orientation indicator helps (Settings → Info display → Combat).
+
+**Mana.** Keen Strike, with "+20% MP restored" and "+50% multi-hit", is what refills while Rending Blow spends. On Rending Blow, Grobs takes "mobile skill" first, because without it the class feels clunky, and then the +12% damage.
+
+**At level 16** everything changes: Overhead Slam loses its cooldown and Rending Blow restores 50 MP per crit. From then on you stop using Keen Strike and only hold the macro key.
+
+**In order of priority:** Overhead Slam and Rending Blow to 16. For stigmas, Rage Burst to 5 (cooldown from 45 to 30 seconds), Focused Block to 5 (two charges) and Lunge Stance to 20: on a crit, 50% chance to take 1 second off every cooldown, so nearly everything is always up. Passives: Experienced Counterstrike, Attack Preparation, Impact Hit (for the double damage chance) and Murderous Burst.
+
+**Where the damage comes from.** On a level 50 Korean's meter (one minute on a dummy), more than half the damage is Overhead Slam with its Upward Strike chain; Rending Blow about 10%; Ruinous Blow about 6%. Another Korean measured 20 times that alternating Overhead Slam with Rending Blow does slightly more than pressing Overhead Slam alone. Korea is ahead in levels and skills: the percentages may differ on global.
+
+⛔ Some Koreans use external mouse macros to press faster. NCSOFT has advised against them: only the in-game macro is used here.
+
+Against groups, **Crushing Wave**: it resets on every crit.
 
 ## Knocking bosses down (Stagger)
 

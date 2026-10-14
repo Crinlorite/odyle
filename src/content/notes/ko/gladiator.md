@@ -17,6 +17,10 @@ sources:
   - { title: 'The ONLY Gladiator PvP Guide You Need — Sen (YouTube)', url: 'https://www.youtube.com/watch?v=K_rfMNr0auk', lang: en }
   - { title: 'Guía de PvP del Gladiator, 1.000 muertes — 어썸재 (YouTube)', url: 'https://www.youtube.com/watch?v=B4NSjLC7xsc', lang: ko }
   - { title: 'Skills y guía de PvP del Gladiator — Inven', url: 'https://www.inven.co.kr/board/aion2/6448/91', lang: ko }
+  - { title: 'The Only Gladiator PVE Guide You Need — Grobs (YouTube)', url: 'https://www.youtube.com/watch?v=xRPr30JetyY', lang: en }
+  - { title: 'How to Animation Cancel + Gladiator Macro — Sen (YouTube)', url: 'https://www.youtube.com/watch?v=vRSioIhNfj8', lang: en }
+  - { title: 'Cancelar con Rending Blow, con medidor — 희수 (YouTube)', url: 'https://www.youtube.com/watch?v=tqQ-5Apo_O0', lang: ko }
+  - { title: 'Overhead Slam solo o con Rending Blow, medido — 호이호이 (YouTube)', url: 'https://www.youtube.com/watch?v=2uWvqOBqM7U', lang: ko }
 glossary:
   - { en: "Keen Strike", es: "Estacazo punzante" }
   - { en: "Ruinous Blow", es: "Embestida de perdición" }
@@ -220,10 +224,25 @@ metabot이 집계한 상위 검성 150명이 거의 다 찍는 스킬 노드는 
 
 ## 딜 사이클
 
-1. **Ruinous Blow**로 시작합니다. Prepare for Battle이 20초 동안 걸리고 PvE 대미지가 +20% 오릅니다.
-2. **Rending Blow**와 **Overhead Slam**을 번갈아 쓰고, 마나 회복용으로 **Keen Strike**를 섞습니다.
-3. **Rage Burst**가 터지면 10초 동안 Overhead Slam을 연타합니다.
-4. 몹이 여럿이면 **Crushing Wave**.
+Grobs(가장 많이 본 PvE 가이드), Sen, 그리고 미터기를 쓰는 한국 검성 세 명의 방식:
+
+1. **게임 내 스킬 매크로.** 설정 → 키 설정 → 일반에 ‘스킬 매크로’ 키가 있습니다. 매크로는 우선순위대로 놓은 스킬 한 줄이고, 그 키를 **좌클릭(Keen Strike)과 함께** 누르고 있으면 게임이 알아서 연계하고 모션을 캔슬합니다. 캔슬에 성공하면 검은 그림자가 보입니다. Sen은 우클릭에 둡니다.
+2. **매크로 줄**, 위에서 아래로: Rage Burst → Overhead Slam → Rending Blow.
+3. **진입:** Lunge Stance와 Zikel's Blessing, 보스에게 도약, Ruinous Blow(20초간 PvE 대미지 +20%), 그다음 매크로.
+4. **보스의 첫 공격은 Focused Block으로.** 막으면 Experienced Counterstrike가 20초 동안 파티 전체의 대미지를 올립니다.
+5. **항상 보스 정면에서:** Experienced Counterstrike는 정면 공격 대미지를 올립니다. 보스 방향 표시를 켜 두면 편합니다(설정 → 정보 표시 → 전투).
+
+**마나.** ‘정신력 회복 +20%’와 ‘다단 히트 +50%’를 고른 Keen Strike가 Rending Blow로 쓴 마나를 채웁니다. Rending Blow는 Grobs가 먼저 ‘이동 가능’을 고르고(없으면 조작이 답답해짐), 그다음 대미지 +12%를 고릅니다.
+
+**16레벨**이 되면 모든 게 바뀝니다. Overhead Slam의 재사용 대기시간이 없어지고, Rending Blow는 치명타마다 마나 50을 돌려줍니다. 그때부터 Keen Strike는 쓰지 않고 매크로 키만 누릅니다.
+
+**우선순위:** Overhead Slam과 Rending Blow를 16까지. 스티그마는 Rage Burst 5(재사용 45초 → 30초), Focused Block 5(2회 사용), 그리고 Lunge Stance 20: 치명타 시 50% 확률로 모든 재사용 대기시간 1초 감소, 거의 항상 버프가 유지됩니다. 패시브: Experienced Counterstrike, Attack Preparation, Impact Hit(더블 확률), Murderous Burst.
+
+**대미지 비중.** 50레벨 한국 검성의 미터기(허수아비 1분)에서는 Overhead Slam과 연계기 Upward Strike가 대미지의 절반 이상, Rending Blow가 약 10%, Ruinous Blow가 약 6%였습니다. 다른 한국 검성은 20번 측정해서, Overhead Slam만 누르는 것보다 Rending Blow와 번갈아 쓰는 쪽이 조금 더 세다는 결과를 냈습니다. 한국은 레벨과 스킬이 앞서 있어서 글로벌에서는 비중이 다를 수 있습니다.
+
+⛔ 일부 한국 유저는 더 빨리 누르려고 외부 마우스 매크로를 씁니다. 엔씨소프트가 자제를 권고했으므로 여기서는 게임 내 매크로만 씁니다.
+
+몹이 여럿이면 **Crushing Wave**: 치명타마다 재사용 대기시간이 초기화됩니다.
 
 ## 보스 눕히기 (Stagger)
 

@@ -17,6 +17,10 @@ sources:
   - { title: 'The ONLY Gladiator PvP Guide You Need — Sen (YouTube)', url: 'https://www.youtube.com/watch?v=K_rfMNr0auk', lang: en }
   - { title: 'Guía de PvP del Gladiator, 1.000 muertes — 어썸재 (YouTube)', url: 'https://www.youtube.com/watch?v=B4NSjLC7xsc', lang: ko }
   - { title: 'Skills y guía de PvP del Gladiator — Inven', url: 'https://www.inven.co.kr/board/aion2/6448/91', lang: ko }
+  - { title: 'The Only Gladiator PVE Guide You Need — Grobs (YouTube)', url: 'https://www.youtube.com/watch?v=xRPr30JetyY', lang: en }
+  - { title: 'How to Animation Cancel + Gladiator Macro — Sen (YouTube)', url: 'https://www.youtube.com/watch?v=vRSioIhNfj8', lang: en }
+  - { title: 'Cancelar con Rending Blow, con medidor — 희수 (YouTube)', url: 'https://www.youtube.com/watch?v=tqQ-5Apo_O0', lang: ko }
+  - { title: 'Overhead Slam solo o con Rending Blow, medido — 호이호이 (YouTube)', url: 'https://www.youtube.com/watch?v=2uWvqOBqM7U', lang: ko }
 glossary:
   - { en: "Keen Strike", es: "Estacazo punzante" }
   - { en: "Ruinous Blow", es: "Embestida de perdición" }
@@ -220,10 +224,25 @@ Entre 150 Gladiators punteros medidos por metabot, los nodos de skill que casi t
 
 ## Rotación
 
-1. Abrir con **Ruinous Blow**: da Prepare for Battle 20 segundos, con +20 % de daño en PvE.
-2. Alternar **Rending Blow** y **Overhead Slam**, metiendo **Keen Strike** para recuperar maná.
-3. Cuando salte **Rage Burst**, machacar Overhead Slam durante 10 segundos.
-4. Contra grupos, **Crushing Wave**.
+Lo que hacen Grobs (la guía de PvE más vista), Sen y tres coreanos con medidor de daño:
+
+1. **La macro del propio juego.** En Ajustes → Teclas → General hay una tecla de «Skill Macro». La macro es una línea de skills por prioridad; se mantiene pulsada esa tecla **a la vez que el clic izquierdo** (Keen Strike), y el juego encadena y cancela las animaciones solo. Cuando la cancelación sale bien, aparece una sombra negra. Sen la pone en el clic derecho.
+2. **La línea**, de arriba abajo: Rage Burst → Overhead Slam → Rending Blow.
+3. **Entrada:** Lunge Stance y Zikel's Blessing, saltar al jefe, Ruinous Blow (20 segundos de +20 % de daño PvE) y a la macro.
+4. **El primer golpe del jefe, con Focused Block.** Si lo bloqueas, Experienced Counterstrike sube el daño de todo el grupo 20 segundos.
+5. **Siempre delante del jefe:** Experienced Counterstrike da más daño de frente. Ayuda activar el indicador de orientación del jefe (Ajustes → Información en pantalla → Combate).
+
+**El maná.** Keen Strike, con «+20 % de maná recuperado» y «+50 % de golpe múltiple», es lo que recarga mientras Rending Blow gasta. En Rending Blow, Grobs elige primero «usable en movimiento», porque sin ella la clase se vuelve torpe, y luego el +12 % de daño.
+
+**A nivel 16** cambia todo: Overhead Slam pierde la recarga y Rending Blow devuelve 50 de maná por crítico. Desde ahí se deja de usar Keen Strike y solo se mantiene la tecla de la macro.
+
+**Por orden de prioridad:** Overhead Slam y Rending Blow a 16. En estigmas, Rage Burst a 5 (recarga de 45 a 30 segundos), Focused Block a 5 (dos usos) y Lunge Stance a 20: con un crítico, 50 % de quitar 1 segundo a todas las recargas, casi siempre con todo activo. Pasivas: Experienced Counterstrike, Attack Preparation, Impact Hit (por la probabilidad de daño doble) y Murderous Burst.
+
+**De dónde sale el daño.** En el medidor de un coreano de nivel 50 (un minuto contra un muñeco), más de la mitad del daño es Overhead Slam con su cadena Upward Strike; Rending Blow, un 10 %; Ruinous Blow, un 6 %. Otro coreano midió 20 veces que alternar Overhead Slam con Rending Blow hace algo más de daño que pulsar solo Overhead Slam. Corea va por delante en niveles y skills: los porcentajes pueden cambiar en el global.
+
+⛔ Algunos coreanos usan macros de ratón externas para pulsar más rápido. NCSOFT las ha desaconsejado: aquí solo se usa la macro del juego.
+
+Contra grupos, **Crushing Wave**: se reinicia con cada crítico.
 
 ## Para tumbar a los jefes (Stagger)
 
