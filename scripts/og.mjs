@@ -16,19 +16,19 @@ const T = {
         topic: { economia: 'Economía', recoleccion: 'Recolección', fabricacion: 'Fabricación', tienda: 'Tienda', progresion: 'Progresión', equipo: 'Equipo' },
         notes: 'Apuntes', items: 'Objetos', foot: 'Cuaderno de campo de AION 2',
         def: ['Lo que dicen las guías y lo que pasa cuando lo pruebas.', 'Cuaderno de campo de AION 2 · cliente global'],
-        legion: ['BlackLights: legión elyos en español, en Nezekan', 'Legión · AION 2 global · Europa'],
+        legion: ['Odylenet: legión elyos multilingüe, en Nezekan', 'Legión · AION 2 global · Europa'],
         itemsIdx: ['Objetos: para qué sirven de verdad y de dónde salen', 'Objetos · AION 2 global'] },
   en: { seal: { comprobado: 'Verified', duda: 'Open question', cambio: 'Changed', apunte: 'Unverified note', objeto: 'Item' },
         topic: { economia: 'Economy', recoleccion: 'Gathering', fabricacion: 'Crafting', tienda: 'Shop', progresion: 'Progression', equipo: 'Hardware' },
         notes: 'Notes', items: 'Items', foot: 'AION 2 field notebook',
         def: ['What the guides say and what happens when you try it.', 'AION 2 field notebook · global client'],
-        legion: ['BlackLights: a Spanish-speaking Elyos legion on Nezekan', 'Legion · AION 2 global · Europe'],
+        legion: ['Odylenet: a multilingual Elyos legion on Nezekan', 'Legion · AION 2 global · Europe'],
         itemsIdx: ['Items: what they are really for and where they come from', 'Items · AION 2 global'] },
   ko: { seal: { comprobado: '확인함', duda: '미확인', cambio: '변경됨', apunte: '미확인 메모', objeto: '아이템' },
         topic: { economia: '경제', recoleccion: '채집', fabricacion: '제작', tienda: '상점', progresion: '성장', equipo: '플레이 환경' },
         notes: '메모', items: '아이템', foot: '아이온2 플레이 기록 노트',
         def: ['가이드에 적힌 내용과, 직접 해 보면 실제로 일어나는 일.', '아이온2 플레이 기록 노트 · 글로벌 클라이언트'],
-        legion: ['BlackLights: 네자칸 서버의 스페인어권 천족 레기온', '레기온 · 아이온2 글로벌 · 유럽'],
+        legion: ['Odylenet: 네자칸 서버의 다국어 천족 레기온', '레기온 · 아이온2 글로벌 · 유럽'],
         itemsIdx: ['아이템: 실제 용도와 획득처', '아이템 · 아이온2 글로벌'] },
 };
 const COLOR = { comprobado: '#197a42', duda: '#c0392b', cambio: '#5f6877', apunte: '#5f6877', objeto: '#1d2b53' };
@@ -37,7 +37,7 @@ const jobs = [];
 for (const lang of Object.keys(T)) {
   const t = T[lang];
   jobs.push({ lang, out: lang === 'es' ? 'default.jpg' : `${lang}/default.jpg`, title: t.def[0], seal: null, topic: t.def[1] });
-  jobs.push({ lang, out: `${lang}/blacklights.jpg`, title: t.legion[0], seal: null, topic: t.legion[1] });
+  jobs.push({ lang, out: `${lang}/odylenet.jpg`, title: t.legion[0], seal: null, topic: t.legion[1] });
   jobs.push({ lang, out: `${lang}/objetos.jpg`, title: t.itemsIdx[0], seal: null, topic: t.itemsIdx[1] });
 }
 const dirs = (col) => readdirSync(`${root}src/content/${col}`).filter((l) => T[l]);
