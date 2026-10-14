@@ -38,7 +38,7 @@ Esto es lo que enseñaba mi pantalla el 7 de octubre a las diez de la noche.
 | Empathy Candy | 20 | No pone límite |
 | Radiant Odyle | 1.000 | 3 al mes por personaje |
 
-No hay Wisdom Stones ni libros del alma. Lo que sí hay, y ninguna de las guías que leí lo ponía en esta tienda, son fragmentos de estigma.
+No hay Wisdom Stones ni Soul Codex. Lo que sí hay, y ninguna de las guías que leí lo ponía en esta tienda, son fragmentos de estigma.
 
 El cristal de Daevanion lleva una etiqueta «Step 1/4». Entiendo que el precio sube por tramos según vas comprando, pero no he comprado ninguno para verlo.
 

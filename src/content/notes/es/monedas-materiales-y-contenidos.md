@@ -25,7 +25,7 @@ translationKey: monedas-materiales-y-contenidos
 | **Odyle Energy** | Cobrar la recompensa al acabar una expedición | Se recarga sola; la membresía sube el tope |
 | **Abyss Points** | Fragmentos de estigma, consumibles | PvP y encargos del Abismo; tope semanal |
 | **Centuryroot Token** | Tienda del Shugo Festival | Shugo Festival |
-| **Phantasmal Fragment** | Tienda de Nightmare: alas, apariencias, libros del alma | Nightmare, jefes en solitario |
+| **Phantasmal Fragment** | Tienda de Nightmare: alas, apariencias, Soul Codex | Nightmare, jefes en solitario |
 | **Oath Coin** | Tienda de temporada | Misiones y rangos de temporada |
 | **Daeva Pass Shop Coin** | Tienda del pase | El pase |
 | **Arena Token** y **Legion Coin** | Tiendas de arena y de legión | Arena y legión |
@@ -43,7 +43,7 @@ Lo que se compra con Quna está en [el apunte de la tienda de pago](/es/apuntes/
 | **Daevanion Crystal** | Activar nodos del Daevanion | Misiones regionales, mazmorras selladas |
 | **Cartas Arcana** | Suben las skills por encima de 10 | Transcendence |
 | **Manastone** | Estadísticas extra en arma y armadura | Expediciones de conquista |
-| **Libro del alma** | Soul Binding: sube el valor de las líneas del equipo | Conquista, tienda de Nightmare |
+| **Soul Codex** | Soul Binding: sube el valor de las líneas del equipo | Conquista, tienda de Nightmare |
 | **Transfer Stone** | Pasar el progreso de una pieza a otra mejor | Fragmentos; las naranjas se guardan |
 | **Soul Crystal** | Tableros de mascotas | Logros, pase, tienda Wind Breeze |
 
@@ -58,7 +58,7 @@ Las alas y las apariencias dan estadísticas permanentes solo por tenerlas.
 | **Mazmorras selladas** | Instancias en solitario, una vez cada una | Piedras de mejora, cristales de Daevanion |
 | **Fortalezas** | Limpiar y jefe | Pergaminos del cinturón, Manastones |
 | **Expediciones de exploración** | Mazmorra de grupo para aprender | Poco; no merece gastar Odyle Energy |
-| **Expediciones de conquista** | La versión seria, normal y difícil | Equipo único y heroico, Manastones, libros del alma |
+| **Expediciones de conquista** | La versión seria, normal y difícil | Equipo único y heroico, Manastones, Soul Codex |
 | **Transcendence** | Contrarreloj | Cartas Arcana |
 | **Sanctuary** | Raid de 10, desde nivel 45 | Brazalete |
 | **Abismo** | Zona de PvP y PvE | Abyss Points |

@@ -35,30 +35,30 @@ Nombres del cliente global, según games.gg (1-oct-2026).
 
 | Ala | Grado | De dónde |
 |---|---|---|
-| Lesser Daeva Wings | Común | Misión The Power in the Lake, hacia el nivel 5 |
-| Intermediate Daeva Wings | Raro | Ascensión: The One Who Hears the Voice |
-| Aullaeu Wings | Raro | Misión Canyon's Secret, recomendada a nivel 30 |
-| Superior Daeva Wings | Épico | Ascensión: The One Who Dreams |
-| Ultimate Daeva Wings | Único | Ascensión: The One Who Witnesses the Nightmare |
+| Lesser Daeva Wings | Common | Misión The Power in the Lake, hacia el nivel 5 |
+| Intermediate Daeva Wings | Rare | Ascensión: The One Who Hears the Voice |
+| Aullaeu Wings | Rare | Misión Canyon's Secret, recomendada a nivel 30 |
+| Superior Daeva Wings | Epic | Ascensión: The One Who Dreams |
+| Ultimate Daeva Wings | Unique | Ascensión: The One Who Witnesses the Nightmare |
 
 **Tiendas**
 
 | Ala | Grado | Tienda |
 |---|---|---|
-| Violet Butterfly Wings | Raro | Shugo Festival |
-| Spirit Wings | Épico | Shugo Festival |
-| Springflower Butterfly Wings | Único | Shugo Festival |
-| Conqueror Wings | Épico | Nightmare |
-| Nightmare Wings | Único | Nightmare |
-| Warrior Wings | Épico | Abismo, arena y campo de batalla |
-| Brawler Wings | Único | Abismo, arena y campo de batalla |
-| Talisra Wings | Único | Tienda de temporada |
+| Violet Butterfly Wings | Rare | Shugo Festival |
+| Spirit Wings | Epic | Shugo Festival |
+| Springflower Butterfly Wings | Unique | Shugo Festival |
+| Conqueror Wings | Epic | Nightmare |
+| Nightmare Wings | Unique | Nightmare |
+| Warrior Wings | Epic | Abismo, arena y campo de batalla |
+| Brawler Wings | Unique | Abismo, arena y campo de batalla |
+| Talisra Wings | Unique | Tienda de temporada |
 
-En mi cliente, el 7 de octubre, la tienda del Shugo Festival tenía tres alas a 2.100, 4.200 y 8.350 fichas. No apunté los nombres; por el orden de precios, lo normal es que sean la rara, la épica y la única. Una guía dice que las Violet Butterfly piden haber hecho antes la misión «Visions in Smoke».
+En mi cliente, el 7 de octubre, la tienda del Shugo Festival tenía tres alas a 2.100, 4.200 y 8.350 fichas. No apunté los nombres; por el orden de precios, lo normal es que sean la Rare, la Epic y la única. Una guía dice que las Violet Butterfly piden haber hecho antes la misión «Visions in Smoke».
 
 **Expediciones y mazmorras selladas, por Substance Morph**
 
-Se fabrican en Substance Morph con Featherdown de su contenido y Odyle. En el cliente global son seis únicas, a 50 Featherdown y 10 de Od radiante cada una: Black Fragment, Blue Wave, Ancient Aullaeu, Forest Spirit, Kromede y Dark Veil. Las dos épicas de las mazmorras selladas, Sealing Wings y Glorious Wings, piden 70 Featherdown y 10 de Pure Odyle, y el Featherdown cae de dos en dos por mazmorra terminada.
+Se fabrican en Substance Morph con Featherdown de su contenido y Odyle. En el cliente global son seis Unique, a 50 Featherdown y 10 de Od radiante cada una: Black Fragment, Blue Wave, Ancient Aullaeu, Forest Spirit, Kromede y Dark Veil. Las dos épicas de las mazmorras selladas, Sealing Wings y Glorious Wings, piden 70 Featherdown y 10 de Pure Odyle, y el Featherdown cae de dos en dos por mazmorra terminada.
 
 Aquí las guías no coinciden. metabot dice que en las expediciones normales el ala cae sellada y se abre con 10 de Od radiante, sin Featherdown. games.gg da la receta de 50 Featherdown. El coreano Inven cuenta doce alas de expedición, más que el global.
 
@@ -66,10 +66,10 @@ Aquí las guías no coinciden. metabot dice que en las expediciones normales el 
 
 | Ala | Grado | De dónde |
 |---|---|---|
-| Radiant Love Wings | Único | Cubos ocultos, al azar |
-| Blue Butterfly Wings | Único | Poko's Skin Bundle |
-| Odyle Wings | Épico | Poko's Skin Bundle |
-| Fairy's Dream Wings | Raro | Poko's Skin Bundle |
+| Radiant Love Wings | Unique | Cubos ocultos, al azar |
+| Blue Butterfly Wings | Unique | Poko's Skin Bundle |
+| Odyle Wings | Epic | Poko's Skin Bundle |
+| Fairy's Dream Wings | Rare | Poko's Skin Bundle |
 
 Inven pone otra más en los cubos ocultos del servidor coreano. Del paquete de Poko no sé de dónde sale.
 
@@ -79,7 +79,7 @@ Blazing Sun, Punk Bunny Bag, Void Rending y otras cinco salen de cofres, del Ate
 
 ## Mejorarlas
 
-Van de +0 a +10 y piden Kina y piedras de mejora; las únicas, además, Sync Stone. Las raras y épicas suben siempre. Las únicas son seguras hasta +3; luego el 90 % a +4, el 80 % a +5, el 50 % de +6 a +8, el 40 % a +9 y el 30 % a +10. Al mejorarlas también crece lo que dan por tenerlas.
+Van de +0 a +10 y piden Kina y piedras de mejora; las Unique, además, Sync Stone. Las Rare y las Epic suben siempre. Las Unique son seguras hasta +3; luego el 90 % a +4, el 80 % a +5, el 50 % de +6 a +8, el 40 % a +9 y el 30 % a +10. Al mejorarlas también crece lo que dan por tenerlas.
 
 ## Qué haría yo
 

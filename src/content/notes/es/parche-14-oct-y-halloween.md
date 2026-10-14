@@ -96,8 +96,8 @@ Halloween Candy y Halloween Cookie son comida de 5 minutos:
 
 | Comida | Efecto |
 |---|---|
-| Halloween Candy | Ataque +25, defensa +250, aguante máximo +300 y 40 % más de recuperación de aguante |
-| Halloween Cookie | Vida +500, maná +250, aguante máximo +300 y 40 % más de recuperación de aguante |
+| Halloween Candy | Ataque +25, defensa +250, Max Stamina +300 y Natural Stamina Regen +40 % |
+| Halloween Cookie | Vida +500, maná +250, Max Stamina +300 y Natural Stamina Regen +40 % |
 
 **Los caramelos de las ciudades.** Se abren con Candy Keys, que se fabrican en Substance Morph con 60 Candy Key Fragment (Event). Los fragmentos salen de las expediciones y de Transcendence. Una llave de cada color por semana y servidor, siempre sale. Un fragmento suelto se puede cambiar por 10 Superior Power Shard.
 
