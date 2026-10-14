@@ -2,7 +2,7 @@
 title: Currencies, materials and content, and what each one is for
 description: My cheat sheet for the game’s currencies, which material feeds each system, what each piece of content gives, what resets every week and the mistakes guides repeat.
 basis: Korean guides from Inven and Gametoc, metabot’s global client tables and a few screens seen in my client
-updated: 2026-10-11
+updated: 2026-10-14
 sources:
   - { title: 'The 11 currencies of AION 2 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311584&site=aion2', lang: ko }
   - { title: 'What confuses you at first — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311570&site=aion2', lang: ko }
@@ -13,6 +13,8 @@ sources:
   - { title: 'Abyss Supply Request Guide — game8', url: 'https://game8.co/games/Aion-2/archives/629071', lang: en }
   - { title: 'How to spot the items supply requests ask for — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/439', lang: ko }
   - { title: 'Daeva Bio-Research Base Daily Dungeon Guide — game8', url: 'https://game8.co/games/Aion-2/archives/614849', lang: en }
+  - { title: 'Enhancement Calculator — metabot', url: 'https://metabot.gg/en/aion-2/enhancement', lang: en }
+  - { title: 'Substance Morph, Growth Materials — wikily', url: 'https://wikily.gg/aion-2/substance-morph/growth-materials', lang: en }
 translationKey: monedas-materiales-y-contenidos
 ---
 
@@ -48,6 +50,26 @@ What you can buy with Quna is in [the cash shop note](/en/apuntes/tienda-de-pago
 | **Soul Crystal** | Pet boards | Achievements, pass, Wind Breeze shop |
 
 Wings and appearances give permanent stats just for owning them.
+
+## Amplification: past the max +
+
+A gold (Unique) piece goes up with Enhance Stones to **+15**. According to metabot, it always succeeds up to +10 and can fail from there on. At +15 it takes no more Enhance Stones: the next step is to **amplify** it with [Amplify Stone (Unique)](/en/objetos/amplify-stone-unique/). Blue pieces stop at +10 and cannot be amplified: that one I saw in my own game.
+
+**How many extra levels.** They depend on the piece's item level. According to metabot's calculator:
+
+| Item level of the piece | Extra levels | Chance of each step | Added per failure |
+|---|---|---|---|
+| 54 | 1 | 66% | +5% |
+| 70 | 3 | 66%, 50%, 33% | +5, +4 and +3% |
+| 86 | 5 | 66%, 50%, 33%, 25%, 20% | +5, +4, +3, +2 and +1% |
+
+**What it costs.** The first step takes 600,000 Kina and 6 Amplify Stone (Unique). Metabot does not give the cost of the later steps.
+
+**Where the stones come from.** Each Amplify Stone (Unique) is made in Substance Morph from **4 [Amplify Stone Fragment (Unique)](/en/objetos/amplify-stone-fragment-unique/) and 2,500 Enhance Stones**, according to wikily's recipe table. The unbound stone can also be bought on the Market.
+
+**The maths with Ascension Trial.** My Normal run on 14 October gave 8 fragments and 1,500 Enhance Stones. Those 8 fragments make 2 stones, and converting them costs 5,000 Enhance Stones: more than the run gives. The first step on a single piece takes 24 fragments, 15,000 Enhance Stones and 600,000 Kina. The three weekly attempts give 24 to 27 fragments: just enough for that.
+
+**What I don't know yet:** what the piece gains with each amplified level, what the later steps cost, and whether a failure costs anything beyond what was spent. I will check with the first piece that reaches +15.
 
 ## Content
 

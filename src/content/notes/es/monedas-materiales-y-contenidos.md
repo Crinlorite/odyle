@@ -2,7 +2,7 @@
 title: Monedas, materiales y contenidos, para qué sirve cada cosa
 description: Mi chuleta de las monedas del juego, qué material alimenta cada sistema, qué da cada contenido, lo que caduca cada semana y los errores que repiten las guías.
 basis: Guías coreanas de Inven y Gametoc, tablas del cliente global de metabot y algunas pantallas vistas en mi cliente
-updated: 2026-10-11
+updated: 2026-10-14
 sources:
   - { title: 'Las 11 monedas de AION 2 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311584&site=aion2', lang: ko }
   - { title: 'Lo que confunde al principio — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311570&site=aion2', lang: ko }
@@ -13,6 +13,8 @@ sources:
   - { title: 'Abyss Supply Request Guide — game8', url: 'https://game8.co/games/Aion-2/archives/629071', lang: en }
   - { title: 'Cómo reconocer los objetos de los encargos de suministros — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/439', lang: ko }
   - { title: 'Daeva Bio-Research Base Daily Dungeon Guide — game8', url: 'https://game8.co/games/Aion-2/archives/614849', lang: en }
+  - { title: 'Enhancement Calculator — metabot', url: 'https://metabot.gg/en/aion-2/enhancement', lang: en }
+  - { title: 'Substance Morph, Growth Materials — wikily', url: 'https://wikily.gg/aion-2/substance-morph/growth-materials', lang: en }
 translationKey: monedas-materiales-y-contenidos
 ---
 
@@ -48,6 +50,26 @@ Lo que se compra con Quna está en [el apunte de la tienda de pago](/es/apuntes/
 | **Soul Crystal** | Tableros de mascotas | Logros, pase, tienda Wind Breeze |
 
 Las alas y las apariencias dan estadísticas permanentes solo por tenerlas.
+
+## Amplificación: más allá del + máximo
+
+Una pieza dorada (Unique) sube con Enhance Stones hasta **+15**. Según metabot, hasta +10 sale siempre y de ahí en adelante puede fallar. A +15 ya no admite más Enhance Stones: lo que sigue es **amplificarla** con [Amplify Stone (Unique)](/es/objetos/amplify-stone-unique/). Las piezas azules se quedan en +10 y no se amplifican: eso lo vi en mi partida.
+
+**Cuántos niveles extra.** Dependen del nivel de objeto de la pieza. Según la calculadora de metabot:
+
+| Nivel de objeto de la pieza | Niveles extra | Probabilidad de cada paso | Lo que sube con cada fallo |
+|---|---|---|---|
+| 54 | 1 | 66 % | +5 % |
+| 70 | 3 | 66 %, 50 %, 33 % | +5, +4 y +3 % |
+| 86 | 5 | 66 %, 50 %, 33 %, 25 %, 20 % | +5, +4, +3, +2 y +1 % |
+
+**Lo que cuesta.** El primer paso pide 600.000 Kina y 6 Amplify Stone (Unique). Lo de los pasos siguientes, metabot no lo da.
+
+**De dónde salen las piedras.** Cada Amplify Stone (Unique) se hace en Substance Morph con **4 [Amplify Stone Fragment (Unique)](/es/objetos/amplify-stone-fragment-unique/) y 2.500 Enhance Stones**, según la tabla de recetas de wikily. La piedra sin vincular también se compra en el mercado.
+
+**Las cuentas con Ascension Trial.** Mi partida en Normal del 14 de octubre dio 8 fragmentos y 1.500 Enhance Stones. Esos 8 fragmentos son 2 piedras, y convertirlos cuesta 5.000 Enhance Stones: más de las que da la partida. El primer paso de una sola pieza pide 24 fragmentos, 15.000 Enhance Stones y 600.000 Kina. Los tres intentos de la semana dan entre 24 y 27 fragmentos: justo para eso.
+
+**Lo que no sé todavía:** qué gana la pieza con cada nivel amplificado, cuánto piden los pasos siguientes y si un fallo cuesta algo más que lo gastado. Lo miraré con la primera pieza que llegue a +15.
 
 ## Contenidos
 
