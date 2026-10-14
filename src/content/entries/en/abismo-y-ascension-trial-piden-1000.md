@@ -11,7 +11,8 @@ sources:
   - { title: 'What beginners should know — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/2116', lang: ko }
 history:
   - { date: 2026-10-12, note: 'Added: Normal at 1,500, with what the first run gave.' }
-updated: 2026-10-12
+  - { date: 2026-10-14, note: 'Added: the second Normal run, on another map, and what it is really for.' }
+updated: 2026-10-14
 translationKey: abismo-y-ascension-trial-piden-1000
 ---
 
@@ -31,8 +32,10 @@ At 1,519 I got into Normal (the map is called Nightmare Altar). With no deaths, 
 
 What it gave: **1,500 enhancement stones**, 9 Amplify Stone (Unique) fragments, 11 Growth Pet Chest and 7 Ascension Binding Chest, all bound. The attempt counter is out of 3.
 
+On 14 October I went again, at 1,641. The map was different, Sanctum of Loathing, and the bonus objectives shorter: 2:00, 4:30 and 7:00. With no deaths and 11:36 left I scored 2,492. It gave the same with one fragment less: 1,500 enhancement stones, 8 fragments, 11 Growth Pet Chest and 7 Ascension Binding Chest. Each Ascension Binding Chest gives a Manastone or a Soulstone, with some chance of an Intermediate one.
+
 ## What to do
 
 What does open earlier is Draupnir and Krao Cave, at 700, including their Conquest versions ([this entry](/en/cuaderno/expediciones-se-abren-a-700/)). The road from 700 to 1,000 is in [my note on getting from level 45 to 1,000](/en/apuntes/del-45-a-los-1000/).
 
-As soon as you pass 1,500, do your attempts on Normal: I found it easy, and it gives 1,500 enhancement stones per run.
+As soon as you pass 1,500, do your attempts on Normal: I found it easy. But not for the enhancement stones: a Bio-Research run at 1,536 gave me 6,700, more than four times what you get here. What Ascension Trial is worth is the [Amplify Stone](/en/objetos/amplify-stone-fragment-unique/) fragments, which gold pieces need to go past +15 ([the maths](/en/apuntes/monedas-materiales-y-contenidos/)). Keep them.
