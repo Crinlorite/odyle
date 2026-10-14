@@ -5,7 +5,7 @@ import { mkdirSync } from 'node:fs';
 const base = process.argv[2] ?? 'http://localhost:4321';
 const out = new URL('./.shots/', import.meta.url).pathname;
 mkdirSync(out, { recursive: true });
-const pages = [['portada', '/es/'], ['cuaderno', '/es/cuaderno/'], ['entrada', '/es/cuaderno/mercado-nivel-45/'], ['temas', '/es/temas/'], ['apunte', '/es/apuntes/gladiator/'], ['acerca', '/es/acerca/'], ['blacklights', '/es/blacklights/'], ['objetos', '/es/objetos/'], ['objeto', '/es/objetos/rupture-rod/']];
+const pages = [['portada', '/es/'], ['cuaderno', '/es/cuaderno/'], ['entrada', '/es/cuaderno/mercado-nivel-45/'], ['temas', '/es/temas/'], ['apunte', '/es/apuntes/gladiator/'], ['acerca', '/es/acerca/'], ['odylenet', '/es/odylenet/'], ['objetos', '/es/objetos/'], ['objeto', '/es/objetos/rupture-rod/']];
 const browser = await chromium.launch();
 for (const [size, w, h] of [['pc', 1280, 900], ['movil', 390, 844]]) {
   for (const scheme of ['light', 'dark']) {

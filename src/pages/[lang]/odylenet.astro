@@ -7,26 +7,26 @@ const lang = Astro.params.lang as Lang;
 const s = t(lang);
 const L = {
   es: {
-    title: 'BlackLights, legión elyos en español en Nezekan', description: 'BlackLights es una legión elyos de habla española en el servidor Nezekan de Europa de AION 2. Cómo es y cómo entrar.',
-    kicker: 'Legión · AION 2 global', h1a: ': legión elyos en español, en Nezekan', lead: 'Si juegas AION 2 en español, eres elyos y estás en Europa, aquí hay sitio.',
-    f: [['Facción', 'Elyos'], ['Servidor', 'Nezekan'], ['Región', 'Europa'], ['Idioma', 'Español']], src: 'NCSOFT · inglés',
+    title: 'Odylenet, legión elyos multilingüe en Nezekan', description: 'Odylenet es una legión elyos multilingüe del servidor Nezekan de Europa de AION 2: PvE, PvP y recolección. Cómo es y cómo entrar.',
+    kicker: 'Legión · AION 2 global', h1a: ': la red de Odyle, en Nezekan', lead: 'Una legión elyos abierta a todo el mundo, hables el idioma que hables.',
+    f: [['Facción', 'Elyos'], ['Servidor', 'Nezekan'], ['Región', 'Europa'], ['Idioma', 'Multilingüe']], src: 'NCSOFT · inglés',
   },
   en: {
-    title: 'BlackLights, a Spanish-speaking Elyos legion on Nezekan', description: 'BlackLights is a Spanish-speaking Elyos legion on the Nezekan server (Europe) of AION 2. What it is and how to join.',
-    kicker: 'Legion · AION 2 global', h1a: ': a Spanish-speaking Elyos legion on Nezekan', lead: 'If you play AION 2, speak Spanish, are Elyos and play in Europe, there is room for you.',
-    f: [['Faction', 'Elyos'], ['Server', 'Nezekan'], ['Region', 'Europe'], ['Language', 'Spanish']], src: 'NCSOFT · English',
+    title: 'Odylenet, a multilingual Elyos legion on Nezekan', description: 'Odylenet is a multilingual Elyos legion on the Nezekan server (Europe) of AION 2: PvE, PvP and gathering. What it is and how to join.',
+    kicker: 'Legion · AION 2 global', h1a: ': the Odyle network, on Nezekan', lead: 'An Elyos legion open to everyone, whatever language you speak.',
+    f: [['Faction', 'Elyos'], ['Server', 'Nezekan'], ['Region', 'Europe'], ['Language', 'Multilingual']], src: 'NCSOFT · English',
   },
   ko: {
-    title: 'BlackLights, 네자칸 서버의 스페인어권 천족 레기온', description: 'BlackLights는 아이온2 유럽 네자칸 서버의 스페인어권 천족 레기온입니다. 레기온 소개와 가입 방법.',
-    kicker: '레기온 · 아이온2 글로벌', h1a: ': 네자칸 서버의 스페인어권 천족 레기온', lead: '스페인어를 사용하고, 유럽 서버의 천족이라면 언제든 환영합니다.',
-    f: [['진영', '천족'], ['서버', '네자칸'], ['지역', '유럽'], ['언어', '스페인어']], src: 'NCSOFT · 영어',
+    title: 'Odylenet, 네자칸 서버의 다국어 천족 레기온', description: 'Odylenet은 아이온2 유럽 네자칸 서버의 다국어 천족 레기온입니다. PvE, PvP, 채집. 레기온 소개와 가입 방법.',
+    kicker: '레기온 · 아이온2 글로벌', h1a: ': 네자칸의 Odyle 네트워크', lead: '어떤 언어를 쓰든 누구나 환영하는 천족 레기온입니다.',
+    f: [['진영', '천족'], ['서버', '네자칸'], ['지역', '유럽'], ['언어', '다국어']], src: 'NCSOFT · 영어',
   },
 }[lang];
 ---
-<Base lang={lang} title={L.title} description={L.description} ogImage={`/og/${lang}/blacklights.jpg`}>
+<Base lang={lang} title={L.title} description={L.description} ogImage={`/og/${lang}/odylenet.jpg`}>
   <header class="page-head legion-head">
     <p class="kicker">{L.kicker}</p>
-    <h1><span class="hl">BlackLights</span>{L.h1a}</h1>
+    <h1><span class="hl">Odylenet</span>{L.h1a}</h1>
     <p class="lead">{L.lead}</p>
     <p class="note">{s.legionNote}</p>
   </header>
@@ -34,42 +34,51 @@ const L = {
   <div class="plain legion-body"><div class="prose">
     {lang === 'es' && <>
       <h2>Qué es</h2>
-      <p>BlackLights es una legión de habla española del bando elyos. Juega en Nezekan, uno de los servidores de Europa que abrieron con el acceso anticipado de AION 2.</p>
+      <p>Odylenet es la legión de este cuaderno, del bando elyos, en Nezekan, uno de los servidores de Europa que abrieron con el acceso anticipado de AION 2. El nombre viene del Odyle, que es también el nombre de la web, y de «net», porque es una red de gente.</p>
+      <p>Es multilingüe: cada cual escribe en su idioma y nos entendemos como podemos. El ambiente es familiar y sin prisas.</p>
+      <h2>A qué jugamos</h2>
+      <p>PvE, PvP y recolección. Si empiezas, tienes a quién preguntar.</p>
       <h2>Cómo entrar</h2>
-      <p>Crea tu personaje elyos en Nezekan, en la región de Europa, y escribe por susurro a <strong>Gerlari</strong> dentro del juego. Te pongo en contacto con quien lleva la legión.</p>
+      <p>Crea tu personaje elyos en Nezekan, en la región de Europa. Luego busca <strong>Odylenet</strong> en la búsqueda de legiones del juego y envía la solicitud, o escribe por susurro a <strong>Gerlari</strong>.</p>
       <h2>Si ya juegas en otro servidor</h2>
       <p>En AION 2 cada servidor es de un solo bando. Desde el 14 de octubre de 2026 hay traslados gratis entre servidores del mismo bando y la misma región: <strong>uno por cuenta</strong>, con todos los personajes que quieras de ese servidor. Nezekan es un servidor del acceso anticipado, así que solo se puede venir desde otro del acceso anticipado, y solo <strong>del 14 al 21 de octubre</strong>. En Europa se pide cada día de 12:00 a 16:00 y de 18:00 a 22:00, hora de España.</p>
       <p>Antes de trasladarte tienes que <strong>salir de tu legión</strong>, estar en un pueblo y no tener nada pendiente en el Mercado, en el almacén de la tienda ni en el correo. La Kina del almacén del servidor no viaja: pásala antes al personaje. Mientras tanto, las mazmorras y el resto del contenido instanciado ya se juegan entre servidores.</p>
       <h2>Contra quién jugamos</h2>
       <p>Cada servidor elyos se empareja con uno asmodiano para el Abismo y las grietas. A Nezekan le toca Zikel, según la lista oficial del 6 de octubre de 2026. NCSOFT cambia los emparejamientos cada cierto tiempo.</p>
-      <h2>Quién escribe esto</h2>
-      <p>Gerlari, Gladiator, miembro de BlackLights. No dirijo la legión: llevo este cuaderno y juego en ella.</p>
+      <h2>Quién la lleva</h2>
+      <p>Gerlari, Gladiator. Llevo la legión y escribo este cuaderno.</p>
     </>}
     {lang === 'en' && <>
       <h2>What it is</h2>
-      <p>BlackLights is a Spanish-speaking Elyos legion. It plays on Nezekan, one of the European servers that opened with AION 2's early access. The legion's language is Spanish.</p>
+      <p>Odylenet is this notebook's legion, on the Elyos side, on Nezekan, one of the European servers that opened with AION 2's early access. The name comes from Odyle, which is also the name of this site, and from “net”, because it is a network of people.</p>
+      <p>It is multilingual: everyone writes in their own language and we make ourselves understood. The mood is friendly, family-like and unhurried.</p>
+      <h2>What we play</h2>
+      <p>PvE, PvP and gathering. If you are new, there is someone to ask.</p>
       <h2>How to join</h2>
-      <p>Create an Elyos character on Nezekan, in the Europe region, and whisper <strong>Gerlari</strong> in game. I will put you in touch with whoever runs the legion.</p>
+      <p>Create an Elyos character on Nezekan, in the Europe region. Then search for <strong>Odylenet</strong> in the game's legion search and send a request, or whisper <strong>Gerlari</strong>.</p>
       <h2>If you already play on another server</h2>
       <p>In AION 2 each server belongs to one faction. Since 14 October 2026 there are free server transfers between servers of the same faction and region: <strong>one per account</strong>, with as many characters from that server as you like. Nezekan is an early access server, so you can only come from another early access server, and only <strong>from 14 to 21 October</strong>. In Europe, transfers can be requested every day from 12:00 to 16:00 and from 18:00 to 22:00, Spanish time.</p>
       <p>Before transferring you must <strong>leave your legion</strong>, stand in a town, and have nothing pending on the Market, in Shop Storage or in your mail. Kina in Server Storage does not move with you: put it on the character first. Meanwhile, dungeons and other instanced content are already cross-server.</p>
       <h2>Who we face</h2>
       <p>Each Elyos server is paired with an Asmodian one for the Abyss and the rifts. Nezekan faces Zikel, according to the official list of 6 October 2026. NCSOFT changes the pairings from time to time.</p>
-      <h2>Who writes this</h2>
-      <p>Gerlari, Gladiator, a member of BlackLights. I do not run the legion: I keep this notebook and play in it.</p>
+      <h2>Who runs it</h2>
+      <p>Gerlari, Gladiator. I run the legion and write this notebook.</p>
     </>}
     {lang === 'ko' && <>
       <h2>레기온 소개</h2>
-      <p>BlackLights는 스페인어를 사용하는 천족 레기온입니다. 아이온2 사전 오픈과 함께 문을 연 유럽 서버 중 하나인 네자칸에서 활동하고 있습니다. 레기온 내에서는 스페인어를 사용합니다.</p>
+      <p>Odylenet은 이 기록장의 레기온입니다. 천족이며, 아이온2 사전 오픈과 함께 문을 연 유럽 서버 중 하나인 네자칸에서 활동합니다. 이름은 이 사이트의 이름이기도 한 Odyle과, 사람들의 네트워크라는 뜻의 “net”을 합친 것입니다.</p>
+      <p>다국어 레기온입니다. 각자 자기 언어로 쓰고, 어떻게든 서로 알아듣습니다. 가족 같은 분위기에서 서두르지 않고 플레이합니다.</p>
+      <h2>함께 하는 것</h2>
+      <p>PvE, PvP, 채집. 처음 시작하는 분도 물어볼 사람이 있습니다.</p>
       <h2>가입 방법</h2>
-      <p>유럽 지역 네자칸 서버에 천족 캐릭터를 만든 뒤, 게임에서 <strong>Gerlari</strong>에게 귓속말을 보내 주세요. 레기온 운영진과 연결해 드리겠습니다.</p>
+      <p>유럽 지역 네자칸 서버에 천족 캐릭터를 만드세요. 그다음 게임의 레기온 검색에서 <strong>Odylenet</strong>을 찾아 가입 신청을 보내거나, <strong>Gerlari</strong>에게 귓속말을 보내 주세요.</p>
       <h2>다른 서버에서 플레이 중이라면</h2>
       <p>아이온2는 서버마다 진영이 하나로 정해져 있습니다. 2026년 10월 14일부터 같은 진영·같은 지역의 서버 간 무료 서버 이전이 가능하며, <strong>계정당 1회</strong>, 해당 서버의 캐릭터를 원하는 만큼 함께 옮길 수 있습니다. 네자칸은 사전 오픈 서버이므로 다른 사전 오픈 서버에서만, 그리고 <strong>10월 14일부터 21일까지만</strong> 이전할 수 있습니다. 유럽 지역 신청 가능 시간은 매일 스페인 시간 12:00~16:00, 18:00~22:00입니다.</p>
       <p>이전하기 전에 <strong>소속 레기온에서 탈퇴</strong>해야 하며, 마을에 있어야 하고, 거래소·상점 보관함·우편함에 처리하지 않은 물품이 없어야 합니다. 서버 창고의 키나는 함께 이전되지 않으니 미리 캐릭터로 옮겨 두세요. 던전 등 인스턴스 콘텐츠는 지금도 서버 구분 없이 함께 플레이할 수 있습니다.</p>
       <h2>상대 서버</h2>
       <p>천족 서버는 어비스와 균열 콘텐츠를 위해 마족 서버와 짝을 이룹니다. 2026년 10월 6일 공식 목록에 따르면 네자칸의 상대는 지켈입니다. 짝은 엔씨소프트가 주기적으로 바꿉니다.</p>
-      <h2>작성자</h2>
-      <p>Gerlari, 검성, BlackLights 레기온원입니다. 레기온을 운영하지는 않으며, 이 기록장을 쓰면서 레기온에서 함께 플레이하고 있습니다.</p>
+      <h2>운영자</h2>
+      <p>Gerlari, 검성입니다. 레기온을 운영하며 이 기록장을 쓰고 있습니다.</p>
     </>}
   </div></div>
   <aside class="aside">
