@@ -5,3 +5,4 @@ dist/
 .dev.vars
 scripts/.shots/
 scripts/.og.html
+__pycache__/
