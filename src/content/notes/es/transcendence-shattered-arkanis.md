@@ -1,6 +1,6 @@
 ---
-title: 'Transcendence en Shattered Arkanis: Siliator, Ruthilis y Talisara'
-description: 'Las almas blancas y negras, las cúpulas, la lanza que hay que romper y el enfado de los 5 minutos de Talisara, la jefa final de Shattered Arkanis.'
+title: 'Transcendence en Shattered Arkanis: Siliator, Ruthilis y Talisra'
+description: 'Las almas blancas y negras, las cúpulas, la lanza que hay que romper y el enfado de los 5 minutos de Talisra, la jefa final de Shattered Arkanis.'
 basis: Guías coreanas de Inven y Gametoc, la de Game8 del global y los tiempos de aionflex; lo de las almas, las cúpulas y las lanzas lo he visto en mi grupo
 updated: 2026-10-15
 sources:
@@ -12,9 +12,9 @@ sources:
 translationKey: transcendence-shattered-arkanis
 ---
 
-## Cómo se abre Talisara
+## Cómo se abre Talisra
 
-Igual que en [Deus Research Base](/es/apuntes/transcendence-deus-research-base/): hay que llegar a unos 120 enemigos muertos, y cada uno de los dos jefes opcionales, Siliator y Ruthilis, cuenta 45. El combate empieza cuando alguien pisa la zona de Talisara, así que hay que entrar todos juntos.
+Igual que en [Deus Research Base](/es/apuntes/transcendence-deus-research-base/): hay que llegar a unos 120 enemigos muertos, y cada uno de los dos jefes opcionales, Siliator y Ruthilis, cuenta 45. El combate empieza cuando alguien pisa la zona de Talisra, así que hay que entrar todos juntos.
 
 ## Siliator of Deceit
 
@@ -27,7 +27,7 @@ Igual que en [Deus Research Base](/es/apuntes/transcendence-deus-research-base/)
 - **Trozos de suelo prohibidos.** Al empezar sale uno en las 6, y al 85 % y al 60 % de vida se van añadiendo en el sentido de las agujas del reloj. La sala se queda cada vez más pequeña.
 - **Áreas eléctricas, cuatro veces, debajo de cada jugador.** De cada una sale una onda en círculo, que se salta. Hay que estar separados.
 
-## Talisara of the Void
+## Talisra of the Void
 
 **Tiene un límite de unos 5 minutos.** Si sigue viva, se enfada y mata al grupo; eso dicen PixelNitro y SlashingCreeps, y no lo cuenta NCSOFT. En la fase 1 del global, la mediana de lo que se tarda en matarla es de 4:14, y casi todos tardan entre 3:49 y 4:45. El CP de los grupos que la matan va de 76k, el 25 % más flojo, a 79k de mediana. Son datos de aionflex hasta el 7 de octubre, contando desde el primer golpe al jefe hasta el último. Hay muy poco margen: es una prueba de daño.
 
@@ -40,7 +40,7 @@ Igual que en [Deus Research Base](/es/apuntes/transcendence-deus-research-base/)
 
 **Las almas y las cúpulas (Shattered Soul).** Salen al 70 % y otra vez hacia el 40 %, según Game8; Gametoc lo pone al 60 % y al 30 %, pero en la fase 4 coreana.
 
-1. Talisara se va al centro y por el borde salen almas blancas y negras que van hacia ella. **Cada una que llega la hace más fuerte**, así que hay que cortarlas tocándolas.
+1. Talisra se va al centro y por el borde salen almas blancas y negras que van hacia ella. **Cada una que llega la hace más fuerte**, así que hay que cortarlas tocándolas.
 2. **Cada uno coge un solo color.** Si tocas el otro, te aturde y pierdes lo que llevabas. Antes de empezar se reparte: dos en blanco y dos en negro. Por eso en el chat salen cosas como «I take white».
 3. Hay que coger los dos colores a partes iguales. Si uno se queda corto, falta su cúpula y muere el grupo.
 4. Tras dos oleadas, cada uno crea una **cúpula** de su color donde está. Hay que estar separados, porque si dos se pisan no sale.
