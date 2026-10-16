@@ -1,7 +1,7 @@
 ---
 title: 'Transcendence en Deus Research Base: Gelcos, Nazmun y Atiel'
 description: 'Cómo se abre Atiel, qué hace cada jefe de Deus Research Base y si es más fácil que Shattered Arkanis: cadenas, el suelo que se rompe y el Stagger final.'
-basis: Guías coreanas de Inven y Gametoc, la de Game8 del global y los tiempos de aionflex; nada de esto lo he visto todavía en mi cliente
+basis: Guías coreanas de Inven y Gametoc, la de Game8 del global y los tiempos de aionflex; la cadena entre dos, el «soak» y el enrage los he visto en mi grupo
 updated: 2026-10-16
 sources:
   - { title: 'Deus Research Base Transcendence Guide — Game8', url: 'https://game8.co/games/Aion-2/archives/618905', lang: en }
@@ -28,7 +28,7 @@ Un poco más fácil, y sobre todo distinta.
 - **En Corea, Arkanis pide más.** Según una guía de Inven, en cada etapa Arkanis recomienda 100 más que Deus, hay que matar más enemigos para abrir el jefe final, y casi todos los enemigos atacan a distancia, así que un mal tirón mata rápido.
 - **Gametoc dice que Nazmun es el más fácil de los tres jefes de Deus.**
 
-Lo que cambia es dónde está el peligro. Talisra es una carrera de daño con unos 5 minutos de límite y obliga a coordinar colores. **Atiel no tiene límite de tiempo conocido**: lo que mata es caerse del suelo roto, que no se puede resucitar, y no llenar la barra de Stagger del final.
+Lo que cambia es dónde está el peligro. Talisra es una carrera de daño con unos 5 minutos de límite y obliga a coordinar colores. En Atiel las guías no dan un límite de tiempo, aunque en mi primera partida el grupo murió por lo que llamó «enrage» (abajo). Lo que más mata es caerse del suelo roto, que no se puede resucitar, y no llenar la barra de Stagger del final.
 
 ## Cómo se abre Atiel
 
@@ -85,4 +85,8 @@ Para el Morphic World, guardar Forced Restraint (20 de barra), si la llevo, Mock
 
 ## Lo que he visto yo y lo que no
 
-Nada todavía. Lo apunto antes de entrar por primera vez y lo comprobaré en la fase 1.
+Primera partida en la fase 1, el 16-oct-2026, en un grupo de desconocidos.
+
+- En el cliente en inglés, la cadena entre dos sale como «You cannot escape from me».
+- Para la marca, el grupo pide **«soak»**: meterse todos en el círculo del inmovilizado para repartir el golpe.
+- **Morimos una vez en Atiel por lo que el grupo llamó «enrage»** y a la segunda lo sacamos. No sé si fue un límite de tiempo o el Morphic World sin llenar, que también mata a todo el grupo. Si fue un límite de tiempo, las guías no lo cuentan.
