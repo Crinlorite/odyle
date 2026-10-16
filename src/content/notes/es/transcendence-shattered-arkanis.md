@@ -2,12 +2,13 @@
 title: 'Transcendence en Shattered Arkanis: Siliator, Ruthilis y Talisra'
 description: 'Las almas blancas y negras, las cúpulas, la lanza que hay que romper y el enfado de los 5 minutos de Talisra, la jefa final de Shattered Arkanis.'
 basis: Guías coreanas de Inven y Gametoc, la de Game8 del global y los tiempos de aionflex; lo de las almas, las cúpulas y las lanzas lo he visto en mi grupo
-updated: 2026-10-15
+updated: 2026-10-16
 sources:
   - { title: 'Shattered Arkanis Transcendence Guide — Game8', url: 'https://game8.co/games/Aion-2/archives/620217', lang: en }
   - { title: 'Patrones clave de Transcendence, fases 1 a 3 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311706&site=aion2', lang: ko }
   - { title: 'Shattered Arkanis, a fondo — Gametoc', url: 'https://www.gametoc.co.kr/news/articleView.html?idxno=104273', lang: ko }
   - { title: 'Shattered Arkanis: tiempos y CP de entrada — aionflex', url: 'https://aionflex.gg/meta/instances/Arkanis', lang: en }
+  - { title: 'Guía de Shattered Arkanis con GIFs — DCInside, galería de AION 2', url: 'https://gall.dcinside.com/mgallery/board/view/?id=aion2&no=373073', lang: ko }
   - { title: 'Transcendence Dungeons Guide — PixelNitro', url: 'https://pixelnitro.com/aion-2-transcendence-dungeons-guide-mechanics-bosses-and-arcana-rewards/', lang: en }
 translationKey: transcendence-shattered-arkanis
 ---
@@ -44,7 +45,10 @@ Igual que en [Deus Research Base](/es/apuntes/transcendence-deus-research-base/)
 2. **Cada uno coge un solo color.** Si tocas el otro, te aturde y pierdes lo que llevabas. Antes de empezar se reparte: dos en blanco y dos en negro. Por eso en el chat salen cosas como «I take white».
 3. Hay que coger los dos colores a partes iguales. Si uno se queda corto, falta su cúpula y muere el grupo.
 4. Tras dos oleadas, cada uno crea una **cúpula** de su color donde está. Hay que estar separados, porque si dos se pisan no sale.
-5. **El cristal o la punta de su arma parpadea en colores.** Ese es el orden de las explosiones: en cada una, hay que meterse en la cúpula de ese color y luego cambiarse a la del siguiente. Un color puede salir dos veces seguidas.
+5. **En su mano, o encima de la cabeza, se encienden luces de colores una detrás de otra.** Cada luz es una explosión, y el orden de las luces es el orden de las explosiones. En la primera tanda suelen ser dos y en la segunda, tres.
+6. **En cada explosión hay que estar dentro de una cúpula del color de esa luz**, da igual quién la pusiera: el color de tus almas no importa para esconderte. Con blanco y negro, primero a una cúpula blanca y, en cuanto explota, a una negra. Si sale el mismo color dos veces, te quedas donde estás.
+
+Para que el cambio sea un paso y no una carrera, conviene poner las cúpulas blancas y negras cerca unas de otras, pero sin que se toquen. Ayuda decir los colores en voz alta («blanco, negro, negro») mientras se encienden.
 
 En la segunda tanda, según Gametoc, hay tres explosiones, y con las almas sale una onda roja que aturde.
 
