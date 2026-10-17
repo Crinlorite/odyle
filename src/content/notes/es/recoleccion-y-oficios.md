@@ -2,8 +2,10 @@
 title: Recolección y oficios, dónde van los puntos
 description: Mi chuleta de Essence Extraction, los puntos comunes y de especialidad, el plan Odyle más gemas, el ascenso a Profesional y los cinco oficios.
 basis: Tablas del cliente global de metabot y lo visto en mi pantalla
-updated: 2026-10-11
+updated: 2026-10-17
 sources:
+  - { title: 'Crafting guide: professions, gear and materials — KeenGamer', url: 'https://www.keengamer.com/articles/guides/aion-2-crafting-guide-professions-gear-materials/', lang: en }
+  - { title: 'Crafting success rate, combo, transfer and transmutation — playnews', url: 'https://www.playnews.gg/en/guides/aion-2-crafting-success-rate-combo-transfer-and-transmutation-everything-explained', lang: en }
   - { title: 'Gathering Guide (tablas del cliente global) — metabot', url: 'https://metabot.gg/en/aion-2/gathering', lang: en }
   - { title: 'Gathering Nodes, Proficiency and Extraction Skills — wikily', url: 'https://wikily.gg/aion-2/gathering', lang: en }
   - { title: 'AION 2 Essence Extraction: How to Reach Professional — space4games', url: 'https://space4games.com/en/games-en/aion-2-essence-extraction-guide/', lang: en }
@@ -91,6 +93,7 @@ Cinco: herrería de armas, armaduras, accesorios, alquimia y cocina. Cada uno ti
 - Para empezar, cocina: es barata y sube rápido.
 - Para el Gladiator, herrería de armas, por el mandoble.
 - Hay «gran éxito»: según las guías, un 25 % en casi todo el equipo y un 30 % en cocina.
+- **Los oficios no tienen árbol de skills**, a diferencia de la recolección: según KeenGamer y ExitLag, todo va por el menú Alt + G y no hay puntos que gastar. La probabilidad de éxito sube con la diferencia entre tu maestría y el nivel de la receta: en la base de gamewith, la Greater Life Potion pasa del 72,9 % a la misma altura al 79,6 % con 9 niveles de ventaja. El gran éxito es aparte y no sube. Antes de fabricar, «Crafting Chance» enseña la probabilidad.
 - El equipo fabricado iguala al de mazmorra en nivel, pero amplifica menos.
 - Los cinco oficios se pueden subir en el mismo personaje. Lo que frena son los materiales.
 
