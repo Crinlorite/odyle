@@ -18,14 +18,14 @@ verifiedAt: 2026-10-12
 sources:
   - { title: 'Rupture Rod — metabot', url: 'https://metabot.gg/en/aion-2/items/rupture-rod', lang: en }
   - { title: 'AION 2 Soul Imprint and Soul Binding guide — gamesfuze', url: 'https://gamesfuze.com/guides/aion-2-soul-imprint-soul-binding-guide/', lang: en }
-updated: 2026-10-12
+updated: 2026-10-17
 ---
 
 ## 용도
 
 <strong>호법성(Chanter)</strong>용 아이템 레벨 54 무기입니다. 저처럼 검성(Gladiator)으로 하다가 나왔다면 버리지 마세요.
 
-**게임에서 직접 확인:** Soul Binding에서 **Sync 재료**로 쓸 수 있습니다. 이걸로 장비 옵션 줄을 바꿨는데, 새로 나온 줄이 전부 최대치였습니다. 획득 시 귀속이라 거래소에는 팔 수 없습니다. NPC 판매가는 30,000 키나입니다.
+**게임에서 직접 확인:** Soul Binding에서 **Sync 재료**로 쓸 수 있습니다. 이걸로 장비 옵션 줄을 바꿨는데, 첫 번째 줄은 최대치(Critical Damage Defense 263/263)로 나왔습니다. 하지만 수치는 무작위입니다. 10월 16일에 다른 재료로 한 Sync에서는 Block 19/25, 40%가 나왔습니다. 획득 시 귀속이라 거래소에는 팔 수 없습니다. NPC 판매가는 30,000 키나입니다.
 
 장비의 Soul Binding이 100%가 되면 다음 단계는 Soul Fuse이고, [Philosopher's Stone: Revelation](/ko/objetos/philosophers-stone-revelation/)이 필요합니다.
 

@@ -18,14 +18,14 @@ verifiedAt: 2026-10-12
 sources:
   - { title: 'Rupture Rod — metabot', url: 'https://metabot.gg/en/aion-2/items/rupture-rod', lang: en }
   - { title: 'AION 2 Soul Imprint and Soul Binding guide — gamesfuze', url: 'https://gamesfuze.com/guides/aion-2-soul-imprint-soul-binding-guide/', lang: en }
-updated: 2026-10-12
+updated: 2026-10-17
 ---
 
 ## Para qué sirve
 
 Es un arma de nivel de objeto 54 para el **Chanter**. Si te sale siendo de otra clase, como a mí con el Gladiator, no la tires.
 
-**Visto en partida:** sirve como **material de Sync** en Soul Binding. Con ella cambié líneas de las piezas, y cada línea nueva salió con el valor al máximo. No se puede vender en el mercado porque se vincula al cogerla. El NPC paga 30.000 Kina.
+**Visto en partida:** sirve como **material de Sync** en Soul Binding. Con ella cambié líneas de las piezas, y la primera salió llena (Critical Damage Defense 263/263). Pero el valor es al azar: otro Sync, el 16 de octubre con otra pieza de material, me dio Block 19/25, al 40 %. No se puede vender en el mercado porque se vincula al cogerla. El NPC paga 30.000 Kina.
 
 Cuando una pieza llega al 100 % de Soul Binding, el paso siguiente es Soul Fuse, que pide [Philosopher's Stone: Revelation](/es/objetos/philosophers-stone-revelation/).
 

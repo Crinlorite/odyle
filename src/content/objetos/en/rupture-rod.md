@@ -18,14 +18,14 @@ verifiedAt: 2026-10-12
 sources:
   - { title: 'Rupture Rod — metabot', url: 'https://metabot.gg/en/aion-2/items/rupture-rod', lang: en }
   - { title: 'AION 2 Soul Imprint and Soul Binding guide — gamesfuze', url: 'https://gamesfuze.com/guides/aion-2-soul-imprint-soul-binding-guide/', lang: en }
-updated: 2026-10-12
+updated: 2026-10-17
 ---
 
 ## What it's for
 
 It's an item level 54 weapon for the **Chanter**. If you get it on another class, like I did on my Gladiator, don't throw it away.
 
-**Seen in game:** it works as **Sync material** in Soul Binding. I used it to change lines on my pieces, and every new line came out at the maximum value. It can't be sold on the Market because it binds when you pick it up. The NPC pays 30,000 Kina.
+**Seen in game:** it works as **Sync material** in Soul Binding. I used it to change lines on my pieces, and the first one came out full (Critical Damage Defense 263/263). But the value is random: another Sync, on October 16 with a different material piece, gave me Block 19/25, at 40%. It can't be sold on the Market because it binds when you pick it up. The NPC pays 30,000 Kina.
 
 When a piece reaches 100% Soul Binding, the next step is Soul Fuse, which requires [Philosopher's Stone: Revelation](/en/objetos/philosophers-stone-revelation/).
 

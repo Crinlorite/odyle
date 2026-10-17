@@ -2,7 +2,7 @@
 title: Gladiator en PvE, qué subir y en qué orden
 description: Mi chuleta del Gladiator, puntos de skill, especializaciones, estigmas, Daevanion y rotación, según lo que llevan los mejores jugadores coreanos.
 basis: Datos de jugadores coreanos, tablas del cliente global y una guía taiwanesa
-updated: 2026-10-14
+updated: 2026-10-17
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (8.459 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -291,6 +291,18 @@ En Arena no hay barra de Stagger, así que Sword Aura Rampage no sirve. Lo que m
 ## Dónde queda la clase
 
 Según unos 300.000 registros de combate coreanos: arriba del todo en arena y para subir y farmear; un escalón por debajo en mazmorras, donde se la valora como tanque principal o secundario. El global va en un parche anterior.
+
+**No tiene provocación.** Ninguna de sus skills ni estigmas obliga a un jefe a atacarte, y las guías coreanas de la clase no nombran ninguna: eso es del Templar. El Gladiator retiene al jefe pegando más que los demás y aguanta con Survival Stance, Protection Armor, Tenaciousness y el robo de vida. Las guías del global lo llaman DPS y tanque secundario.
+
+**Para juntar enemigos sí tiene herramientas**, según sus especializaciones:
+
+- **Leaping Slam**, con la de nivel 16: pasa a ser de área y atrae a los de alrededor.
+- **Crushing Wave**, 3.ª: 50 % de arrastrar. Además pega hasta un 20 % más cuantos más golpea.
+- **Rush Strike**, 1.ª: carga con daño en área y 10 m más de alcance.
+- **Overhead Slam**, 1.ª: pasa a ser de área.
+- **Wrath Wave**, el estigma: área a 4 enemigos con derribo.
+
+Para tirar de un grupo: Rush Strike para entrar, Leaping Slam para juntarlos, Crushing Wave y Wrath Wave. Con los jefes no sirve.
 
 ## Lo que no tengo claro
 
