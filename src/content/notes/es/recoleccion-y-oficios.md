@@ -93,7 +93,7 @@ Cinco: herrería de armas, armaduras, accesorios, alquimia y cocina. Cada uno ti
 - Para empezar, cocina: es barata y sube rápido.
 - Para el Gladiator, herrería de armas, por el mandoble.
 - Hay «gran éxito»: según las guías, un 25 % en casi todo el equipo y un 30 % en cocina.
-- **Los oficios no tienen árbol de skills**, a diferencia de la recolección: según KeenGamer y ExitLag, todo va por el menú Alt + G y no hay puntos que gastar. La probabilidad de éxito sube con la diferencia entre tu maestría y el nivel de la receta: en la base de gamewith, la Greater Life Potion pasa del 72,9 % a la misma altura al 79,6 % con 9 niveles de ventaja. El gran éxito es aparte y no sube. Antes de fabricar, «Crafting Chance» enseña la probabilidad.
+- **Los oficios no tienen árbol de skills**, a diferencia de la recolección: según KeenGamer y ExitLag, todo va por el menú Alt + G y no hay puntos que gastar. La probabilidad de éxito sube con la diferencia entre tu maestría del oficio y la maestría que pide la receta: en la base de gamewith, la Greater Life Potion pasa del 72,9 % a la misma altura al 79,6 % con 9 niveles de ventaja. El gran éxito es aparte y no sube. Antes de fabricar, «Crafting Chance» enseña la probabilidad.
 - El equipo fabricado iguala al de mazmorra en nivel, pero amplifica menos.
 - Los cinco oficios se pueden subir en el mismo personaje. Lo que frena son los materiales.
 
