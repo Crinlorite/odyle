@@ -2,13 +2,14 @@
 title: 'Transcendence en Shattered Arkanis: Siliator, Ruthilis y Talisra'
 description: 'Las almas blancas y negras, las cúpulas, la lanza que hay que romper y el enfado de los 5 minutos de Talisra, la jefa final de Shattered Arkanis.'
 basis: Guías coreanas de Inven y Gametoc, la de Game8 del global y los tiempos de aionflex; lo de las almas, las cúpulas y las lanzas lo he visto en mi grupo
-updated: 2026-10-16
+updated: 2026-10-17
 sources:
   - { title: 'Shattered Arkanis Transcendence Guide — Game8', url: 'https://game8.co/games/Aion-2/archives/620217', lang: en }
   - { title: 'Patrones clave de Transcendence, fases 1 a 3 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311706&site=aion2', lang: ko }
   - { title: 'Shattered Arkanis, a fondo — Gametoc', url: 'https://www.gametoc.co.kr/news/articleView.html?idxno=104273', lang: ko }
   - { title: 'Shattered Arkanis: tiempos y CP de entrada — aionflex', url: 'https://aionflex.gg/meta/instances/Arkanis', lang: en }
   - { title: 'Guía de Shattered Arkanis con GIFs — DCInside, galería de AION 2', url: 'https://gall.dcinside.com/mgallery/board/view/?id=aion2&no=373073', lang: ko }
+  - { title: 'Transcendence, etapas 1 a 10: Deus y Arkanis — Inven, foro de consejos', url: 'https://www.inven.co.kr/board/aion2/6444/695', lang: ko }
   - { title: 'Transcendence Dungeons Guide — PixelNitro', url: 'https://pixelnitro.com/aion-2-transcendence-dungeons-guide-mechanics-bosses-and-arcana-rewards/', lang: en }
 translationKey: transcendence-shattered-arkanis
 ---
@@ -61,6 +62,21 @@ Un jugador de DCInside avisa de que en pantalla las almas y la lanza buena se ve
 - Ni la onda ni el rayo obligan a dejar de atacar.
 - El tanque la deja quieta en el centro.
 - Como Gladiator, Zikel's Blessing al empezar y otra vez después de la segunda tanda de almas.
+
+## Lo que cambia en cada etapa
+
+Según una guía de Inven, del cliente coreano, que va por delante del global:
+
+- **Etapas 4 a 6.** Hay que matar 150 enemigos para abrir a Talisra, y casi todos atacan a distancia: un mal tirón mata rápido.
+  - Salen **trampas** en el suelo que ralentizan o inmovilizan; se esquivan bien.
+  - **Exaltación**: al morir un enemigo, los de alrededor pegan más.
+  - **Siliator** deja una zona de hielo azul claro, que cuesta ver, después de cada carga. Quita vida mientras estés dentro.
+  - **Ventana refractada** («고요에 잠겨, 영원히 침묵하라»): Talisra encierra a uno en un cristal y salen ventanas detrás del grupo. Hay que colocarse para que sus disparos den en el cristal y esquivar con un dash justo antes de que disparen. Si fallan las tres, el encerrado se queda inmóvil y perdiendo vida hasta que el cristal se rompe solo.
+- **Etapas 7 a 10.** 170 enemigos.
+  - **Resistencia**: la barra de Stagger de los jefes es más grande.
+  - **Pilares de fuego** que se mueven alrededor de Talisra; se esquivan por los huecos, a veces a la vez que la onda.
+
+En el global, aionflex da estos CP para el 25 % más flojo de los que la pasan: 76k en la etapa 1, 85k en la 3 y 99k en la 6. Talisra tarda de mediana 4:14, 4:24 y 4:33.
 
 ## Lo que he visto yo y lo que no
 
