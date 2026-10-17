@@ -65,7 +65,7 @@ Un jugador de DCInside avisa de que en pantalla las almas y la lanza buena se ve
 
 ## Lo que cambia en cada etapa
 
-Según una guía de Inven, del cliente coreano, que va por delante del global:
+En el global hay **4 fases** (1.600, 1.900, 2.200 y 2.500 de nivel de objeto). El cliente coreano, que va por delante, tiene **10 etapas**, y aionflex numera las partidas del global como etapas 1, 3, 6 y 9: lo más probable es que sean nuestras fases 1, 2, 3 y 4, aunque no lo dice en ningún sitio. Lo de abajo es de una guía de Inven y está en etapas coreanas: de la 4 a la 6 sería más o menos nuestra fase 3, y de la 7 a la 10, la 4.
 
 - **Etapas 4 a 6.** Hay que matar 150 enemigos para abrir a Talisra, y casi todos atacan a distancia: un mal tirón mata rápido.
   - Salen **trampas** en el suelo que ralentizan o inmovilizan; se esquivan bien.
@@ -76,7 +76,7 @@ Según una guía de Inven, del cliente coreano, que va por delante del global:
   - **Resistencia**: la barra de Stagger de los jefes es más grande.
   - **Pilares de fuego** que se mueven alrededor de Talisra; se esquivan por los huecos, a veces a la vez que la onda.
 
-En el global, aionflex da estos CP para el 25 % más flojo de los que la pasan: 76k en la etapa 1, 85k en la 3 y 99k en la 6. Talisra tarda de mediana 4:14, 4:24 y 4:33.
+En el global, aionflex da estos CP para el 25 % más flojo de los que la pasan: 76k en la fase 1, 85k en la 2 y 99k en la 3 (sus etapas 1, 3 y 6). Talisra tarda de mediana 4:14, 4:24 y 4:33.
 
 ## Lo que he visto yo y lo que no
 
