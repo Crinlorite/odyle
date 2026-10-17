@@ -2,7 +2,7 @@
 title: 'Transcendence en Deus Research Base: Gelcos, Nazmun y Atiel'
 description: 'Cómo se abre Atiel, qué hace cada jefe de Deus Research Base y si es más fácil que Shattered Arkanis: cadenas, el suelo que se rompe y el Stagger final.'
 basis: Guías coreanas de Inven y Gametoc, la de Game8 del global y los tiempos de aionflex; la cadena entre dos, el «soak» y el enrage los he visto en mi grupo
-updated: 2026-10-16
+updated: 2026-10-17
 sources:
   - { title: 'Deus Research Base Transcendence Guide — Game8', url: 'https://game8.co/games/Aion-2/archives/618905', lang: en }
   - { title: 'Patrones clave de Transcendence, fases 1 a 3 — Inven', url: 'https://www.inven.co.kr/webzine/news/?news=311706&site=aion2', lang: ko }
@@ -22,9 +22,9 @@ Transcendence es la contrarreloj de grupo que da las cartas Arcana. En la tempor
 
 Un poco más fácil, y sobre todo distinta.
 
-- **Mismo CP para entrar.** En la etapa 1 del global, el 25 % más flojo de los que matan a los jefes de Deus tiene 77k de CP, y en Arkanis, 76k. En la etapa 3, 85-86k en las dos. Son datos de aionflex.
-- **El jefe final cae antes.** En la etapa 1, Atiel tarda una mediana de 3:47 y Talisra, 4:14. En la etapa 3 ya se igualan: 4:26 y 4:24. Cuenta desde el primer golpe al jefe hasta el último.
-- **Menos grupos se quedan a medias.** En aionflex, en la etapa 1 hay 1.844 muertes de Atiel por 1.912 de Gelcos, el primer jefe. En Arkanis hay 1.845 de Talisra por 2.473 de Siliator. Es solo una pista: aionflex cuenta jugadores que suben datos, no partidas, y solo registra las que salen bien.
+- **Mismo CP para entrar.** En la fase 1 del global, el 25 % más flojo de los que matan a los jefes de Deus tiene 77k de CP, y en Arkanis, 76k. En la fase 2, 85-86k en las dos. Son datos de aionflex, que llama a nuestras fases 1 y 2 «etapas 1 y 3», con la numeración coreana.
+- **El jefe final cae antes.** En la fase 1, Atiel tarda una mediana de 3:47 y Talisra, 4:14. En la fase 2 ya se igualan: 4:26 y 4:24. Cuenta desde el primer golpe al jefe hasta el último.
+- **Menos grupos se quedan a medias.** En aionflex, en la fase 1 hay 1.844 muertes de Atiel por 1.912 de Gelcos, el primer jefe. En Arkanis hay 1.845 de Talisra por 2.473 de Siliator. Es solo una pista: aionflex cuenta jugadores que suben datos, no partidas, y solo registra las que salen bien.
 - **En Corea, Arkanis pide más.** Según una guía de Inven, en cada etapa Arkanis recomienda 100 más que Deus, hay que matar más enemigos para abrir el jefe final, y casi todos los enemigos atacan a distancia, así que un mal tirón mata rápido.
 - **Gametoc dice que Nazmun es el más fácil de los tres jefes de Deus.**
 
@@ -34,7 +34,7 @@ Lo que cambia es dónde está el peligro. Talisra es una carrera de daño con un
 
 Atiel, el jefe final, no está abierto desde el principio: hay que matar unos 110 o 120 enemigos (Game8 da las dos cifras). Los otros dos jefes, Gelcos y Nazmun, son opcionales y cuentan 45 cada uno. Compensa matarlos, porque su botín se suma al cubo del final. Cuando se llega a la cifra se abre el paso. El combate empieza en cuanto alguien pisa la zona de Atiel, así que hay que entrar todos a la vez.
 
-La ruta, según Inven: se sigue la corriente de viento, Gelcos está a la izquierda en la primera bifurcación y Nazmun al fondo del pasillo de la derecha. Desde ahí se planea al otro lado, a la sala grande donde se termina la cuenta, y se llega a Atiel. En Corea, de la etapa 4 a la 6 piden 130 enemigos, y de la 7 a la 10, 150.
+La ruta, según Inven: se sigue la corriente de viento, Gelcos está a la izquierda en la primera bifurcación y Nazmun al fondo del pasillo de la derecha. Desde ahí se planea al otro lado, a la sala grande donde se termina la cuenta, y se llega a Atiel. En Corea, que tiene 10 etapas en vez de nuestras 4 fases, de la etapa 4 a la 6 piden 130 enemigos, y de la 7 a la 10, 150.
 
 ## Gelcos
 
@@ -77,7 +77,7 @@ Según Game8, en el global:
 - **2.200, Wrath.** Los enemigos que no son jefes pegan más por debajo del 50 % de vida.
 - **2.500, Judgment.** Cada golpe fuerte de un jefe te pone una marca; al llenarse, explota y pega a los de alrededor según su vida.
 
-En Corea, según Inven, de la etapa 4 a la 6 salen unos nudos de almas que atacan si te acercas, ralentizan y quitan vida (hay que rodearlos), y Atiel encadena a **todo el grupo** a la vez. De la 7 a la 10, con tres marcas de Judgment sale un área en el suelo, y la cadena del grupo se rompe alejándose del jugador del centro.
+En Corea, según Inven (allí hay 10 etapas; de la 4 a la 6 vendría a ser nuestra fase 3, y de la 7 a la 10, la 4), de la etapa 4 a la 6 salen unos nudos de almas que atacan si te acercas, ralentizan y quitan vida (hay que rodearlos), y Atiel encadena a **todo el grupo** a la vez. De la 7 a la 10, con tres marcas de Judgment sale un área en el suelo, y la cadena del grupo se rompe alejándose del jugador del centro.
 
 ## Lo que me toca como Gladiator
 
