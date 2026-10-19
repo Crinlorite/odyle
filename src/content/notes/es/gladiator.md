@@ -2,7 +2,7 @@
 title: Gladiator en PvE, qué subir y en qué orden
 description: Mi chuleta del Gladiator, puntos de skill, especializaciones, estigmas, Daevanion y rotación, según lo que llevan los mejores jugadores coreanos.
 basis: Datos de jugadores coreanos, tablas del cliente global y una guía taiwanesa
-updated: 2026-10-17
+updated: 2026-10-19
 sources:
   - { title: 'Aion 2 Gladiator Build Guide (8.459 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/gladiator/', lang: en }
   - { title: 'Gladiator, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-gladiator', lang: es }
@@ -264,7 +264,7 @@ Lifestealing Blade es el quinto estigma, y con cuatro huecos no suele caber. Swo
 
 Arena of Solitude, según metabot y game8; no lo he comprobado. 1 contra 1, 10 minutos, 3 vidas con 5 segundos para reaparecer, en Fire Temple Arena o Impetusium Arena. Abre siempre, desde nivel 45. El rango va por clase, de Iron a Challenger 1 (1.800 puntos), y da un bono de PvP que no se suma al del Abismo: vale el más alto. Cada combate da Abyss Points: 300 por jugar (10 a la semana) y 500 por ganar (30 a la semana). Abandonar cuenta como derrota.
 
-Si iguala el equipo, las fuentes no se ponen de acuerdo: game8 dice que no y metabot que sí. En un vídeo de Taiwán, un Gladiator con 2.487 de nivel de objeto dice que su rival le gana por equipo.
+**No iguala el equipo.** game8 dice que no y metabot que sí; en mi partida, no. El 19 de octubre de 2026, en Bronce, con 96k de CP y 2.066 de nivel de objeto, me tocó un Gladiator de 131k y 2.482 que pegaba mucho más fuerte de lo normal. En un vídeo de Taiwán, un Gladiator con 2.487 de nivel de objeto dice lo mismo: su rival le gana por equipo. En Bronce el emparejamiento mezcla equipos muy distintos, así que una derrota contra alguien con mucho más CP no dice nada de cómo juegas.
 
 **Ajustes.** Un Gladiator coreano con 1.000 muertes en PvP quita el objetivo automático al usar skills, en las opciones de combate: el Gladiator entra con cargas y apuntando a mano falla menos. Sen guarda una configuración de skills para PvE, otra para PvP y otra para Battlefield, y al pasar a PvP cambia también alas y título.
 
