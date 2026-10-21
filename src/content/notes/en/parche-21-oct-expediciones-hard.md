@@ -43,15 +43,15 @@ It is the first coloured board to reach the global client. Until today there wer
 
 | Where | How | Limit | Said by |
 |---|---|---|---|
-| Krao Cave and Draupnir on Hard | They drop Ariel Fragments; 100 are exchanged for 1 crystal in Substance Morph, Special tab, Daevanion | 30 crystals per character, plus a fragment cap per dungeon | Patch notes |
+| Krao Cave and Draupnir on Hard | They drop Ariel Fragments; 100 are exchanged for 1 crystal in Substance Morph, Special tab, Daevanion | 30 crystals per character, plus a fragment cap per dungeon | Patch notes, and **verified** on 21 October: they do give fragments |
 | Nightmare shop | allthings.how says 800 Phantasmal Fragment per crystal | — | **It is not there.** Neither in my 9 October screenshot nor after the patch: I checked on the 21st. It is from the Korean client |
-| Daeva Pass | Pass reward | Not stated | allthings.how and Fextralife |
+| Daeva Pass | allthings.how and Fextralife list it as a pass reward | — | **It is not there**: neither the pass nor its shops give Ariel (I checked on the 21st) |
 
 NCSOFT does not say whether the 30 crystals are per week or in total. Leftover Ariel Fragments can be exchanged for 5 Enhance Stones each, with no limit.
 
 **What it gives**, according to allthings.how, which takes it from the Korean board: the big nodes are PvE Damage Boost and PvE Damage Tolerance; the small ones, PvE Attack +5, HP +100, PvE Evasion +10, PvE Defense +10 and Boss Damage Boost +1%. **It is all PvE**: it does not help in the Arena or against players in the Abyss. The first nodes cost 1 point, and removing one costs 500 Kina.
 
-**What I do not take as given.** allthings.how also mentions another recipe (100 Fragment: Ariel's Trace + 50 Odyle, or a 10% chance with 10 fragments + 5 Odyle) with fragments from Chamber of the Dead. That is from the Korean client and the patch does not mention it. In Korea the crystals also come from quests and from exchanges in other dungeons (Inven). On the global client, for now, the only certain source is Hard mode; the pass is unverified, and it is not in the Nightmare shop.
+**What does not apply on the global client.** allthings.how also mentions another recipe (100 Fragment: Ariel's Trace + 50 Odyle, or a 10% chance with 10 fragments + 5 Odyle) with fragments from Chamber of the Dead. That is from the Korean client, like the shop and pass in the table. In Korea the crystals also come from quests and from exchanges in other dungeons (Inven). **On the global client, today, the only way to get Ariel points is Hard mode.**
 
 ## Resurrection Spiritstones for Kina
 
@@ -88,10 +88,10 @@ Only fixes, no balance changes. Gladiator, Templar, Assassin, Ranger, Cleric and
 ## What it means for me
 
 - **Hard mode is for people who are already at the top.** It needs 2,600 and I have 2,135. Its appeal is that it gives all Unique materials, including the Wrathful Ego that Dragon Lord accessories need, so the Market should start to feel it.
-- **Ariel points without Hard.** Today, at most, from the pass, and that is unverified. It is not in the Nightmare shop: I checked on the 21st, after the patch. In the [season 1 note](/en/apuntes/temporada-1-del-global/) I wrote that buying that crystal was not worth it because the board did not exist: now it does. And if they ever add it, mind the trade-off: Phantasmal Fragments also buy normal Daevanion Crystals, and those raise item level, which is what opens Transcendence phase 3 at 2,200 for me. Ariel only gives PvE stats.
+- **No Hard, no Ariel points.** Neither the Nightmare shop nor the pass gives them: I checked on the 21st, after the patch. So until 2,600 the Ariel board stays at zero, and I lose nothing: my Phantasmal Fragments keep going to normal Daevanion Crystals, which raise item level, which is what opens Transcendence phase 3 at 2,200 for me. In the [season 1 note](/en/apuntes/temporada-1-del-global/) I wrote that buying its crystal was not worth it because the board did not exist; now it exists, but it only gives PvE stats.
 - **Resurrection Spiritstones for Kina** do help me now: 60 a week for 75,000 Kina, so I do not spend the others.
 - **More HP for Abyss bosses** means longer fights at Kaira, Argo and Nahma, shared among more people now that more fit in.
 
 ## What I have seen myself and what not
 
-I wrote it during the maintenance, reading NCSOFT's notices and guides. Verified in my client so far, only one thing: on 21 October, after the patch, the Nightmare shop does not sell the Ariel crystal. I still have to check whether the Ariel board shows up and the Resurrection Spiritstone merchant.
+I wrote it during the maintenance, reading NCSOFT's notices and guides. Verified in my client on 21 October, after the patch: Krao Cave and Draupnir on Hard give Ariel Fragments, and neither the Nightmare shop nor the Daeva Pass nor its shops sell the Ariel crystal. I still have to look inside the Ariel board and at the Resurrection Spiritstone merchant.
