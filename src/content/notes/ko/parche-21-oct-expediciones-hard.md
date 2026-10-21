@@ -44,14 +44,14 @@ translationKey: parche-21-oct-expediciones-hard
 | 출처 | 방법 | 제한 | 근거 |
 |---|---|---|---|
 | Krao Cave·Draupnir 하드 | Ariel Fragment 드롭. Substance Morph의 Special 탭, Daevanion에서 100개를 크리스탈 1개로 교환 | 캐릭터당 크리스탈 30개, 던전별 조각 상한 | 패치 노트 |
-| Nightmare 상점 | Phantasmal Fragment 800개당 크리스탈 1개 | 언급 없음 | allthings.how |
+| Nightmare 상점 | allthings.how는 Phantasmal Fragment 800개당 1개라고 함 | — | 10월 9일 제 상점 캡처에는 **없었습니다**. 일반 Daevanion Crystal(300)만 있었고, 아마 한국 클라이언트 내용입니다 |
 | Daeva Pass | 패스 보상 | 언급 없음 | allthings.how, Fextralife |
 
 크리스탈 30개가 주간인지 전체인지는 엔씨소프트가 밝히지 않았습니다. 남는 Ariel Fragment는 하나당 Enhance Stones 5개로 제한 없이 바꿀 수 있습니다.
 
 **효과** (allthings.how, 한국 보드 기준): 큰 노드는 PvE Damage Boost와 PvE Damage Tolerance, 작은 노드는 PvE Attack +5, HP +100, PvE Evasion +10, PvE Defense +10, Boss Damage Boost +1%. **전부 PvE**라서 투기장이나 어비스 대인전에는 도움이 안 됩니다. 처음 노드는 1포인트, 노드 하나를 빼는 데 500 키나가 듭니다.
 
-**확실하지 않은 것.** allthings.how는 Chamber of the Dead 조각으로 만드는 다른 레시피(Fragment: Ariel's Trace 100개 + Odyle 50, 또는 조각 10개 + Odyle 5로 10% 확률)도 적었습니다. 한국 클라이언트 내용이고 이번 패치에는 없습니다. 한국에서는 퀘스트와 다른 던전 교환으로도 크리스탈이 나옵니다(인벤). 글로벌에서 지금 확실한 건 위 표뿐이고, 상점과 패스는 확인 전입니다.
+**확실하지 않은 것.** allthings.how는 Chamber of the Dead 조각으로 만드는 다른 레시피(Fragment: Ariel's Trace 100개 + Odyle 50, 또는 조각 10개 + Odyle 5로 10% 확률)도 적었습니다. 한국 클라이언트 내용이고 이번 패치에는 없습니다. 한국에서는 퀘스트와 다른 던전 교환으로도 크리스탈이 나옵니다(인벤). 글로벌에서 지금 확실한 건 하드 모드뿐입니다. 패스는 확인 전이고, Nightmare 상점에서는 보지 못했습니다.
 
 ## 키나로 사는 Resurrection Spiritstone
 
@@ -88,7 +88,7 @@ translationKey: parche-21-oct-expediciones-hard
 ## 저에게 의미하는 것
 
 - **하드 모드는 이미 위에 있는 사람용입니다.** 2,600이 필요한데 저는 2,135입니다. Dragon Lord 장신구에 필요한 Wrathful Ego를 포함해 Unique 재료를 전부 주니, 거래소에도 영향이 있을 겁니다.
-- **하드 없이 얻는 Ariel 포인트.** 지금은 Nightmare 상점이나 패스에서만, 그것도 실제로 있다면 나옵니다. [시즌 1 정리](/ko/apuntes/temporada-1-del-global/)에서 보드가 없으니 그 크리스탈은 사지 말라고 썼는데, 이제 보드가 생겼습니다. 다만 Phantasmal Fragment로 일반 Daevanion Crystal도 살 수 있고, 그쪽은 아이템 레벨을 올려 줍니다. 저는 2,200에 열리는 Transcendence 3단계가 목표라 그쪽이 먼저입니다. Ariel은 PvE 스탯만 줍니다.
+- **하드 없이 얻는 Ariel 포인트.** 지금은 많아야 패스뿐이고, 그것도 확인 전입니다. 10월 9일 Nightmare 상점에는 없었으니, 패치로 추가됐는지 보겠습니다. [시즌 1 정리](/ko/apuntes/temporada-1-del-global/)에서 보드가 없으니 그 크리스탈은 사지 말라고 썼는데, 이제 보드가 생겼습니다. 추가되더라도 Phantasmal Fragment로 일반 Daevanion Crystal도 살 수 있고, 그쪽은 아이템 레벨을 올려 줍니다. 저는 2,200에 열리는 Transcendence 3단계가 목표라 그쪽이 먼저입니다. Ariel은 PvE 스탯만 줍니다.
 - **키나로 사는 Resurrection Spiritstone**은 지금 바로 쓸모 있습니다. 주 60개에 75,000 키나라서 다른 것을 아낄 수 있습니다.
 - **어비스 보스 체력 증가**는 Kaira, Argo, Nahma 전투가 길어진다는 뜻이고, 이제 인원도 늘어 더 많은 사람이 나눠 갖습니다.
 
