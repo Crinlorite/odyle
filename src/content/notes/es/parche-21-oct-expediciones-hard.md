@@ -7,6 +7,9 @@ sources:
   - { title: 'Patch Notes, Oct. 20 (PDT) / Oct. 21 (CEST) — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/670631196372241776', lang: en }
   - { title: 'Maintenance, Oct. 20 (PDT) / Oct. 21 (CEST) — AION 2 en Steam', url: 'https://steamcommunity.com/games/3393110/announcements/detail/670631196372239639', lang: en }
   - { title: 'Server Down, mantenimiento del 21 de octubre en directo — MeinMMO', url: 'https://mein-mmo.de/en/aion-2-server-down-status-duration-patch-notes-and-more-about-the-server-maintenance-on-october-21-2026-in-the-live-ticker,1593073/', lang: de }
+  - { title: 'Daevanion Crystal: Ariel, efectos y cómo conseguirlo — allthings.how', url: 'https://allthings.how/aion-2-daevanion-crystal-ariel-effects-and-how-to-get/', lang: en }
+  - { title: 'Daevanion Crystal: Ariel — wiki de Fextralife', url: 'https://aion2.wiki.fextralife.com/Daevanion_Crystal:_Ariel', lang: en }
+  - { title: 'Ariel y Aspel piden cristales distintos — Inven', url: 'https://www.inven.co.kr/board/aion2/6444/275', lang: ko }
 translationKey: parche-21-oct-expediciones-hard
 ---
 
@@ -32,16 +35,23 @@ Las dos expediciones tienen ahora un modo Hard.
 
 **Logros nuevos:** uno por coleccionar Expedition Hero Artwork y varios de Expedition (Hard), que dan apariencias Unique.
 
-## Ariel Fragment y el tablero Ariel
+## El tablero Ariel: de dónde salen los puntos
 
-Los Ariel Fragment se cambian en Substance Morph, pestaña Special:
+Es el primer tablero de color que llega al global. Hasta hoy había cinco (Nezekan, Zikel, Vaizel, Triniel y Azphel), y los puntos de Daevanion de siempre **no sirven** en Ariel: tiene los suyos.
 
-| Cambio | Dónde | Límite |
-|---|---|---|
-| 100 Ariel Fragment → 1 Daevanion Crystal: Ariel (Bound) | Daevanion | 30 veces por personaje |
-| 1 Ariel Fragment → 5 Enhance Stones | Consumables | Sin límite |
+**Cada Daevanion Crystal: Ariel (Bound) que usas da 1 punto de Ariel.** El cristal sale de aquí:
 
-Con esos cristales se sube un **tablero Daevanion nuevo, Ariel**. Cuántos puntos se pueden sacar está limitado por mazmorra. NCSOFT no dice qué nodos trae.
+| De dónde | Cómo | Límite | Dicho por |
+|---|---|---|---|
+| Krao Cave y Draupnir en Hard | Sueltan Ariel Fragment; 100 se cambian por 1 cristal en Substance Morph, pestaña Special, Daevanion | 30 cristales por personaje, y un tope de fragmentos por mazmorra | Notas del parche |
+| Tienda de Nightmare | 800 Phantasmal Fragment por cristal | No lo dicen | allthings.how |
+| Daeva Pass | Recompensa del pase | No lo dicen | allthings.how y Fextralife |
+
+NCSOFT no aclara si los 30 cristales son por semana o en total. Los Ariel Fragment que sobran se pueden cambiar a 5 Enhance Stones cada uno, sin límite.
+
+**Qué da**, según allthings.how, que lo toma del tablero coreano: los nodos grandes son PvE Damage Boost y PvE Damage Tolerance; los pequeños, PvE Attack +5, HP +100, PvE Evasion +10, PvE Defense +10 y Boss Damage Boost +1 %. **Todo es PvE**: no ayuda en Arena ni contra jugadores en el Abismo. Los primeros nodos cuestan 1 punto, y quitar uno cuesta 500 Kina.
+
+**Lo que no doy por bueno.** allthings.how habla también de otra receta (100 Fragment: Ariel's Trace + 50 Odyle, o un 10 % con 10 fragmentos + 5 Odyle) con fragmentos de Chamber of the Dead. Es lo del cliente coreano y el parche no lo menciona. En Corea los cristales salen además de misiones y de canjes de otras mazmorras (Inven). En el global, de momento, solo es seguro lo de la tabla de arriba, y lo de la tienda y el pase está sin comprobar.
 
 ## Resurrection Spiritstones por Kina
 
@@ -75,6 +85,13 @@ Solo arreglos, nada de ajustes de fuerza. Gladiator, Templar, Assassin, Ranger, 
 - «[Movement Controls]» salía repetido en Settings, Key Settings.
 - Un título hacía algo distinto de lo que decía su descripción.
 
+## Qué significa para mí
+
+- **El modo Hard es para quien ya está arriba.** Pide 2.600 y yo tengo 2.135. Su gracia es que da todos los materiales Unique, también el Wrathful Ego que piden los accesorios Dragon Lord, así que el Mercado debería ir notándolo.
+- **Puntos de Ariel sin Hard.** Hoy solo saldrían de la tienda de Nightmare o del pase, si de verdad están ahí. En el [apunte de la temporada 1](/es/apuntes/temporada-1-del-global/) escribí que no convenía comprar ese cristal porque el tablero no existía: ahora sí existe. Pero ojo con el cambio: los Phantasmal Fragment también compran Daevanion Crystals normales, y esos suben el nivel de objeto, que es lo que me abre la fase 3 de Transcendence a 2.200. Ariel solo da estadísticas de PvE.
+- **Las Resurrection Spiritstones por Kina** sí me sirven ya: 60 por semana por 75.000 Kina, para no gastar las otras.
+- **Más vida para los jefes del Abismo** quiere decir combates más largos en Kaira, Argo y Nahma, que repartirán a más gente ahora que cabe más.
+
 ## Lo que he visto yo y lo que no
 
-Nada de esta página está comprobado en mi cliente todavía: lo escribí durante el mantenimiento, leyendo los avisos de NCSOFT. Con 2.135 de nivel de objeto el modo Hard me queda lejos. Lo que sí me toca ya es el mercader de Resurrection Spiritstones y el Abismo con más gente, y lo miraré al entrar.
+Nada de esta página está comprobado en mi cliente todavía: lo escribí durante el mantenimiento, leyendo los avisos de NCSOFT y guías. Al entrar miraré si el tablero Ariel aparece, si la tienda de Nightmare vende el cristal y a qué precio, y el mercader de Resurrection Spiritstones.

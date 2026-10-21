@@ -2,7 +2,7 @@
 title: Season 1 on the global servers, what it brings and what it doesn't
 description: Which version the global server runs, dates, what unlocks at each level, how dailies and weeklies work, and what to expect from what happened in Korea.
 basis: Guides built on global client data, Korean press and a Taiwanese forum thread
-updated: 2026-10-14
+updated: 2026-10-21
 sources:
   - { title: 'Aion 2 Season 1, Dates, Weekly Reset and What Unlocks When — aion2-meta', url: 'https://aion2-meta.com/guides/season-1/', lang: en }
   - { title: 'Aion 2 Daily and Weekly Checklist — aion2-meta', url: 'https://aion2-meta.com/guides/activities/', lang: en }
@@ -38,12 +38,12 @@ The global version starts a year behind Korea in content, but with that year's b
 |---|---|
 | 9 classes | 8, no Brawler |
 | 18 stigmas and 6 slots | 13 stigmas and 4 slots |
-| 8 Daevanion boards | 5: Nezekan, Zikel, Vaizel, Triniel and Azphel |
+| 8 Daevanion boards | 5: Nezekan, Zikel, Vaizel, Triniel and Azphel; Ariel since 21 October |
 | 7 Arcana sets | 2 |
 | Red gear | None, according to a Taiwanese player who tried the Steam version |
 | PvP gear with stats | Removed; it comes back as appearances |
 
-The Ariel board, which Korean guides tell you to start first, doesn't exist yet. A shop sells its crystal: better not to buy it.
+The Ariel board, which Korean guides tell you to start first, reached the global client with the [21 October patch](/en/apuntes/parche-21-oct-expediciones-hard/). Until then it did not exist and its crystal was useless; now it has a use, but it only gives PvE stats.
 
 ## Servers
 
