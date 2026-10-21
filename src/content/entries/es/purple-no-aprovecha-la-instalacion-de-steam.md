@@ -17,7 +17,7 @@ Steam y PURPLE, el launcher de NCSOFT, instalan el mismo cliente. Así que parec
 
 ## Lo que pasa
 
-No funciona. Lo probé el 20 y el 21 de octubre en la Steam Machine:
+No funciona. Lo probé el 20 y el 21 de octubre en mi Steam Machine con Windows 11:
 
 | Prueba | Qué pasó |
 |---|---|
