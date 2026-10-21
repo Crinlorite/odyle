@@ -43,15 +43,15 @@ Es el primer tablero de color que llega al global. Hasta hoy había cinco (Nezek
 
 | De dónde | Cómo | Límite | Dicho por |
 |---|---|---|---|
-| Krao Cave y Draupnir en Hard | Sueltan Ariel Fragment; 100 se cambian por 1 cristal en Substance Morph, pestaña Special, Daevanion | 30 cristales por personaje, y un tope de fragmentos por mazmorra | Notas del parche |
+| Krao Cave y Draupnir en Hard | Sueltan Ariel Fragment; 100 se cambian por 1 cristal en Substance Morph, pestaña Special, Daevanion | 30 cristales por personaje, y un tope de fragmentos por mazmorra | Notas del parche, y **comprobado** el 21 de octubre: sí dan fragmentos |
 | Tienda de Nightmare | allthings.how dice 800 Phantasmal Fragment por cristal | — | **No está.** Ni en mi captura del 9 de octubre ni después del parche: lo miré el 21. Es del cliente coreano |
-| Daeva Pass | Recompensa del pase | No lo dicen | allthings.how y Fextralife |
+| Daeva Pass | allthings.how y Fextralife lo ponen como recompensa del pase | — | **No está**: ni el pase ni sus tiendas dan Ariel (lo miré el 21) |
 
 NCSOFT no aclara si los 30 cristales son por semana o en total. Los Ariel Fragment que sobran se pueden cambiar a 5 Enhance Stones cada uno, sin límite.
 
 **Qué da**, según allthings.how, que lo toma del tablero coreano: los nodos grandes son PvE Damage Boost y PvE Damage Tolerance; los pequeños, PvE Attack +5, HP +100, PvE Evasion +10, PvE Defense +10 y Boss Damage Boost +1 %. **Todo es PvE**: no ayuda en Arena ni contra jugadores en el Abismo. Los primeros nodos cuestan 1 punto, y quitar uno cuesta 500 Kina.
 
-**Lo que no doy por bueno.** allthings.how habla también de otra receta (100 Fragment: Ariel's Trace + 50 Odyle, o un 10 % con 10 fragmentos + 5 Odyle) con fragmentos de Chamber of the Dead. Es lo del cliente coreano y el parche no lo menciona. En Corea los cristales salen además de misiones y de canjes de otras mazmorras (Inven). En el global, de momento, lo único seguro es el modo Hard; lo del pase está sin comprobar, y en la tienda de Nightmare no está.
+**Lo que no vale en el global.** allthings.how habla también de otra receta (100 Fragment: Ariel's Trace + 50 Odyle, o un 10 % con 10 fragmentos + 5 Odyle) con fragmentos de Chamber of the Dead. Es lo del cliente coreano, igual que la tienda y el pase de la tabla. En Corea los cristales salen además de misiones y de canjes de otras mazmorras (Inven). **En el global, hoy, la única forma de sacar puntos de Ariel es el modo Hard.**
 
 ## Resurrection Spiritstones por Kina
 
@@ -88,10 +88,10 @@ Solo arreglos, nada de ajustes de fuerza. Gladiator, Templar, Assassin, Ranger, 
 ## Qué significa para mí
 
 - **El modo Hard es para quien ya está arriba.** Pide 2.600 y yo tengo 2.135. Su gracia es que da todos los materiales Unique, también el Wrathful Ego que piden los accesorios Dragon Lord, así que el Mercado debería ir notándolo.
-- **Puntos de Ariel sin Hard.** Hoy, como mucho, del pase, y está sin comprobar. En la tienda de Nightmare no está: lo miré el 21, después del parche. En el [apunte de la temporada 1](/es/apuntes/temporada-1-del-global/) escribí que no convenía comprar ese cristal porque el tablero no existía: ahora sí existe. Y si algún día la añaden, ojo con el cambio: los Phantasmal Fragment también compran Daevanion Crystals normales, y esos suben el nivel de objeto, que es lo que me abre la fase 3 de Transcendence a 2.200. Ariel solo da estadísticas de PvE.
+- **Sin Hard no hay puntos de Ariel.** Ni la tienda de Nightmare ni el pase los dan: lo miré el 21, después del parche. Así que hasta los 2.600 el tablero Ariel se queda a cero, y no pierdo nada: mis Phantasmal Fragment siguen yendo a Daevanion Crystals normales, que suben el nivel de objeto, que es lo que me abre la fase 3 de Transcendence a 2.200. En el [apunte de la temporada 1](/es/apuntes/temporada-1-del-global/) escribí que no convenía comprar su cristal porque el tablero no existía; ahora existe, pero solo da estadísticas de PvE.
 - **Las Resurrection Spiritstones por Kina** sí me sirven ya: 60 por semana por 75.000 Kina, para no gastar las otras.
 - **Más vida para los jefes del Abismo** quiere decir combates más largos en Kaira, Argo y Nahma, que repartirán a más gente ahora que cabe más.
 
 ## Lo que he visto yo y lo que no
 
-Lo escribí durante el mantenimiento, leyendo los avisos de NCSOFT y guías. Comprobado en mi cliente, de momento, solo una cosa: el 21 de octubre, después del parche, la tienda de Nightmare no vende el cristal de Ariel. Me queda mirar si aparece el tablero Ariel y el mercader de Resurrection Spiritstones.
+Lo escribí durante el mantenimiento, leyendo los avisos de NCSOFT y guías. Comprobado en mi cliente el 21 de octubre, después del parche: Krao Cave y Draupnir en Hard dan Ariel Fragment, y ni la tienda de Nightmare ni el Daeva Pass ni sus tiendas venden el cristal de Ariel. Me queda mirar el tablero Ariel por dentro y el mercader de Resurrection Spiritstones.
