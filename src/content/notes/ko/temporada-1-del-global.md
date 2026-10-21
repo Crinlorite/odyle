@@ -2,7 +2,7 @@
 title: 글로벌 시즌 1, 들어온 것과 아직 없는 것
 description: 글로벌 서버의 버전, 일정, 레벨별 개방 콘텐츠, 일일·주간 콘텐츠 구조, 그리고 한국에서 있었던 일로 보는 앞으로의 전망입니다.
 basis: 글로벌 클라이언트 데이터로 만든 가이드, 한국 기사, 대만 커뮤니티 글
-updated: 2026-10-14
+updated: 2026-10-21
 sources:
   - { title: 'Aion 2 Season 1, Dates, Weekly Reset and What Unlocks When — aion2-meta', url: 'https://aion2-meta.com/guides/season-1/', lang: en }
   - { title: 'Aion 2 Daily and Weekly Checklist — aion2-meta', url: 'https://aion2-meta.com/guides/activities/', lang: en }
@@ -38,12 +38,12 @@ translationKey: temporada-1-del-global
 |---|---|
 | 9개 클래스 | 8개, Brawler 없음 |
 | 스티그마 18종, 슬롯 6개 | 스티그마 13종, 슬롯 4개 |
-| 데바니온 보드 8개 | 5개: Nezekan, Zikel, Vaizel, Triniel, Azphel |
+| 데바니온 보드 8개 | 5개: Nezekan, Zikel, Vaizel, Triniel, Azphel. 10월 21일부터 Ariel 추가 |
 | Arcana 세트 7종 | 2종 |
 | 빨간 장비 | 없음. Steam 버전을 해 본 대만 유저 말로는 그렇습니다 |
 | 스탯 있는 PvP 장비 | 삭제. 외형으로 돌아옴 |
 
-한국 공략에서 가장 먼저 찍으라고 하는 Ariel 보드는 아직 없습니다. 상점에서 그 크리스탈을 팔긴 하는데, 사지 않는 게 좋습니다.
+한국 공략에서 가장 먼저 찍으라고 하는 Ariel 보드는 [10월 21일 패치](/ko/apuntes/parche-21-oct-expediciones-hard/)로 글로벌에 들어왔습니다. 그전에는 보드가 없어 크리스탈도 쓸 데가 없었지만, 이제는 쓸 수 있습니다. 다만 PvE 스탯만 줍니다.
 
 ## 서버
 

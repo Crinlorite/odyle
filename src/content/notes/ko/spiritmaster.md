@@ -2,7 +2,7 @@
 title: 정령성(Spiritmaster), 스킬 투자, 정령, 스티그마
 description: 처음 시작하는 정령성을 위한 요약입니다. 다섯 정령, 레벨업 중 스킬 순서, 거의 모두가 쓰는 스티그마, 딜 사이클을 정리했습니다.
 basis: 한국 유저 데이터, 한국·대만 커뮤니티, 글로벌 클라이언트 테이블
-updated: 2026-10-14
+updated: 2026-10-21
 sources:
   - { title: 'Spiritmaster 종합 가이드 — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-spiritmaster', lang: es }
   - { title: 'Aion 2 Spiritmaster Build Guide (한국 유저 3,587명) — aion2-meta', url: 'https://aion2-meta.com/guides/spiritmaster/', lang: en }
@@ -188,7 +188,7 @@ translationKey: spiritmaster
 
 aion2-meta가 제안하는 Nezekan 첫 12개 노드를 종류별로 적으면 Attack +3, Defense +30, Critical Hit +5, Corrode +1, Attack +3, HP +100, Critical Hit +5, Critical Hit Resist +5, Attack +3, HP +100, Summon: Earth Spirit +1, Critical Hit +5입니다. 그 가이드에는 노드마다 위에 순서 번호가 붙어 있습니다.
 
-IMPERIUM 가이드는 Ariel 보드부터 시작하라고 합니다. 이 보드는 글로벌에 아직 없습니다.
+IMPERIUM 가이드는 Ariel 보드부터 시작하라고 합니다. 글로벌에는 [10월 21일 패치](/ko/apuntes/parche-21-oct-expediciones-hard/)로 들어왔고, PvE 스탯만 줍니다.
 
 ## 딜 손해 보는 실수
 

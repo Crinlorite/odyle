@@ -2,7 +2,7 @@
 title: La temporada 1 del global, qué trae y qué no
 description: Qué versión juega el servidor global, fechas, qué se abre a cada nivel, cómo funciona lo diario y lo semanal, y qué se espera por lo que pasó en Corea.
 basis: Guías hechas con los datos del cliente global, prensa coreana y un hilo taiwanés
-updated: 2026-10-14
+updated: 2026-10-21
 sources:
   - { title: 'Aion 2 Season 1, Dates, Weekly Reset and What Unlocks When — aion2-meta', url: 'https://aion2-meta.com/guides/season-1/', lang: en }
   - { title: 'Aion 2 Daily and Weekly Checklist — aion2-meta', url: 'https://aion2-meta.com/guides/activities/', lang: en }
@@ -38,12 +38,12 @@ El global empieza con un año de retraso de contenido respecto a Corea, pero con
 |---|---|
 | 9 clases | 8, sin Brawler |
 | 18 estigmas y 6 huecos | 13 estigmas y 4 huecos |
-| 8 tableros de Daevanion | 5: Nezekan, Zikel, Vaizel, Triniel y Azphel |
+| 8 tableros de Daevanion | 5: Nezekan, Zikel, Vaizel, Triniel y Azphel; Ariel desde el 21-oct |
 | 7 conjuntos de Arcana | 2 |
 | Equipo rojo | No hay, según un jugador taiwanés que probó la versión de Steam |
 | Equipo PvP con estadísticas | Retirado; vuelve como apariencias |
 
-El tablero Ariel, que las guías coreanas mandan empezar el primero, no existe todavía. Una tienda vende su cristal: no conviene comprarlo.
+El tablero Ariel, que las guías coreanas mandan empezar el primero, llegó al global con el [parche del 21 de octubre](/es/apuntes/parche-21-oct-expediciones-hard/). Hasta entonces no existía y su cristal no tenía uso; ahora sí, pero solo da estadísticas de PvE.
 
 ## Servidores
 

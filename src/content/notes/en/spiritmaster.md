@@ -2,7 +2,7 @@
 title: Spiritmaster, what to level, spirits and stigmas
 description: Spiritmaster cheat sheet for getting started, the five spirits, skill order while leveling, the stigmas almost everyone runs and the rotation.
 basis: Data from Korean players, Korean and Taiwanese forums, and global client tables
-updated: 2026-10-14
+updated: 2026-10-21
 sources:
   - { title: 'Spiritmaster, full guide — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-spiritmaster', lang: es }
   - { title: 'Aion 2 Spiritmaster Build Guide (3,587 Korean players) — aion2-meta', url: 'https://aion2-meta.com/guides/spiritmaster/', lang: en }
@@ -188,7 +188,7 @@ They open at level 22. On the global client there are four slots, at levels 22, 
 
 The first twelve Nezekan nodes aion2-meta suggests, by type: Attack +3, Defense +30, Critical Hit +5, Corrode +1, Attack +3, HP +100, Critical Hit +5, Critical Hit Resist +5, Attack +3, HP +100, Summon: Earth Spirit +1 and Critical Hit +5. In their guide each node has its order number above it.
 
-The IMPERIUM guide says to start with the Ariel board. That board doesn't exist on the global client yet.
+The IMPERIUM guide says to start with the Ariel board. It reached the global client with the [21 October patch](/en/apuntes/parche-21-oct-expediciones-hard/), and it only gives PvE stats.
 
 ## Mistakes that cost damage
 

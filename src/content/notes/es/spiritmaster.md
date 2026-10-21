@@ -2,7 +2,7 @@
 title: Spiritmaster, qué subir, espíritus y estigmas
 description: Chuleta del Spiritmaster para empezar, los cinco espíritus, el orden de skills mientras se sube, los estigmas que lleva casi todo el mundo y la rotación.
 basis: Datos de jugadores coreanos, foros coreanos y taiwaneses, y tablas del cliente global
-updated: 2026-10-14
+updated: 2026-10-21
 sources:
   - { title: 'Spiritmaster, guía completa — IMPERIUM', url: 'https://comunidad-imp.com/guias/aion-2/clase-spiritmaster', lang: es }
   - { title: 'Aion 2 Spiritmaster Build Guide (3.587 jugadores coreanos) — aion2-meta', url: 'https://aion2-meta.com/guides/spiritmaster/', lang: en }
@@ -188,7 +188,7 @@ Se abren a nivel 22. En el global hay cuatro huecos, a nivel 22, 27, 32 y 37.
 
 Los doce primeros nodos de Nezekan que propone aion2-meta, por tipo: Attack +3, Defense +30, Critical Hit +5, Corrode +1, Attack +3, HP +100, Critical Hit +5, Critical Hit Resist +5, Attack +3, HP +100, Summon: Earth Spirit +1 y Critical Hit +5. En su guía cada nodo lleva el número de orden encima.
 
-La guía de IMPERIUM dice que se empiece por el tablero Ariel. Ese tablero no existe todavía en el global.
+La guía de IMPERIUM dice que se empiece por el tablero Ariel. En el global llegó con el [parche del 21 de octubre](/es/apuntes/parche-21-oct-expediciones-hard/), y solo da estadísticas de PvE.
 
 ## Errores que cuestan daño
 
