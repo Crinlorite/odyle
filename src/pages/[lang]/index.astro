@@ -1,15 +1,22 @@
 ---
+import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import EntryCard from '../../components/EntryCard.astro';
 import { LANGS, type Lang } from '../../i18n/langs';
 import { t } from '../../i18n/strings';
 import { entriesFor, counts, fmtDate } from '../../lib/entries';
 import { ULTIMO_CORTE } from '../../data/servidores';
+import { localized, slugOfId } from '../../lib/i18n';
 export const getStaticPaths = () => LANGS.map((lang) => ({ params: { lang } }));
 const lang = Astro.params.lang as Lang;
 const s = t(lang);
 const list = await entriesFor(lang);
 const c = counts(list);
+// El último apunte de parche (slug «parche-…»), para tenerlo a mano desde la portada.
+const patch = localized(await getCollection('notes'), lang)
+  .filter((n) => slugOfId(n.id).startsWith('parche-'))
+  .sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime())[0];
+const patchLang = patch ? patch.id.split('/')[0] : lang;
 ---
 <Base lang={lang} title="odyle" description={`${s.heroA} ${s.heroB}. ${s.lead}`}>
   <section class="hero">
@@ -19,6 +26,7 @@ const c = counts(list);
     <p class="data">{s.summary(c.total, c.ok, c.open)} · {s.lastOn}: {fmtDate(list[0].data.updated, lang)}</p>
     <p class="note">{s.marginNote}</p>
   </section>
+  {patch && <p class="legion-strip servers-strip"><span class="note">{s.patchNote}</span><span>{fmtDate(patch.data.updated, lang)}: <a href={`/${patchLang}/apuntes/${slugOfId(patch.id)}/`}>{patch.data.title}</a>{patch.data.sources?.[0] && <> · <a href={patch.data.sources[0].url}>{s.patchOfficial}</a></>} · <a href={`/${lang}/apuntes/`}>{s.patchAll}</a></span></p>}
   <p class="legion-strip servers-strip"><span class="note">{s.serversNote}</span><span>{s.serversLast}, {fmtDate(ULTIMO_CORTE.fecha, lang)}: {ULTIMO_CORTE.texto[lang]} <a href={ULTIMO_CORTE.aviso}>{s.serversNotice}</a> · <a href={`/${lang}/apuntes/temporada-1-del-global/#${{ es: 'servidores', en: 'servers', ko: '서버' }[lang]}`}>{s.serversAll}</a></span></p>
   <p class="legion-strip"><span class="note">{s.legionNote}</span><span>{s.legionA} <a href={`/${lang}/odylenet/`}>Odylenet</a>{s.legionB}</span></p>
   <section>
